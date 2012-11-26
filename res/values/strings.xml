@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">CO2EmissionAlert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">CO2EmissionAlert</string>
+     <string name="mode">TRANSPOTATION MODE:</string>
+    <string name="tramcar">Tramcar</string>
+    <string name="ferry">Ferry</string>
+    <string name="metro">Metro</string>
+    <string name="bus">Bus</string>
+    <string name="car">Car</string>
+    <string name="startlogging">Start</string>
+    <string name="stoplogging">Exit</string>
+    <string name="groupwork">GroupWork: Xiang Junlong, Gao Xiang Qu, Feihua</string>
+    
+</resources>
