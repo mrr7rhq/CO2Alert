@@ -1,24 +1,46 @@
 V1.1
 2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
 
-    * myfile.ext (myfunction): my changes made
-    additional changes
-
-    * myfile.ext (unrelated_change): my changes made
-    to myfile.ext but completely unrelated to the above
-
-    * anotherfile.ext (somefunction): more changes
+    * activity_welcome.xml: add TextView for version info;
+	
+	* activity_setting.xml: add 3 more modes to radio group: walking, bicycle, train, and change tramcar to tram.
+	
+	* SettingActivity.java: set new variables bundled to added radiobutton; 
+		change units in CO2 calculation (gram and meter) and changes M value based on resource from French Environmental Agency; 
+		use finish() method instead of killing process for exit action.
+	
+	* /menu/activity_maptracking.xml: add option menu view to map view: 5 items (Transfer, Satellite view, Normal view, Clear, About) and 8 items in submenu of "Transfer".
+	
+	* MapTracking.java: add methods onCreateOptionsMenu and onOptionsItemSelected in onCreate() to handle option menu actions;
+		add support to view satellite map and switch with normal map: set isSatellite() and give toast;
+		add about option to give an AlertDialog about info of project, license, groupwork;
+		add support to clear current overlays and reset accumulators without leaving MapView;
+		add support to transfer between transportation modes enabling view of hybrid routes and statistics as a whole: control M coefficient and COLOR in transfer, which are sent as reference input parameter to getCO2Emission() and overlays.add();
+		tune calculation process: add NEWSumDistance to round the value, change formula based on unit conversion, round to 1 digit after decimal point to make sense and facilitate speech;
+		tune Toast and speaking triggered by shaking: update units used, trim visualized toast box;
+		add a flag isGPSOn to solve the problem of jumping points caused by running both GPS and network listeners, give GPS listener higher priority and default block to network listener.
+	
+	* ShakeListener.java: correct the algorithm: change speed and position to acceleration and vector, use composite delta to test threshold, remove interval, update threshold.
+	
 
 V1.0
-2012-11-26  Junlong Xiang  <lxsgdtc@gmail.com>
+2012-11-24  Junlong Xiang  <lxsgdtc@gmail.com>
 
 	* WelcomeActivity.java: show up welcome view of delayed time, switch to Setting Activity;
-	  activity_welcom.xml: a TextView of groupwork members.
+	  activity_welcome.xml: a TextView of groupwork members.
 	  
-    * SettingActivity.java: MyGroupListener listens selection of transportation mode from radiogroup, set M coefficient; MyButtonListener listens click on Startbutton, switching to MapTracking; StopButtonListener listens click on Exitbutton and finishes main activity;
+    * SettingActivity.java: MyGroupListener listens selection of transportation mode from radiogroup, set M coefficient;
+		MyButtonListener listens click on Startbutton, switching to MapTracking;
+		StopButtonListener listens click on Exitbutton and finishes main activity;
 	  activity_setting.xml: radiogroup of transportation modes, startbutton and exitbutton
 
-    * MapTracking.java: mapControl, onResume, init and initMyLocation initiate location service; onLocationChange set operation triggered by locationlistener; LineOverlay handles drawing route on overlay of mapview; getDistance and getCO2Emission update accumulators; TTS setup and speaking method; ShakeListener implements onShake;
+    * MapTracking.java: mapControl, onResume, init and initMyLocation initiate location service;
+		onLocationChange set operation triggered by locationlistener;
+		LineOverlay handles drawing route on overlay of mapview;
+		getDistance and getCO2Emission update accumulators; 
+		TTS setup and speaking method; 
+		ShakeListener implements onShake;
 	  activity_maptracking.xml: MapView
 	  
-	* ShakeListener.java: initiate sensors with sensorManager, and register listener to sensor data change; onSensorChanged triggered operation including testing delta value with threshold.
+	* ShakeListener.java: initiate sensors with sensorManager, and register listener to sensor data change;
+		onSensorChanged triggered operation including testing delta value with threshold.
