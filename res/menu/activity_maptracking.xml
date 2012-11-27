@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/transfer"
+		android:title="Transfer" >
+    <menu>
+    <item android:id="@+id/walk"
+		android:title="Walking" 
+		android:orderInCategory="1"/>
+	<item android:id="@+id/bike"
+		android:title="Bicycle"  
+		android:orderInCategory="2"/>
+	<item android:id="@+id/bus"
+		android:title="Bus" 
+		android:orderInCategory="3" />
+	<item android:id="@+id/car"
+		android:title="Car"  
+		android:orderInCategory="4"/>
+	<item android:id="@+id/tram"
+		android:title="Tram"  
+		android:orderInCategory="5"/>
+	<item android:id="@+id/ferry"
+		android:title="Ferry"  
+		android:orderInCategory="6"/>
+	<item android:id="@+id/train"
+		android:title="Train"  
+		android:orderInCategory="7"/>
+	<item android:id="@+id/metro"
+		android:title="Metro"  
+		android:orderInCategory="8"/>
+	</menu>
+	</item>
+	
+    <item android:id="@+id/satellite"
+		android:title="Satellite View" />
+	<item android:id="@+id/normal"
+		android:title="Map View"  />
+	
+	<item android:id="@+id/clear"
+		android:title="Clear"  />
+	<item android:id="@+id/about"
+		android:title="About"  />
+	
+</menu>

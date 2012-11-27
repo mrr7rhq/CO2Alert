@@ -1,94 +1,117 @@
 package com.example.co2emissionalert;
 
+import android.app.Activity;
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.util.Log;
 
-public class ShakeListener implements SensorEventListener {
+public class ShakeListener extends Activity implements SensorEventListener {
 
-	  //两次检测的时间间隔
+		// Set the interval time constant between two consecutive SensorEvents
 	private static final int INTERVAL_TIME = 70;
-	//速度阈值，当摇晃速度达到这值后产生作用
-	private static final int SPEED_SHRESHOLD = 4500;	 
+		// Set the shaking speed threshold: defined for recognizing shaking behavior
+	private static final int DELTA_THRESHOLD = 45;	 
 	private SensorManager sensorManager; 
 	private Sensor sensor; 
-  private Context context; 
+	private Context context; 
 	private OnShakeListener onShakeListener; 
-  //手机上一个位置时重力感应坐标	 
+	//public static final float alpha = 0.8f;
+		// The buffer acceleration of last event	 
 	private float lastX; 
 	private float lastY; 
-  private float lastZ;
-
+	private float lastZ;
+		// Unix time in milliseconds for last SensorEvent
 	private long lastUpdateTime;
-  
+
+	
     public interface OnShakeListener {  
-        public void onShake();  
+        public void onShake();
     }  
   
+    	// Constructor for given context
     public ShakeListener(Context context) {  
         this.context = context;  
-        resume();  
+        // Retrieve a SensorManager for accessing sensors
+     	sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
+     	if(sensorManager == null) { 
+     		throw new UnsupportedOperationException("Sensors are not supported");
+     	} 
+        onResume(); 
     }  
   
     public void setOnShakeListener(OnShakeListener listener) {  
     	onShakeListener = listener;  
     }  
-  
-    public void resume() {  
-    	sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE); 
-    	if(sensorManager == null) { 
-    		throw new UnsupportedOperationException("Sensors are not supported");
-    	  } 
-    	//获得重力传感器 
+    
+    @Override
+    protected void onResume() {  
+    	
+    		// Get default sensor of type ACCELEROMETER
     	sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); 
-    	//注册 
-       if(sensor != null) { 
-    	sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME); 
-    	 }  
+    		// Register ShakeListener for given sensor
+    	if(sensor != null) { 
+    	   sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME); 
+    	}
     }  
-  
-    public void pause() {  
-        if (sensorManager != null) {  
+    
+    	// When activity is paused
+    @Override
+    protected void onPause() {      	
+    	
+    		// Unregister the ShakeListener for target sensor
+    	if (sensorManager != null) {  
         	sensorManager.unregisterListener(this);  
         	sensorManager = null;  
-        } 
+        }     	
     }  
   
-      
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {  
+    
+    	// When the accuracy of a sensor has changed  
+    @Override
+    public final void onAccuracyChanged(Sensor sensor, int accuracy) {  
           
     }  
   
-     
-    public void onSensorChanged(SensorEvent event) {  
-  
+    
+    	// When sensor values have changed
+    @Override
+    public final void onSensorChanged(SensorEvent event) {  
+    		// Test if the SensorEvent is for ACCELEROMETER
         if (event.sensor.getType() != Sensor.TYPE_ACCELEROMETER) {  
             return;  
         } 
-    	long currentUpdateTime = System.currentTimeMillis(); 
-    	//两次检测的时间间隔	 
+    		// Get the current Unix time in milliseconds
+        long currentUpdateTime = System.currentTimeMillis(); 
+    		// The interval time from last SensorEvent
     	long interval = currentUpdateTime - lastUpdateTime;   
-    	//判断是否达到了检测时间间隔 
-    	if(interval < INTERVAL_TIME) 
-    	return; 
+    		// Test if interval time is obvious enough
+    	if(interval < INTERVAL_TIME) {
+    		return; 
+    	}
+    		// Buffer the current time for event in lastUpdateTime
     	lastUpdateTime = currentUpdateTime; 
-    	//获得x,y,z坐标 
+    	
+    		// get current acceleration for each direction
     	float x = event.values[0]; 
     	float y = event.values[1]; 
     	float z = event.values[2]; 
-         //获得x,y,z的变化值
-          float changeX = x - lastX;
-          float changeY = y - lastY;
-          float changeZ = z - lastZ;
-
-          lastX = x;
-          lastY = y;
-          lastZ = z;
-         double speed = Math.sqrt(changeX*changeX + changeY*changeY + changeZ*changeZ)/interval * 10000;
-         //达到速度阀值，发出提示
-         if(speed >= SPEED_SHRESHOLD)
-         onShakeListener.onShake(); 
+        	// get delta values of acceleration
+        float dX = x - lastX;
+        float dY = y - lastY;
+        float dZ = z - lastZ;
+        	// buffer current acceleration
+        lastX = x;
+        lastY = y;
+        lastZ = z;
+        	// delta-acceleration
+        double dA = Math.sqrt(dX*dX + dY*dY + dZ*dZ);	
+        Log.d("sensor","Current delta acceleration:" + String.valueOf(dA));	// DEBUG log message
+        	// Trigger onShake if delta-acceleration is larger than threshold
+        if(dA >= DELTA_THRESHOLD) {
+        	onShakeListener.onShake(); 
+        }
     } 
 }

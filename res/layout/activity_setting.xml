@@ -8,66 +8,75 @@
         android:id="@+id/textview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mode"
-        
-         />
+        android:text="@string/mode" />
+    
     <RadioGroup
         android:id="@+id/modegroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-       
-        >
-                 <RadioButton 
-        android:id="@+id/tramcarbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tramcar"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/walkbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/walk" 
+            android:checked="true" />
         
-            />
-                <RadioButton 
-        android:id="@+id/ferrybutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ferry"
+        <RadioButton
+            android:id="@+id/bikebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bike" />
         
-            />
-                 <RadioButton 
-        android:id="@+id/metrobutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/metro"
+        <RadioButton
+            android:id="@+id/trambutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tram" />
+
+        <RadioButton 
+        	android:id="@+id/ferrybutton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/ferry" />
+                
+        <RadioButton 
+        	android:id="@+id/metrobutton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/metro" />
+                 
+        <RadioButton 
+        	android:id="@+id/busbutton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/bus" />
         
-            />
-                  <RadioButton 
-        android:id="@+id/busbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bus"
+        <RadioButton 
+        	android:id="@+id/trainbutton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/train" />
         
-            />
-                  <RadioButton 
-        android:id="@+id/carbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/car"
+        <RadioButton 
+       		android:id="@+id/carbutton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/car" />
         
-            />
     </RadioGroup>
     
     <Button
         android:id="@+id/startloggingbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         android:text="@string/startlogging"
-        
-         />
-    
+        android:text="@string/startlogging" />
+
     <Button
         android:id="@+id/stoploggingbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         android:text="@string/stoplogging"
-         
-         />
+        android:text="@string/stoplogging" />
+    
 </LinearLayout>

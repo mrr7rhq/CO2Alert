@@ -2,15 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:keepScreenOn="true" >
 
 <com.google.android.maps.MapView 
     android:id="@+id/mapViewId"
-     android:layout_width="fill_parent"
+    android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:enabled="true"
     android:clickable="true"
-    android:apiKey="0cOYrHaFEm-eSxwVkRPn2oWjVsr2HPLDcXfuN5A"
+    android:apiKey="0IffShP62HmIgBe_q8TZN4QUksz3-RktBmIIwbQ"
     />
 
 </LinearLayout>

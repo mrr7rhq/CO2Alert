@@ -16,16 +16,11 @@ public class WelcomeActivity extends Activity {
 
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
-				
+				// TODO Auto-generated method stub				
 				startActivity(new Intent(WelcomeActivity.this , SettingActivity.class));
 				WelcomeActivity.this.finish();
-			}}, SPLASH_DELAY_TIME);
+			}
+		}, SPLASH_DELAY_TIME);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_welcome, menu);
-        return true;
-    }
 }

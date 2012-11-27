@@ -1,10 +1,11 @@
 package com.example.co2emissionalert;
 
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
+//import java.math.BigDecimal;
+//import java.text.DecimalFormat;
 import java.util.List;
 import java.util.Locale;
 
+import com.example.co2emissionalert.SettingActivity.StopButtonListener;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapController;
@@ -33,6 +34,10 @@ import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Toast;
 
 public class MapTracking extends MapActivity implements LocationListener, OnInitListener{
@@ -41,38 +46,41 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	private MapController mapController;
 	private MyLocationOverlay myLocationLay;
 	private LocationManager locationManager;
-	private Log log;
+	//private LocationListener locListener;
 	private Location currentLocation;
 	private Location lastLocation;
-	private boolean isFirstLocation = true;//标记是否是第一个location 
+	private boolean isFirstLocation = true;	// Flag is true if current point is the first location in tracking
 	private Projection pro;
 	private List<Overlay> overlays;
-	private float SumDistance = 0;
-	private final double EARTH_RADIUS = 6378137.0;  
+	
+	//private final double EARTH_RADIUS = 6378137.0;  
 	private ShakeListener shakeListener;
 	//private DecimalFormat df;
 	//private BigDecimal bd = new BigDecimal();
-	private float MM;
-	private float CO2M = 0;;
+	private float MM;	// Coefficient M from Setting Activity
+	private float CO2M = 0;
 	private float NEWCO2M = 0;
-	
-	private boolean isInitial = false;//是否初始化mylocation
+	private float SumDistance = 0;
+	private float NEWSumDistance = 0;
+	private int COLOR = Color.RED;
+	private boolean isInitial = false;	// Flag is true if to initial mylocation
+	private boolean isGPSOn = true;
 	
 	private TextToSpeech TTS;
     private int MY_DATA_CHECK_CODE = 0;
     
-    private Thread t;
-    private volatile boolean flag= true;//线程状态标识
+    //private Thread t;
+    //private volatile boolean flag= true;	// Flag for thread status
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        log.d("map", "oncreate start");
+        Log.d("map", "oncreate start");	// DEBUG log message
         setContentView(R.layout.activity_maptracking);
-        mapControl();
-        log.d("map", "oncreate end");
+        mapControl();	
+        Log.d("map", "oncreate end");	// DEBUG log message
         
-        //get M
+        // Get M from the intent by SettingActivity
         Intent intent = getIntent();
         MM = intent.getFloatExtra("M", (float) 0.0);
         
@@ -85,21 +93,90 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         shakeListener.setOnShakeListener(new ShakeListener.OnShakeListener() {  
             public void onShake() {            	
             	//df.format(SumDistance);
-            	//甩动触发事件
-            	/*Toast.makeText(getApplicationContext(), "your current distance is:" 
-            			+ String.valueOf(SumDistance), Toast.LENGTH_LONG).show();
+            	// Shaking behavior triggers a text pop-up and speech of distance & CO2 emission 
+            	        	
+            	Toast.makeText(getApplicationContext(), "Distance: " + String.valueOf(NEWSumDistance) + " m\n"
+            			+ "CO2 emission: " + String.valueOf(NEWCO2M) + " g", Toast.LENGTH_LONG).show();
             	
-            	speakWords("your current distance is " + String.valueOf(SumDistance));*/
-            	
-            	Toast.makeText(getApplicationContext(), "your current CO2 emission is:" 
-            			+ String.valueOf(NEWCO2M) + "kilogram", Toast.LENGTH_LONG).show();
-            	
-            	speaking("your current CO2 emission is " + String.valueOf(NEWCO2M) + "killogram");
+            	speaking("Your current distance is" + String.valueOf(NEWSumDistance) + "meters" + "And your current CO2 emission is" + String.valueOf(NEWCO2M) + "grams");
             }  
         });
         
+       
         //t = new Thread(this);
         //t.start();
+    }
+    
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_maptracking, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case R.id.walk:
+        MM=180; COLOR=Color.RED;
+        return true;
+        case R.id.bike:
+        MM=75; COLOR=Color.BLUE;
+        return true;
+        case R.id.bus:
+        MM=100; COLOR=Color.CYAN;
+        return true;
+        case R.id.car:
+        MM=149; COLOR=Color.GREEN;
+        return true;
+        case R.id.tram:
+        MM=60; COLOR=Color.GRAY;
+        return true;
+        case R.id.ferry:
+        MM=125; COLOR=Color.YELLOW;
+        return true;
+        case R.id.train:
+        MM=43; COLOR=Color.MAGENTA;
+        return true;
+        case R.id.metro:
+        MM=3.3f; COLOR=Color.BLACK;
+        return true;
+        
+        case R.id.satellite:
+        	Toast.makeText(getApplicationContext(), "Satellite View", Toast.LENGTH_SHORT).show();
+        	if(mapView.isSatellite()==false) {
+        		mapView.setSatellite(true);
+        	}
+        return true;
+        
+        case R.id.normal:
+        	Toast.makeText(getApplicationContext(), "Normal Map View", Toast.LENGTH_SHORT).show();
+        	if(mapView.isSatellite()==true) {
+        		mapView.setSatellite(false);
+        	}
+        return true;
+        
+        case R.id.clear:
+        	SumDistance=NEWSumDistance=0;
+        	CO2M=NEWCO2M=0;
+        	overlays.clear();
+    		mapView.invalidate(); 
+    		initMyLocation();    		
+        return true;
+        
+        case R.id.about:
+        	new AlertDialog.Builder(MapTracking.this).setTitle("CO2 Emission Alert").setMessage("This app is developed by Junlong Xiang, Xiang Gao, and Feihu Qu, and is released under the GPL v2 software license.\n 26.11.12 Helsinki")
+			.setCancelable(false).setNegativeButton("Got it", new DialogInterface.OnClickListener()
+			{	public void onClick(DialogInterface dialog, int which)
+				{
+					dialog.cancel();
+				}
+			}).show();
+        return true;
+        
+        default:
+        return super.onOptionsItemSelected(item);
+        }
     }
     
    /***************TTS****************/ 
@@ -132,63 +209,65 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     
     public void speaking(String speech) {
         TTS.speak(speech, TextToSpeech.QUEUE_FLUSH, null);
-}
+    }
     /***************TTS****************/ 
     
     private void mapControl()
-    {
+    {		// configure mapview 
     	mapView = (MapView)findViewById(R.id.mapViewId);
     	mapView.setBuiltInZoomControls(true);
     	pro = mapView.getProjection();
     	overlays = mapView.getOverlays();
         mapController = mapView.getController();
-    	mapController.setZoom(12);
-    	
+    	mapController.setZoom(14);
+    		// Use both mobile network provider and GPS to update location information
     	locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-    	locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 6000, 10, MapTracking.this);
-    	locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 6000, 10, MapTracking.this);
+    	//locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 2000, 10, MapTracking.this);
+    	//locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 10, MapTracking.this);
 
     }
-    
+    	
+    // clean up current activity after destroyed
     @Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
-    	shakeListener.pause();
+    	shakeListener.onPause();
     	//flag = false;
 		super.onDestroy();
 	}
 
+    	// Setup the location service and initial the start point of tracking on map
 	private void init()
     {
-    	if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
-    	{
-    		new AlertDialog.Builder(MapTracking.this).setTitle("地圖工具").setMessage("您尚未開啟定位服務，要前往設定頁面啟動定位服務嗎？")
+    	if (!(isGPSOn = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))) {	
+    			// If GPS service is disabled on mobile phone, give an alert dialog
+    		new AlertDialog.Builder(MapTracking.this).setTitle("Map Tools").setMessage("Your localization service is not setup. Try to turn it on?")
 			.setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener()
-			{
-
+			{	// When choosing to turn on GPS, go to setting page
 				public void onClick(DialogInterface dialog, int which)
 				{
 					startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
 				}
 			}).setNegativeButton("Cancel", new DialogInterface.OnClickListener()
-			{
+			{	// When choose not to open GPS, give a notice of disability
 				public void onClick(DialogInterface dialog, int which)
 				{
-					Toast.makeText(MapTracking.this, "未開啟定位服務，無法使用本工具!!", Toast.LENGTH_SHORT).show();
+					Toast.makeText(MapTracking.this, "This application is blocked without GPS service.", Toast.LENGTH_SHORT).show();
 				}
 			}).show();
-    	}else
-    	{
-			if (locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null)
-			{
+    		
+    	}else {	// get current location as the last known point in history
+				
+    		if ( locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null)
+			{		// If GPS can provide the last known location data, get it using GPS
 				currentLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-			}
-			else if (locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER) != null)
-			{
+			
+			}else if (locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER) != null)
+			{		// otherwise, test mobile network provider if the last known location is available
 				currentLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 			}
-    		initMyLocation();
-    		isInitial = true;
+    		initMyLocation();	// initMyLocation()
+    		isInitial = true;	// Flag: initialization is done
     	}
     }
     
@@ -197,14 +276,14 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		// TODO Auto-generated method stub
 		super.onPause();
 
-		log.d("map", "pause start");
+		Log.d("map", "pause start");	// DEBUG log message
 		if(isInitial)
 		{
 			locationManager.removeUpdates(MapTracking.this);
 			myLocationLay.disableCompass();
 	        myLocationLay.disableMyLocation();
 		}
-		log.d("map", "pause end");
+		Log.d("map", "pause end");	// DEBUG log message
 	}
 
 	@Override
@@ -212,43 +291,45 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		// TODO Auto-generated method stub
 		super.onResume();
 		//t.notify();
-		log.d("map", "resume start");
+		Log.d("map", "resume start");	// DEBUG log message
 		if (isInitial)
 		{
-	           locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 6000, 10, MapTracking.this);
-	           locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 6000, 10, MapTracking.this);
-	              myLocationLay.enableMyLocation();
-	             myLocationLay.enableCompass();
+	    	if(isGPSOn) locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 6, MapTracking.this);
+	    	else	locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 2000, 6, MapTracking.this);
+	        myLocationLay.enableMyLocation();
+	        myLocationLay.enableCompass();
 		}else
 		{
 			init();
 		}
-		log.d("map", "resume end");
+		Log.d("map", "resume end");	// DEBUG log message
 	}
 
 	private void initMyLocation()
-    {
-    	//定位点
-    	List<Overlay> overlays = mapView.getOverlays();
-         myLocationLay = new MyLocationOverlay(this, mapView);
+    {    // Initialize my current location
+		List<Overlay> overlays = mapView.getOverlays();
+        myLocationLay = new MyLocationOverlay(this, mapView);
          
-         myLocationLay.enableCompass();
-         myLocationLay.enableMyLocation();
-         log.d("map", "run the funonfirstfix function");
-         myLocationLay.runOnFirstFix(new Runnable(){
-         
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				GeoPoint loc = myLocationLay.getMyLocation();
-				mapController.animateTo(loc);
-				//log.d("map", "get the firstlocation");
-				log.d("map", "the firstlocation is:" + loc.toString());
-				log.d("map", "funonfirstfix function end");
-			}
+        myLocationLay.enableCompass();
+        myLocationLay.enableMyLocation();
+        Log.d("map", "run the funonfirstfix function");	// DEBUG log message
+        
+        myLocationLay.runOnFirstFix(new Runnable(){
+        	// center the first point on myLocationLay
+        	@Override
+        	public void run() {
+        		// TODO Auto-generated method stub
+        		GeoPoint loc = myLocationLay.getMyLocation();
+        		mapController.animateTo(loc);
+        		//Log.d("map", "get the firstlocation");	// DEBUG log message
+        		Log.d("map", "the firstlocation is:" + loc.toString());	// DEBUG log message
+        		Log.d("map", "funonfirstfix function end");	// DEBUG log message
+        	}
         	 
-         });
-         overlays.add(myLocationLay);
+        });
+        
+        overlays.add(myLocationLay);	// add myLocationLay to mapview
+        mapView.invalidate();
     }
 
  
@@ -262,33 +343,34 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	@Override
 	public void onLocationChanged(Location location) {
 		// TODO Auto-generated method stub
-		//Log.v("map", location.toString());
-		if(isFirstLocation)
-		{
+		//Log.v("map", location.toString());	// DEBUG log message
+		if(isFirstLocation) {		
+				// if input location is the first point in tracking
 			lastLocation = location;
 		    currentLocation = location;
 		    isFirstLocation = false;
-		}else
-		{
+		    
+		}else {		// otherwise, store lastLocation and update currentLocation
 			lastLocation = currentLocation;
 			currentLocation = location;
 		}
-		
+			// use lastLocation as start point of line
 		double lastlatitude = lastLocation.getLatitude();
 		double lastlongitude = lastLocation.getLongitude();
 		GeoPoint begin = new GeoPoint((int)(lastlatitude*1000000), (int)(lastlongitude*1000000));
-		
+			// use currentLocation as end point of line
 		double currentlatitude = currentLocation.getLatitude();
 		double currentlongitude = currentLocation.getLongitude();
 		GeoPoint end = new GeoPoint((int)(currentlatitude*1000000), (int)(currentlongitude*1000000));
-		
-		overlays.add(new LineOverlay(begin,end));
+			// draw the line and add an Overlay to mapview
+		overlays.add(new LineOverlay(begin,end,COLOR));
+		mapView.invalidate();
 		mapController.animateTo(end);
-		getDistance(begin,end);   //calculate distance
+		getDistance(begin,end,MM);   //calculate distance and CO2 emission
 		//gpsDistance(begin,end);
-		//log.d("map", "get the currentlocation");
-		log.d("location", "the lastlocation is:" + lastLocation.toString());
-		log.d("location", "the currentlocation is:" + currentLocation.toString());
+		//Log.d("map", "get the currentlocation");	// DEBUG log message
+		Log.d("location", "the lastlocation is:" + lastLocation.toString());	// DEBUG log message
+		Log.d("location", "the currentlocation is:" + currentLocation.toString());	// DEBUG log message
 
 	}
 
@@ -310,27 +392,29 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		
 	}
 	
-	//calculate distance between the cuurrentpoint and lastpoint
-	public void getDistance(GeoPoint begin, GeoPoint end)
+		//calculate distance between the currentpoint and lastpoint
+	public void getDistance(GeoPoint begin, GeoPoint end, float x)
 	{
 		float[] results = new float[3];
+			// Compute the approximate distance in meters between two locations
 		Location.distanceBetween(begin.getLatitudeE6()/1E6, begin.getLongitudeE6()/1E6, end.getLatitudeE6()/1E6, end.getLongitudeE6()/1E6, results);
-		SumDistance += results[0];
+		SumDistance += results[0];	// SumDistance accumulates calculation result
+		NEWSumDistance = (float) (Math.round(SumDistance*10)/10); 
 		//df.format(SumDistance);
-		getCO2Emission();
-		log.d("distance", "the current getdistance:" + String.valueOf(results[0]));
-		log.d("distance", "the sum getdistance:" + String.valueOf(SumDistance));
+		getCO2Emission(x);	// calculate CO2 emission
+		Log.d("distance", "the current getdistance:" + String.valueOf(results[0]));	// DEBUG log message
+		Log.d("distance", "the sum getdistance:" + String.valueOf(SumDistance));	// DEBUG log message
 	}
 	
-	public void getCO2Emission()
-	{
-		CO2M = MM * SumDistance;
-		CO2M = CO2M/1000;
-		//保留4位小数
-		NEWCO2M = (float) (Math.round(CO2M*10000)/10000.0); 
+		// calculate CO2 emission with distance value
+	public void getCO2Emission(float mvalue)
+	{	
+		CO2M = mvalue * SumDistance/1000;
+		// keep 1 digits after decimal point
+		NEWCO2M = (float) (Math.round(CO2M*10)/10); 
 		//df.format(CO2M);
 		//NEWCO2M = CO2M;
-		log.d("CO2M", "the sum NEWCO2M:" + String.valueOf(NEWCO2M));
+		Log.d("CO2M", "the sum NEWCO2M:" + String.valueOf(NEWCO2M));	// DEBUG log message
 	}
 	
 	/*public void gpsDistance(GeoPoint begin, GeoPoint end)
@@ -349,27 +433,29 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	       s = s * EARTH_RADIUS;
 	       s = Math.round(s * 10000) / 10000;
 	       SumDistance += s;
-			log.d("distance", "the gpscurrent distance:" + String.valueOf(s));
-			log.d("distance", "the sum gpsdistance:" + String.valueOf(SumDistance));
+			Log.d("distance", "the gpscurrent distance:" + String.valueOf(s));
+			Log.d("distance", "the sum gpsdistance:" + String.valueOf(SumDistance));
 	       //return s;
 	}*/
 	
-	// draw the tracking line
+		// draw a tracking line with Overlay on the mapview, given two ends
 	class LineOverlay extends Overlay{
 		private GeoPoint beginPoint;
 		private GeoPoint endPoint;
+		private int lineColor;
 		
-		public LineOverlay(GeoPoint begin, GeoPoint end)
+		public LineOverlay(GeoPoint begin, GeoPoint end, int linecolor)
 		{
 			beginPoint = begin;
 			endPoint = end;
+			lineColor = linecolor;
 		}
 		
 		public void draw(Canvas canvas, MapView mapV, boolean shadow)
 		{
 			super.draw(canvas, mapV, shadow);
 			Paint paint = new Paint();
-			paint.setColor(Color.RED);
+			paint.setColor(lineColor);
 			paint.setStyle(Paint.Style.FILL_AND_STROKE);
 			paint.setStrokeWidth(4);
 			Point pixBeginPoint = new Point();
@@ -392,7 +478,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			Toast.makeText(getApplicationContext(), "your current CO2 emission has reached:" 
         			+ String.valueOf(NEWCO2M) + "kilogram", Toast.LENGTH_LONG).show();
         	
-        	speaking("your current CO2 emission has reached " + String.valueOf(NEWCO2M) + "killogram");
+        	speaking("your current CO2 emission has reached " + String.valueOf(NEWCO2M) + "kilogram");
         	flag = false;
 		}
 	}
