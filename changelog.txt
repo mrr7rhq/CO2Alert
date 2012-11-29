@@ -1,3 +1,11 @@
+V1.1.2
+2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* MapTracking.java: 
+		fix bug in CO2 calculation logic: calculate based on sum distance, give wrong result in transfer;
+		merge getCO2Emission() and getDistance() to getTotal(), which incrementally calculate distance and CO2 emission.
+	* SummaryActivity.java in progress.
+	* /menu/activity_maptracking.xml: add "Commit" item to option menu
+		
 V1.1.1
 2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* MapTracking.java: 
@@ -5,7 +13,8 @@ V1.1.1
 			check condition for active alert on location change listened;
 			speak with TTS the alert sentence once and block active alert condition;
 		update Toast display: add Toast show on each location change without speech;
-			set Toast duration to short length.
+			set Toast duration to short length;
+			chang Toast position to top of screen to avoid overlap of option menu;
 
 V1.1
 2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>

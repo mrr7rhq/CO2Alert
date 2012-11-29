@@ -173,9 +173,9 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         return true;
         
         case R.id.commit:
-        	
-        	
-        return true;
+        	startActivity(new Intent(MapTracking.this, SummaryActivity.class));	// trigger SummaryActivity
+		
+        //return true;
         
         
         case R.id.about:
@@ -380,7 +380,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		overlays.add(new LineOverlay(begin,end,COLOR));
 		mapView.invalidate();
 		mapController.animateTo(end);
-		getDistance(begin,end,MM);   //calculate distance and CO2 emission
+		getTotal(begin,end,MM);   //calculate distance and CO2 emission
 		
 			// show the toast updated on location changed
 		toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
@@ -415,30 +415,25 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		
 	}
 	
-		//calculate distance between the currentpoint and lastpoint
-	public void getDistance(GeoPoint begin, GeoPoint end, float x)
+		//calculate distance and CO2 emission between the currentpoint and lastpoint
+	public void getTotal(GeoPoint begin, GeoPoint end, float x)
 	{
 		float[] results = new float[3];
 			// Compute the approximate distance in meters between two locations
 		Location.distanceBetween(begin.getLatitudeE6()/1E6, begin.getLongitudeE6()/1E6, end.getLatitudeE6()/1E6, end.getLongitudeE6()/1E6, results);
-		SumDistance += results[0];	// SumDistance accumulates calculation result
+		float dDistance = results[0];
+		float dCO2M = x * dDistance/1000;
+		SumDistance += dDistance;	// SumDistance accumulates calculation result
+		CO2M += dCO2M;
 		NEWSumDistance = (float) (Math.round(SumDistance*10)/10); 
+		NEWCO2M = (float) (Math.round(CO2M*10)/10);
 		//df.format(SumDistance);
-		getCO2Emission(x);	// calculate CO2 emission
+		
 		Log.d("distance", "the current getdistance:" + String.valueOf(results[0]));	// DEBUG log message
 		Log.d("distance", "the sum getdistance:" + String.valueOf(SumDistance));	// DEBUG log message
-	}
-	
-		// calculate CO2 emission with distance value
-	public void getCO2Emission(float mvalue)
-	{	
-		CO2M = mvalue * SumDistance/1000;
-		// keep 1 digits after decimal point
-		NEWCO2M = (float) (Math.round(CO2M*10)/10); 
-		//df.format(CO2M);
-		//NEWCO2M = CO2M;
 		Log.d("CO2M", "the sum NEWCO2M:" + String.valueOf(NEWCO2M));	// DEBUG log message
 	}
+	
 	
 	/*public void gpsDistance(GeoPoint begin, GeoPoint end)
 	{

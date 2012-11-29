@@ -3,7 +3,7 @@ package com.example.co2emissionalert;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Summary extends Activity{
+public class SummaryActivity extends Activity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

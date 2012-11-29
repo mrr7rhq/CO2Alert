@@ -1,0 +1,48 @@
+11-26 21:51:27.322: I/Maps.MyLocationOverlay(6512): Got fallback update soon after preferred udpate, ignoring
+11-26 21:51:31.338: D/dalvikvm(6512): GC_CONCURRENT freed 580K, 46% free 3788K/6919K, external 2848K/3776K, paused 8ms+9ms
+11-26 21:51:32.736: D/sensor(6512): Current delta acceleration:0.06864643112160147
+11-26 21:51:32.807: D/sensor(6512): Current delta acceleration:0.2843923526751469
+11-26 21:51:32.924: D/sensor(6512): Current delta acceleration:0.3633754156980968
+11-26 21:51:33.057: D/sensor(6512): Current delta acceleration:1.5720031140032105
+11-26 21:51:33.182: D/sensor(6512): Current delta acceleration:2.3172346566894335
+11-26 21:51:33.307: D/sensor(6512): Current delta acceleration:1.722512583029177
+11-26 21:51:33.432: D/sensor(6512): Current delta acceleration:2.443607601299943
+11-26 21:51:33.572: D/sensor(6512): Current delta acceleration:0.6311399703869192
+11-26 21:51:33.682: D/sensor(6512): Current delta acceleration:0.9440909129933476
+11-26 21:51:33.807: D/sensor(6512): Current delta acceleration:11.139029240113762
+11-26 21:51:33.939: D/sensor(6512): Current delta acceleration:9.153004354226873
+11-26 21:51:34.057: D/sensor(6512): Current delta acceleration:54.30645823702739
+11-26 21:51:34.064: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:34.135: D/sensor(6512): Current delta acceleration:66.07283209175311
+11-26 21:51:34.150: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:34.252: D/sensor(6512): Current delta acceleration:4.297596264038962
+11-26 21:51:34.369: D/sensor(6512): Current delta acceleration:56.228318304008305
+11-26 21:51:34.369: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:34.494: D/sensor(6512): Current delta acceleration:66.50066449973451
+11-26 21:51:34.494: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:34.572: D/sensor(6512): Current delta acceleration:33.169004527240865
+11-26 21:51:34.682: D/sensor(6512): Current delta acceleration:16.27692330945486
+11-26 21:51:34.822: D/sensor(6512): Current delta acceleration:65.72779523463609
+11-26 21:51:34.822: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:34.932: D/sensor(6512): Current delta acceleration:60.581302711985735
+11-26 21:51:34.932: I/TextToSpeech.java - speak(6512): speak text of length 74
+11-26 21:51:35.057: D/sensor(6512): Current delta acceleration:12.622925238515375
+11-26 21:51:35.182: D/sensor(6512): Current delta acceleration:1.7857798482575815
+11-26 21:51:35.307: D/sensor(6512): Current delta acceleration:0.5675159764246626
+11-26 21:51:35.439: D/sensor(6512): Current delta acceleration:1.1475453966589682
+11-26 21:51:35.564: D/sensor(6512): Current delta acceleration:0.23637896377159073
+11-26 21:51:35.690: D/sensor(6512): Current delta acceleration:0.2249120911421012
+11-26 21:51:35.814: D/sensor(6512): Current delta acceleration:0.8321217590676919
+11-26 21:51:35.940: D/sensor(6512): Current delta acceleration:0.6446334064328296
+11-26 21:51:36.010: D/sensor(6512): Current delta acceleration:0.7424611039040323
+11-26 21:51:36.135: D/sensor(6512): Current delta acceleration:0.18425012497658289
+11-26 21:51:36.252: D/sensor(6512): Current delta acceleration:1.4809666100961651
+11-26 21:51:36.377: D/sensor(6512): Current delta acceleration:1.92122701250172
+11-26 21:51:36.510: D/sensor(6512): Current delta acceleration:1.885020247737701
+11-26 21:51:36.580: D/sensor(6512): Current delta acceleration:1.7748682913471745
+11-26 21:51:36.697: D/sensor(6512): Current delta acceleration:1.3303833553844304
+11-26 21:51:36.822: D/sensor(6512): Current delta acceleration:1.5329766173000954
+11-26 21:51:36.986: D/sensor(6512): Current delta acceleration:3.9863274072910917
+11-26 21:51:37.072: D/sensor(6512): Current delta acceleration:0.931218337474432
+11-26 21:51:37.197: D/sensor(6512): Current delta acceleration:1.3763240161641055
+11-26 21:51:37.455: D/sensor(6512): Current delta acceleration:0.06934343216914762
