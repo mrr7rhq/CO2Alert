@@ -1,5 +1,16 @@
+V1.1.3
+2012-11-29  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* module transition: Setting <-> Map -> Summary -> Setting.
+	* tune execution sequence in MapTracking.java: change the location of location listener in onResume() and onCreate();
+		remove getLastKnownLocation section in init().
+	* add calculation of duration: set StartTime and update CurrentTime & LastTime (timestamps) on location change;
+		fix getTotal to support duration;
+		add reading of duration in Toast and speech.
+	
+
+
 V1.1.2
-2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
+2012-11-27  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* MapTracking.java: 
 		fix bug in CO2 calculation logic: calculate based on sum distance, give wrong result in transfer;
 		merge getCO2Emission() and getDistance() to getTotal(), which incrementally calculate distance and CO2 emission.

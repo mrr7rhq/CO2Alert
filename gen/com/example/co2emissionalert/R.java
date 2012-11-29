@@ -57,22 +57,21 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int bike=0x7f040006;
-        public static final int bus=0x7f04000a;
-        public static final int car=0x7f04000c;
-        public static final int ferry=0x7f040008;
-        public static final int groupwork=0x7f040010;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
-        public static final int metro=0x7f040009;
-        public static final int mode=0x7f040004;
-        public static final int startlogging=0x7f04000d;
-        public static final int stoplogging=0x7f04000e;
-        public static final int title_activity_welcome=0x7f040003;
-        public static final int train=0x7f04000b;
-        public static final int tram=0x7f040007;
-        public static final int version=0x7f04000f;
-        public static final int walk=0x7f040005;
+        public static final int bike=0x7f040005;
+        public static final int bus=0x7f040009;
+        public static final int car=0x7f04000b;
+        public static final int ferry=0x7f040007;
+        public static final int groupwork=0x7f04000f;
+        public static final int menu_settings=0x7f040001;
+        public static final int metro=0x7f040008;
+        public static final int mode=0x7f040003;
+        public static final int startlogging=0x7f04000c;
+        public static final int stoplogging=0x7f04000d;
+        public static final int title_activity_welcome=0x7f040002;
+        public static final int train=0x7f04000a;
+        public static final int tram=0x7f040006;
+        public static final int version=0x7f04000e;
+        public static final int walk=0x7f040004;
     }
     public static final class style {
         public static final int AppTheme=0x7f050000;

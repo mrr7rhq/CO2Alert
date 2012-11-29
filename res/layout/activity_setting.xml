@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+
     <TextView
         android:id="@+id/textview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mode" />
+        android:text="@string/mode"
+        android:textSize="18sp" />
     
     <RadioGroup
         android:id="@+id/modegroup"
@@ -71,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/startlogging" />
-
+    
     <Button
         android:id="@+id/stoploggingbutton"
         android:layout_width="match_parent"

@@ -29,7 +29,7 @@ public class ShakeListener extends Activity implements SensorEventListener {
 	
     public interface OnShakeListener {  
         public void onShake();
-    }  
+    }
   
     	// Constructor for given context
     public ShakeListener(Context context) {  
@@ -48,7 +48,7 @@ public class ShakeListener extends Activity implements SensorEventListener {
     
     @Override
     protected void onResume() {  
-    	
+    	super.onResume();
     		// Get default sensor of type ACCELEROMETER
     	sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); 
     		// Register ShakeListener for given sensor
@@ -60,7 +60,7 @@ public class ShakeListener extends Activity implements SensorEventListener {
     	// When activity is paused
     @Override
     protected void onPause() {      	
-    	
+    	super.onPause();
     		// Unregister the ShakeListener for target sensor
     	if (sensorManager != null) {  
         	sensorManager.unregisterListener(this);  

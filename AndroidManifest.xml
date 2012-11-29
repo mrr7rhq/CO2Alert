@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.co2emissionalert"
     android:versionCode="1"
-    android:versionName="1.1.2" >
+    android:versionName="1.1.3" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".SettingActivity"></activity>
         <activity android:name=".MapTracking"></activity>
-		<activity android:name=".SummaryActivity"></activity>
+        <activity android:name=".SummaryActivity"></activity>
         <uses-library android:name="com.google.android.maps" />
      </application>
 

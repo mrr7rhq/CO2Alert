@@ -111,7 +111,6 @@ public class SettingActivity extends Activity {
 		@Override
 		public void onClick(View arg0) {
 			finish();
-		}
-		
+		}		
 	}
 }
