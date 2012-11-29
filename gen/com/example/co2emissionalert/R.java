@@ -18,7 +18,7 @@ public final class R {
         public static final int welcome1=0x7f020004;
     }
     public static final class id {
-        public static final int about=0x7f070019;
+        public static final int about=0x7f07001a;
         public static final int bike=0x7f07000f;
         public static final int bikebutton=0x7f070004;
         public static final int bus=0x7f070010;
@@ -26,6 +26,7 @@ public final class R {
         public static final int car=0x7f070011;
         public static final int carbutton=0x7f07000a;
         public static final int clear=0x7f070018;
+        public static final int commit=0x7f070019;
         public static final int ferry=0x7f070013;
         public static final int ferrybutton=0x7f070006;
         public static final int mapViewId=0x7f070000;
@@ -48,7 +49,8 @@ public final class R {
     public static final class layout {
         public static final int activity_maptracking=0x7f030000;
         public static final int activity_setting=0x7f030001;
-        public static final int activity_welcome=0x7f030002;
+        public static final int activity_summary=0x7f030002;
+        public static final int activity_welcome=0x7f030003;
     }
     public static final class menu {
         public static final int activity_maptracking=0x7f060000;

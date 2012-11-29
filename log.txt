@@ -1,0 +1,641 @@
+11-26 10:21:35.749: D/dalvikvm(29284): GC_EXTERNAL_ALLOC freed 61K, 49% free 2644K/5123K, external 2357K/2773K, paused 828ms
+11-26 10:23:35.697: D/map(29284): oncreate start
+11-26 10:23:35.791: D/dalvikvm(29284): GC_CONCURRENT freed 1475K, 55% free 3157K/6919K, external 3776K/4699K, paused 2ms+2ms
+11-26 10:23:35.791: W/CursorWrapperInner(29284): Cursor finalized without prior close()
+11-26 10:23:36.111: D/map(29284): oncreate end
+11-26 10:23:36.314: D/map(29284): resume start
+11-26 10:23:36.518: I/Maps.MyLocationOverlay(29284): Request updates from gps
+11-26 10:23:36.564: I/Maps.MyLocationOverlay(29284): Request updates from network
+11-26 10:23:36.564: D/map(29284): run the funonfirstfix function
+11-26 10:23:36.572: D/map(29284): resume end
+11-26 10:23:36.791: D/map(29284): pause start
+11-26 10:23:36.799: D/map(29284): pause end
+11-26 10:23:36.799: W/NetworkConnectivityListener(29284): onReceived() called with UNKNOWN and Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 (has extras) }
+11-26 10:23:36.814: D/sensor(29284): Current delta acceleration:10.017793846076115
+11-26 10:23:37.424: D/sensor(29284): Current delta acceleration:0.14709973465241086
+11-26 10:23:37.424: I/TextToSpeech.java(29284): initTts() successfully bound to service
+11-26 10:23:37.432: D/map(29284): resume start
+11-26 10:23:37.432: I/Maps.MyLocationOverlay(29284): Request updates from gps
+11-26 10:23:37.439: I/Maps.MyLocationOverlay(29284): Request updates from network
+11-26 10:23:37.635: D/map(29284): resume end
+11-26 10:23:38.025: I/MapActivity(29284): Handling network change notification:CONNECTED
+11-26 10:23:38.049: E/MapActivity(29284): Couldn't get connection factory client
+11-26 10:23:38.182: D/dalvikvm(29284): GC_CONCURRENT freed 1346K, 55% free 3146K/6919K, external 3016K/3776K, paused 2ms+5ms
+11-26 10:23:38.424: I/Maps.MyLocationOverlay(29284): Running deferred on first fix: com.example.co2emissionalert.MapTracking$5@406cd098
+11-26 10:23:38.432: D/map(29284): the firstlocation is:60267081,24985197
+11-26 10:23:38.432: D/map(29284): funonfirstfix function end
+11-26 10:23:45.893: D/sensor(29284): Current delta acceleration:0.03922659857170302
+11-26 10:23:45.986: D/CO2M(29284): the sum NEWCO2M:0.0
+11-26 10:23:45.986: D/distance(29284): the current getdistance:0.0
+11-26 10:23:45.986: D/distance(29284): the sum getdistance:0.0
+11-26 10:23:45.986: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918176417,mLatitude=60.26708006858651,mLongitude=24.984626770018806,mHasAltitude=true,mAltitude=32.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=98.34706,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:23:45.986: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918176417,mLatitude=60.26708006858651,mLongitude=24.984626770018806,mHasAltitude=true,mAltitude=32.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=98.34706,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:23:47.963: D/CO2M(29284): the sum NEWCO2M:3.0
+11-26 10:23:47.963: D/distance(29284): the current getdistance:21.449259
+11-26 10:23:47.963: D/distance(29284): the sum getdistance:21.449259
+11-26 10:23:47.971: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918176417,mLatitude=60.26708006858651,mLongitude=24.984626770018806,mHasAltitude=true,mAltitude=32.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=98.34706,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:23:47.971: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918178446,mLatitude=60.26709079742257,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=25.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=98.34706,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:23:50.057: D/dalvikvm(29284): GC_CONCURRENT freed 618K, 47% free 3674K/6919K, external 3072K/3776K, paused 2ms+4ms
+11-26 10:23:53.432: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:24:08.440: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:24:08.463: D/sensor(29284): Current delta acceleration:0.07071667641445521
+11-26 10:24:23.447: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:24:24.596: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:24:39.604: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:24:54.603: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:25:09.580: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:25:24.588: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:25:35.510: D/CO2M(29284): the sum NEWCO2M:5.0
+11-26 10:25:35.510: D/distance(29284): the current getdistance:6.3666844
+11-26 10:25:35.510: D/distance(29284): the sum getdistance:27.815943
+11-26 10:25:35.518: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918178446,mLatitude=60.26709079742257,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=25.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=98.34706,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:25:35.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918286000,mLatitude=60.26703715324227,mLongitude=24.984970092772713,mHasAltitude=true,mAltitude=44.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=4.641,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:25:39.588: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:25:54.588: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:25:54.619: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:26:09.627: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:26:13.986: D/dalvikvm(29284): GC_CONCURRENT freed 929K, 45% free 4022K/7303K, external 3072K/3776K, paused 6ms+13ms
+11-26 10:26:24.635: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:26:35.518: D/CO2M(29284): the sum NEWCO2M:6.0
+11-26 10:26:35.518: D/distance(29284): the current getdistance:6.1277575
+11-26 10:26:35.525: D/distance(29284): the sum getdistance:33.9437
+11-26 10:26:35.525: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918286000,mLatitude=60.26703715324227,mLongitude=24.984970092772713,mHasAltitude=true,mAltitude=44.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=4.641,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:26:35.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918346000,mLatitude=60.26698350906197,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=43.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:26:39.635: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:26:39.643: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:26:54.643: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:09.650: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:24.689: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:24.760: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:25.518: D/CO2M(29284): the sum NEWCO2M:7.0
+11-26 10:27:25.518: D/distance(29284): the current getdistance:6.3678546
+11-26 10:27:25.518: D/distance(29284): the sum getdistance:40.311554
+11-26 10:27:25.518: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918346000,mLatitude=60.26698350906197,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=43.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:27:25.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918396000,mLatitude=60.26700496673409,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=42.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:27:39.760: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:53.947: D/sensor(29284): Current delta acceleration:0.049033225362833825
+11-26 10:27:54.135: D/sensor(29284): Current delta acceleration:2.85371764797565
+11-26 10:27:54.205: D/sensor(29284): Current delta acceleration:1.947403974601934
+11-26 10:27:54.322: D/sensor(29284): Current delta acceleration:5.149350260515277
+11-26 10:27:54.330: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:27:54.338: W/KeyCharacterMap(29284): Error loading keycharmap file '/data/usr/keychars/qtouch-touchscreen.kcm.bin'. hw.keyboards.65537.devname='qtouch-touchscreen'
+11-26 10:27:54.338: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:27:54.338: W/KeyCharacterMap(29284): Error loading keycharmap file '/system/usr/keychars/qtouch-touchscreen.kcm.bin'. hw.keyboards.65537.devname='qtouch-touchscreen'
+11-26 10:27:54.338: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:27:54.354: W/KeyCharacterMap(29284): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+11-26 10:27:54.447: D/sensor(29284): Current delta acceleration:11.042774955741177
+11-26 10:27:54.518: D/sensor(29284): Current delta acceleration:43.79775713747723
+11-26 10:27:54.635: D/sensor(29284): Current delta acceleration:47.339957046908324
+11-26 10:27:54.674: I/TextToSpeech.java - speak(29284): speak text of length 74
+11-26 10:27:54.736: D/sensor(29284): Current delta acceleration:31.157797573149725
+11-26 10:27:54.877: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:27:54.877: D/sensor(29284): Current delta acceleration:16.259697001544378
+11-26 10:27:55.057: D/sensor(29284): Current delta acceleration:2.5239504833049504
+11-26 10:27:55.072: D/map(29284): pause start
+11-26 10:27:55.088: D/map(29284): pause end
+11-26 10:27:55.143: D/sensor(29284): Current delta acceleration:2.376449042526958
+11-26 10:27:55.268: D/sensor(29284): Current delta acceleration:0.487677651216545
+11-26 10:27:55.393: D/sensor(29284): Current delta acceleration:0.30082603220300097
+11-26 10:27:55.518: D/sensor(29284): Current delta acceleration:0.8872177467685832
+11-26 10:27:55.643: D/sensor(29284): Current delta acceleration:0.16786345242012732
+11-26 10:27:55.768: D/sensor(29284): Current delta acceleration:0.9478010728941474
+11-26 10:27:55.893: D/sensor(29284): Current delta acceleration:0.9777184320872944
+11-26 10:27:56.025: D/sensor(29284): Current delta acceleration:0.6221623614610446
+11-26 10:27:56.151: D/sensor(29284): Current delta acceleration:0.2549729023588393
+11-26 10:27:56.276: D/sensor(29284): Current delta acceleration:0.05547478350881398
+11-26 10:27:57.096: D/sensor(29284): Current delta acceleration:0.03922660599111453
+11-26 10:27:57.307: D/map(29284): resume start
+11-26 10:27:57.322: I/Maps.MyLocationOverlay(29284): Request updates from gps
+11-26 10:27:57.354: I/Maps.MyLocationOverlay(29284): Request updates from network
+11-26 10:27:57.549: D/map(29284): resume end
+11-26 10:27:57.557: D/CO2M(29284): the sum NEWCO2M:7.0
+11-26 10:27:57.557: D/distance(29284): the current getdistance:3.7484052
+11-26 10:27:57.557: D/distance(29284): the sum getdistance:44.05996
+11-26 10:27:57.557: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918396000,mLatitude=60.26700496673409,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=42.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:27:57.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918428000,mLatitude=60.26701569557015,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=42.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:27:57.596: I/MapActivity(29284): Handling network change notification:CONNECTED
+11-26 10:27:57.627: W/IdleConnectionHandler(29284): Removing a connection that never existed!
+11-26 10:27:57.721: D/dalvikvm(29284): GC_CONCURRENT freed 1216K, 46% free 4190K/7751K, external 3104K/3776K, paused 2ms+13ms
+11-26 10:27:59.182: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:28:14.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:28:29.197: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:28:44.111: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:28:49.518: D/CO2M(29284): the sum NEWCO2M:9.0
+11-26 10:28:49.518: D/distance(29284): the current getdistance:6.409625
+11-26 10:28:49.518: D/distance(29284): the sum getdistance:50.469585
+11-26 10:28:49.525: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918428000,mLatitude=60.26701569557015,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=42.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:28:49.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918480000,mLatitude=60.26703715324227,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:28:49.838: D/sensor(29284): Current delta acceleration:0.07906374203795727
+11-26 10:28:59.119: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:29:14.127: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:29:15.924: D/dalvikvm(29284): GC_CONCURRENT freed 1555K, 49% free 4103K/8007K, external 3104K/3776K, paused 5ms+16ms
+11-26 10:29:29.104: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:29:36.518: D/CO2M(29284): the sum NEWCO2M:10.0
+11-26 10:29:36.518: D/distance(29284): the current getdistance:6.0184
+11-26 10:29:36.518: D/distance(29284): the sum getdistance:56.487984
+11-26 10:29:36.518: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918480000,mLatitude=60.26703715324227,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:29:36.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918527000,mLatitude=60.26709079742257,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=4.641,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:29:44.111: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:29:59.119: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:30:13.158: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:30:19.744: D/dalvikvm(29284): GC_CONCURRENT freed 1425K, 49% free 4092K/8007K, external 3072K/3776K, paused 6ms+12ms
+11-26 10:30:28.166: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:30:41.533: D/CO2M(29284): the sum NEWCO2M:11.0
+11-26 10:30:41.533: D/distance(29284): the current getdistance:6.3666844
+11-26 10:30:41.533: D/distance(29284): the sum getdistance:62.854668
+11-26 10:30:41.541: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918527000,mLatitude=60.26709079742257,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=4.641,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:30:41.541: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918592000,mLatitude=60.26703715324227,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:30:43.166: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:30:58.174: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:30:59.182: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:31:14.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:31:16.244: D/dalvikvm(29284): GC_CONCURRENT freed 1403K, 49% free 4092K/8007K, external 3072K/3776K, paused 6ms+13ms
+11-26 10:31:16.502: D/CO2M(29284): the sum NEWCO2M:12.0
+11-26 10:31:16.502: D/distance(29284): the current getdistance:6.7536125
+11-26 10:31:16.502: D/distance(29284): the sum getdistance:69.60828
+11-26 10:31:16.502: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918592000,mLatitude=60.26703715324227,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:31:16.502: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918627000,mLatitude=60.26699423789803,mLongitude=24.985163211821785,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:31:29.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:31:44.166: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:31:59.174: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:32:05.627: D/dalvikvm(29284): GC_CONCURRENT freed 1388K, 49% free 4107K/8007K, external 3072K/3776K, paused 12ms+15ms
+11-26 10:32:14.182: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:32:28.518: D/CO2M(29284): the sum NEWCO2M:13.0
+11-26 10:32:28.525: D/distance(29284): the current getdistance:6.3666854
+11-26 10:32:28.525: D/distance(29284): the sum getdistance:75.97496
+11-26 10:32:28.525: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918627000,mLatitude=60.26699423789803,mLongitude=24.985163211821785,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:32:28.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918699000,mLatitude=60.26704788207833,mLongitude=24.985206127166023,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:32:29.189: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:32:29.189: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:32:44.197: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:32:53.025: D/dalvikvm(29284): GC_CONCURRENT freed 1402K, 49% free 4113K/8007K, external 3072K/3776K, paused 7ms+14ms
+11-26 10:32:59.205: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:33:14.182: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:33:29.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:33:39.650: D/dalvikvm(29284): GC_CONCURRENT freed 1402K, 49% free 4124K/8007K, external 3072K/3776K, paused 5ms+13ms
+11-26 10:33:44.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:33:53.518: D/CO2M(29284): the sum NEWCO2M:14.0
+11-26 10:33:53.525: D/distance(29284): the current getdistance:6.0807123
+11-26 10:33:53.525: D/distance(29284): the sum getdistance:82.05567
+11-26 10:33:53.525: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918699000,mLatitude=60.26704788207833,mLongitude=24.985206127166023,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:33:53.525: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918784000,mLatitude=60.26703715324227,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:33:59.189: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:33:59.268: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:34:14.275: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:34:22.721: D/dalvikvm(29284): GC_CONCURRENT freed 1417K, 49% free 4123K/8007K, external 3072K/3776K, paused 3ms+19ms
+11-26 10:34:29.276: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:34:38.463: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:34:40.111: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:34:55.119: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:35:05.705: D/dalvikvm(29284): GC_CONCURRENT freed 1407K, 49% free 4126K/8007K, external 3072K/3776K, paused 3ms+19ms
+11-26 10:35:10.119: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:35:25.127: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:35:25.127: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:35:35.525: D/CO2M(29284): the sum NEWCO2M:16.0
+11-26 10:35:35.525: D/distance(29284): the current getdistance:6.7147155
+11-26 10:35:35.533: D/distance(29284): the sum getdistance:88.770386
+11-26 10:35:35.533: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918784000,mLatitude=60.26703715324227,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:35:35.533: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353918886000,mLatitude=60.26699423789803,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:35:40.135: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:35:46.729: D/dalvikvm(29284): GC_CONCURRENT freed 1417K, 49% free 4124K/8007K, external 3072K/3776K, paused 4ms+19ms
+11-26 10:35:55.135: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:10.143: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:10.143: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:25.151: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:26.666: D/dalvikvm(29284): GC_CONCURRENT freed 1406K, 49% free 4135K/8007K, external 3072K/3776K, paused 3ms+14ms
+11-26 10:36:40.158: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:55.158: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:36:55.252: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:37:06.643: D/dalvikvm(29284): GC_CONCURRENT freed 1417K, 49% free 4137K/8007K, external 3072K/3776K, paused 7ms+14ms
+11-26 10:37:10.260: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:37:25.260: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:37:40.213: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:37:46.783: D/dalvikvm(29284): GC_CONCURRENT freed 1420K, 49% free 4137K/8007K, external 3072K/3776K, paused 5ms+13ms
+11-26 10:37:51.541: D/CO2M(29284): the sum NEWCO2M:17.0
+11-26 10:37:51.549: D/distance(29284): the current getdistance:6.71472
+11-26 10:37:51.549: D/distance(29284): the sum getdistance:95.48511
+11-26 10:37:51.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353918886000,mLatitude=60.26699423789803,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=41.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:37:51.549: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919022000,mLatitude=60.266951322553794,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:37:55.221: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:38:10.221: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:38:23.330: D/dalvikvm(29284): GC_CONCURRENT freed 1422K, 49% free 4135K/8007K, external 3072K/3776K, paused 5ms+14ms
+11-26 10:38:25.197: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:38:40.205: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:38:55.213: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:39:00.643: D/dalvikvm(29284): GC_CONCURRENT freed 1415K, 49% free 4138K/8007K, external 3072K/3776K, paused 9ms+18ms
+11-26 10:39:10.221: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:39:10.221: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:39:22.541: D/CO2M(29284): the sum NEWCO2M:18.0
+11-26 10:39:22.541: D/distance(29284): the current getdistance:6.0184007
+11-26 10:39:22.541: D/distance(29284): the sum getdistance:101.50351
+11-26 10:39:22.541: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919022000,mLatitude=60.266951322553794,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:39:22.541: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919113000,mLatitude=60.26700496673409,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:39:25.229: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:39:35.736: D/dalvikvm(29284): GC_CONCURRENT freed 1423K, 49% free 4131K/8007K, external 3072K/3776K, paused 3ms+19ms
+11-26 10:39:39.533: D/CO2M(29284): the sum NEWCO2M:19.0
+11-26 10:39:39.541: D/distance(29284): the current getdistance:6.1277575
+11-26 10:39:39.541: D/distance(29284): the sum getdistance:107.63126
+11-26 10:39:39.541: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919113000,mLatitude=60.26700496673409,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:39:39.541: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919130000,mLatitude=60.26705861091439,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:39:40.229: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:39:55.197: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:40:04.541: D/CO2M(29284): the sum NEWCO2M:20.0
+11-26 10:40:04.549: D/distance(29284): the current getdistance:6.127757
+11-26 10:40:04.549: D/distance(29284): the sum getdistance:113.75902
+11-26 10:40:04.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919130000,mLatitude=60.26705861091439,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:40:04.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919155000,mLatitude=60.26711225509469,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:40:06.682: D/dalvikvm(29284): GC_CONCURRENT freed 1416K, 49% free 4129K/8007K, external 3072K/3776K, paused 2ms+18ms
+11-26 10:40:10.205: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:40:25.205: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:40:37.658: D/dalvikvm(29284): GC_CONCURRENT freed 1404K, 49% free 4144K/8007K, external 3072K/3776K, paused 2ms+16ms
+11-26 10:40:40.205: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:40:40.283: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:40:55.291: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:41:08.705: D/dalvikvm(29284): GC_CONCURRENT freed 1422K, 49% free 4148K/8007K, external 3072K/3776K, paused 2ms+15ms
+11-26 10:41:10.299: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:41:14.533: D/CO2M(29284): the sum NEWCO2M:21.0
+11-26 10:41:14.533: D/distance(29284): the current getdistance:6.8861084
+11-26 10:41:14.533: D/distance(29284): the sum getdistance:120.64513
+11-26 10:41:14.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919155000,mLatitude=60.26711225509469,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:41:14.549: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919225000,mLatitude=60.267165899274985,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:41:25.229: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:41:37.697: D/dalvikvm(29284): GC_CONCURRENT freed 1428K, 49% free 4144K/8007K, external 3072K/3776K, paused 2ms+17ms
+11-26 10:41:40.236: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:41:55.236: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:42:07.182: D/dalvikvm(29284): GC_CONCURRENT freed 1414K, 49% free 4154K/8007K, external 3072K/3776K, paused 5ms+15ms
+11-26 10:42:10.244: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:42:10.291: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:42:22.533: D/CO2M(29284): the sum NEWCO2M:22.0
+11-26 10:42:22.533: D/distance(29284): the current getdistance:6.346199
+11-26 10:42:22.533: D/distance(29284): the sum getdistance:126.991325
+11-26 10:42:22.541: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919225000,mLatitude=60.267165899274985,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:42:22.541: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919293000,mLatitude=60.26711225509469,mLongitude=24.98505592346119,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:42:25.299: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:42:35.072: D/dalvikvm(29284): GC_CONCURRENT freed 1431K, 49% free 4152K/8007K, external 3072K/3776K, paused 7ms+14ms
+11-26 10:42:40.307: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:42:55.244: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:43:03.033: D/dalvikvm(29284): GC_CONCURRENT freed 1421K, 49% free 4157K/8007K, external 3072K/3776K, paused 5ms+14ms
+11-26 10:43:03.549: D/CO2M(29284): the sum NEWCO2M:24.0
+11-26 10:43:03.557: D/distance(29284): the current getdistance:6.9602594
+11-26 10:43:03.557: D/distance(29284): the sum getdistance:133.95158
+11-26 10:43:03.557: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919293000,mLatitude=60.26711225509469,mLongitude=24.98505592346119,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:43:03.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919334000,mLatitude=60.26708006858651,mLongitude=24.985163211821785,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:43:10.252: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:43:25.252: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:43:28.666: D/dalvikvm(29284): GC_CONCURRENT freed 1432K, 49% free 4156K/8007K, external 3072K/3776K, paused 2ms+15ms
+11-26 10:43:40.244: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:43:55.268: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:43:55.369: D/dalvikvm(29284): GC_CONCURRENT freed 1424K, 49% free 4160K/8007K, external 3072K/3776K, paused 7ms+14ms
+11-26 10:44:10.275: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:44:22.080: D/dalvikvm(29284): GC_CONCURRENT freed 1429K, 49% free 4161K/8007K, external 3072K/3776K, paused 6ms+14ms
+11-26 10:44:25.275: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:44:25.354: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:44:40.361: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:44:48.721: D/dalvikvm(29284): GC_CONCURRENT freed 1430K, 49% free 4160K/8007K, external 3072K/3776K, paused 2ms+17ms
+11-26 10:44:55.369: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:44:55.541: D/CO2M(29284): the sum NEWCO2M:25.0
+11-26 10:44:55.541: D/distance(29284): the current getdistance:6.675028
+11-26 10:44:55.541: D/distance(29284): the sum getdistance:140.62662
+11-26 10:44:55.541: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919334000,mLatitude=60.26708006858651,mLongitude=24.985163211821785,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:44:55.549: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919446000,mLatitude=60.26712298393075,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:45:10.314: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:45:13.682: D/dalvikvm(29284): GC_CONCURRENT freed 1433K, 49% free 4156K/8007K, external 3072K/3776K, paused 2ms+14ms
+11-26 10:45:25.314: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:45:39.150: D/dalvikvm(29284): GC_CONCURRENT freed 1421K, 49% free 4162K/8007K, external 3072K/3776K, paused 7ms+19ms
+11-26 10:45:40.322: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:45:55.322: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:45:55.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:46:04.682: D/dalvikvm(29284): GC_CONCURRENT freed 1431K, 49% free 4163K/8007K, external 3072K/3776K, paused 2ms+14ms
+11-26 10:46:08.541: D/CO2M(29284): the sum NEWCO2M:26.0
+11-26 10:46:08.549: D/distance(29284): the current getdistance:6.3666835
+11-26 10:46:08.549: D/distance(29284): the sum getdistance:146.9933
+11-26 10:46:08.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919446000,mLatitude=60.26712298393075,mLongitude=24.98507738113331,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:46:08.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919519000,mLatitude=60.26706933975045,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:46:10.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:46:25.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:46:25.541: D/CO2M(29284): the sum NEWCO2M:27.0
+11-26 10:46:25.541: D/distance(29284): the current getdistance:6.4701576
+11-26 10:46:25.549: D/distance(29284): the sum getdistance:153.46346
+11-26 10:46:25.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919519000,mLatitude=60.26706933975045,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:46:25.549: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919536000,mLatitude=60.26701569557015,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:46:27.713: D/dalvikvm(29284): GC_CONCURRENT freed 1443K, 49% free 4154K/8007K, external 3072K/3776K, paused 2ms+18ms
+11-26 10:46:40.330: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:46:51.088: D/dalvikvm(29284): GC_CONCURRENT freed 1420K, 48% free 4165K/8007K, external 3072K/3776K, paused 7ms+13ms
+11-26 10:46:55.338: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:47:10.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:47:14.502: D/dalvikvm(29284): GC_CONCURRENT freed 1429K, 48% free 4167K/8007K, external 3072K/3776K, paused 6ms+21ms
+11-26 10:47:25.330: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:47:38.971: D/dalvikvm(29284): GC_CONCURRENT freed 1460K, 48% free 4205K/8007K, external 3072K/3776K, paused 6ms+15ms
+11-26 10:47:40.338: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:47:55.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:48:02.721: D/dalvikvm(29284): GC_CONCURRENT freed 1482K, 48% free 4180K/8007K, external 3072K/3776K, paused 2ms+15ms
+11-26 10:48:10.346: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:48:10.424: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:48:17.588: D/sensor(29284): Current delta acceleration:0.03922660599111453
+11-26 10:48:17.760: D/sensor(29284): Current delta acceleration:0.0392265911522901
+11-26 10:48:17.885: D/sensor(29284): Current delta acceleration:0.0392265911522901
+11-26 10:48:18.635: D/sensor(29284): Current delta acceleration:0.07071674226328947
+11-26 10:48:25.432: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:48:26.557: D/CO2M(29284): the sum NEWCO2M:28.0
+11-26 10:48:26.557: D/distance(29284): the current getdistance:6.0479045
+11-26 10:48:26.557: D/distance(29284): the sum getdistance:159.51135
+11-26 10:48:26.557: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919536000,mLatitude=60.26701569557015,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:48:26.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919657000,mLatitude=60.26700496673409,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:48:26.729: D/dalvikvm(29284): GC_CONCURRENT freed 1478K, 48% free 4185K/8007K, external 3072K/3776K, paused 3ms+15ms
+11-26 10:48:40.432: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:48:49.650: D/dalvikvm(29284): GC_CONCURRENT freed 1473K, 48% free 4189K/8007K, external 3072K/3776K, paused 6ms+16ms
+11-26 10:48:54.299: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:09.307: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:12.682: D/dalvikvm(29284): GC_CONCURRENT freed 1475K, 48% free 4193K/8007K, external 3072K/3776K, paused 9ms+17ms
+11-26 10:49:24.314: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:26.549: D/CO2M(29284): the sum NEWCO2M:29.0
+11-26 10:49:26.549: D/distance(29284): the current getdistance:6.026316
+11-26 10:49:26.549: D/distance(29284): the sum getdistance:165.53767
+11-26 10:49:26.549: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919657000,mLatitude=60.26700496673409,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:49:26.557: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919717000,mLatitude=60.26699423789803,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:49:34.682: D/dalvikvm(29284): GC_CONCURRENT freed 1478K, 48% free 4186K/8007K, external 3072K/3776K, paused 2ms+14ms
+11-26 10:49:39.322: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:40.393: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:55.400: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:49:57.041: D/dalvikvm(29284): GC_CONCURRENT freed 1470K, 48% free 4197K/8007K, external 3072K/3776K, paused 5ms+19ms
+11-26 10:50:10.408: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:50:19.260: D/dalvikvm(29284): GC_CONCURRENT freed 1473K, 48% free 4189K/8007K, external 3072K/3776K, paused 6ms+15ms
+11-26 10:50:25.416: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:50:25.416: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:50:40.424: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:50:41.603: D/dalvikvm(29284): GC_CONCURRENT freed 1471K, 48% free 4196K/8007K, external 3072K/3776K, paused 5ms+17ms
+11-26 10:50:55.424: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:51:03.705: D/dalvikvm(29284): GC_CONCURRENT freed 1477K, 48% free 4188K/8007K, external 3072K/3776K, paused 3ms+14ms
+11-26 10:51:10.424: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:51:10.525: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:51:19.549: D/CO2M(29284): the sum NEWCO2M:30.0
+11-26 10:51:19.549: D/distance(29284): the current getdistance:6.1384974
+11-26 10:51:19.549: D/distance(29284): the sum getdistance:171.67618
+11-26 10:51:19.564: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919717000,mLatitude=60.26699423789803,mLongitude=24.984991550444832,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:51:19.564: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919830000,mLatitude=60.266940593717734,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:51:25.182: D/dalvikvm(29284): GC_CONCURRENT freed 1476K, 48% free 4187K/8007K, external 3072K/3776K, paused 5ms+16ms
+11-26 10:51:25.533: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:51:40.541: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:51:46.666: D/dalvikvm(29284): GC_CONCURRENT freed 1467K, 48% free 4198K/8007K, external 3072K/3776K, paused 7ms+19ms
+11-26 10:51:55.525: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:52:07.916: D/dalvikvm(29284): GC_CONCURRENT freed 1474K, 48% free 4192K/8007K, external 3072K/3776K, paused 7ms+17ms
+11-26 10:52:10.533: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:52:25.541: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:52:29.611: D/dalvikvm(29284): GC_CONCURRENT freed 1471K, 48% free 4197K/8007K, external 3072K/3776K, paused 10ms+18ms
+11-26 10:52:40.549: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:52:40.729: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:52:50.932: D/dalvikvm(29284): GC_CONCURRENT freed 1472K, 48% free 4191K/8007K, external 3072K/3776K, paused 7ms+20ms
+11-26 10:52:55.736: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:53:10.744: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:53:12.338: D/dalvikvm(29284): GC_CONCURRENT freed 1469K, 48% free 4196K/8007K, external 3072K/3776K, paused 6ms+15ms
+11-26 10:53:13.315: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:53:13.315: W/KeyCharacterMap(29284): Error loading keycharmap file '/data/usr/keychars/qtouch-touchscreen.kcm.bin'. hw.keyboards.65537.devname='qtouch-touchscreen'
+11-26 10:53:13.330: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:53:13.330: W/KeyCharacterMap(29284): Error loading keycharmap file '/system/usr/keychars/qtouch-touchscreen.kcm.bin'. hw.keyboards.65537.devname='qtouch-touchscreen'
+11-26 10:53:13.330: W/KeyCharacterMap(29284): Can't open keycharmap file
+11-26 10:53:13.338: W/KeyCharacterMap(29284): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+11-26 10:53:25.400: D/sensor(29284): Current delta acceleration:0.049033246730746306
+11-26 10:53:25.729: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:53:29.564: D/CO2M(29284): the sum NEWCO2M:32.0
+11-26 10:53:29.564: D/distance(29284): the current getdistance:6.4500046
+11-26 10:53:29.564: D/distance(29284): the sum getdistance:178.12619
+11-26 10:53:29.564: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919830000,mLatitude=60.266940593717734,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:53:29.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353919960000,mLatitude=60.26699423789803,mLongitude=24.98505592346119,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:53:32.564: D/dalvikvm(29284): GC_CONCURRENT freed 1473K, 48% free 4190K/8007K, external 3092K/3776K, paused 10ms+26ms
+11-26 10:53:40.736: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:53:53.252: D/dalvikvm(29284): GC_CONCURRENT freed 1446K, 48% free 4219K/8007K, external 3092K/3776K, paused 6ms+15ms
+11-26 10:53:55.736: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:54:10.721: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:54:14.432: D/dalvikvm(29284): GC_CONCURRENT freed 1484K, 48% free 4242K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 10:54:25.729: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:54:35.182: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4227K/8071K, external 3092K/3776K, paused 7ms+17ms
+11-26 10:54:40.736: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:54:42.557: D/CO2M(29284): the sum NEWCO2M:33.0
+11-26 10:54:42.557: D/distance(29284): the current getdistance:6.0184007
+11-26 10:54:42.557: D/distance(29284): the sum getdistance:184.14459
+11-26 10:54:42.557: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353919960000,mLatitude=60.26699423789803,mLongitude=24.98505592346119,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:54:42.580: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920033000,mLatitude=60.26704788207833,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:54:55.322: D/dalvikvm(29284): GC_CONCURRENT freed 1503K, 48% free 4228K/8071K, external 3092K/3776K, paused 7ms+17ms
+11-26 10:54:55.736: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:54:55.846: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:55:10.854: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:55:13.557: D/CO2M(29284): the sum NEWCO2M:34.0
+11-26 10:55:13.557: D/distance(29284): the current getdistance:6.4096193
+11-26 10:55:13.564: D/distance(29284): the sum getdistance:190.55421
+11-26 10:55:13.564: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920033000,mLatitude=60.26704788207833,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:55:13.564: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920064000,mLatitude=60.26706933975045,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:55:14.830: D/dalvikvm(29284): GC_CONCURRENT freed 1499K, 48% free 4232K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 10:55:16.666: D/sensor(29284): Current delta acceleration:0.0392265911522901
+11-26 10:55:25.854: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:55:34.463: D/dalvikvm(29284): GC_CONCURRENT freed 1491K, 48% free 4236K/8071K, external 3092K/3776K, paused 6ms+20ms
+11-26 10:55:40.744: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:55:53.994: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4237K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 10:55:55.744: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:56:00.572: D/CO2M(29284): the sum NEWCO2M:35.0
+11-26 10:56:00.580: D/distance(29284): the current getdistance:6.4701576
+11-26 10:56:00.580: D/distance(29284): the sum getdistance:197.02437
+11-26 10:56:00.580: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920064000,mLatitude=60.26706933975045,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:00.580: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920111000,mLatitude=60.26701569557015,mLongitude=24.984970092772713,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:10.752: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:56:12.275: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4231K/8071K, external 3092K/3776K, paused 7ms+17ms
+11-26 10:56:25.760: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:56:25.783: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:56:31.307: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4239K/8071K, external 3092K/3776K, paused 7ms+15ms
+11-26 10:56:39.557: D/CO2M(29284): the sum NEWCO2M:36.0
+11-26 10:56:39.557: D/distance(29284): the current getdistance:6.8861165
+11-26 10:56:39.564: D/distance(29284): the sum getdistance:203.91049
+11-26 10:56:39.564: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920111000,mLatitude=60.26701569557015,mLongitude=24.984970092772713,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:39.564: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920150000,mLatitude=60.266962051389854,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:40.791: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:56:49.182: D/dalvikvm(29284): GC_CONCURRENT freed 1505K, 48% free 4227K/8071K, external 3092K/3776K, paused 8ms+14ms
+11-26 10:56:54.564: D/CO2M(29284): the sum NEWCO2M:38.0
+11-26 10:56:54.564: D/distance(29284): the current getdistance:6.9818983
+11-26 10:56:54.572: D/distance(29284): the sum getdistance:210.8924
+11-26 10:56:54.572: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920150000,mLatitude=60.266962051389854,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:54.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920165000,mLatitude=60.266908407209556,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:56:55.791: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:06.400: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4240K/8071K, external 3092K/3776K, paused 6ms+14ms
+11-26 10:57:10.799: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:10.799: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:24.057: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4236K/8071K, external 3092K/3776K, paused 6ms+19ms
+11-26 10:57:25.799: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:40.807: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:41.760: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4233K/8071K, external 3092K/3776K, paused 4ms+20ms
+11-26 10:57:55.791: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:57:59.557: D/dalvikvm(29284): GC_CONCURRENT freed 1497K, 48% free 4233K/8071K, external 3092K/3776K, paused 6ms+23ms
+11-26 10:58:10.799: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:58:17.307: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4236K/8071K, external 3092K/3776K, paused 6ms+16ms
+11-26 10:58:25.799: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:58:35.018: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4241K/8071K, external 3092K/3776K, paused 7ms+15ms
+11-26 10:58:40.807: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:58:40.916: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:58:50.564: D/CO2M(29284): the sum NEWCO2M:39.0
+11-26 10:58:50.564: D/distance(29284): the current getdistance:6.714724
+11-26 10:58:50.564: D/distance(29284): the sum getdistance:217.60712
+11-26 10:58:50.572: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920165000,mLatitude=60.266908407209556,mLongitude=24.985098838805428,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:58:50.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920281000,mLatitude=60.266951322553794,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:58:52.041: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4235K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 10:58:55.924: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:59:09.291: D/dalvikvm(29284): GC_CONCURRENT freed 1488K, 48% free 4239K/8071K, external 3092K/3776K, paused 7ms+15ms
+11-26 10:59:10.924: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:59:25.861: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:59:26.604: D/dalvikvm(29284): GC_CONCURRENT freed 1496K, 48% free 4238K/8071K, external 3092K/3776K, paused 5ms+18ms
+11-26 10:59:32.564: D/CO2M(29284): the sum NEWCO2M:40.0
+11-26 10:59:32.564: D/distance(29284): the current getdistance:6.753617
+11-26 10:59:32.564: D/distance(29284): the sum getdistance:224.36073
+11-26 10:59:32.564: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920281000,mLatitude=60.266951322553794,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:59:32.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920323000,mLatitude=60.26699423789803,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:59:40.869: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:59:41.471: D/sensor(29284): Current delta acceleration:0.20216926062031768
+11-26 10:59:41.596: D/sensor(29284): Current delta acceleration:0.4558773635413882
+11-26 10:59:41.721: D/sensor(29284): Current delta acceleration:0.29157265215143247
+11-26 10:59:41.846: D/sensor(29284): Current delta acceleration:0.04903325385338173
+11-26 10:59:42.033: D/sensor(29284): Current delta acceleration:0.03922662082993335
+11-26 10:59:42.697: D/dalvikvm(29284): GC_CONCURRENT freed 1506K, 48% free 4225K/8071K, external 3092K/3776K, paused 3ms+14ms
+11-26 10:59:51.564: D/CO2M(29284): the sum NEWCO2M:41.0
+11-26 10:59:51.564: D/distance(29284): the current getdistance:6.7536125
+11-26 10:59:51.564: D/distance(29284): the sum getdistance:231.11435
+11-26 10:59:51.572: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920323000,mLatitude=60.26699423789803,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:59:51.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920342000,mLatitude=60.26703715324227,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 10:59:55.877: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 10:59:58.729: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4241K/8071K, external 3092K/3776K, paused 3ms+16ms
+11-26 11:00:10.885: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:00:11.064: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:00:14.924: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4234K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:00:19.533: D/sensor(29284): Current delta acceleration:0.0392265911522901
+11-26 11:00:26.072: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:00:31.346: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4243K/8071K, external 3092K/3776K, paused 6ms+19ms
+11-26 11:00:41.080: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:00:47.510: D/dalvikvm(29284): GC_CONCURRENT freed 1501K, 48% free 4232K/8071K, external 3092K/3776K, paused 6ms+20ms
+11-26 11:00:55.869: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:03.760: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4234K/8071K, external 3092K/3776K, paused 3ms+15ms
+11-26 11:01:10.877: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:20.010: D/dalvikvm(29284): GC_CONCURRENT freed 1490K, 48% free 4239K/8071K, external 3092K/3776K, paused 6ms+16ms
+11-26 11:01:25.877: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:36.322: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4242K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:01:40.885: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:40.924: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:52.549: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4234K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:01:55.932: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:01:59.572: D/CO2M(29284): the sum NEWCO2M:42.0
+11-26 11:01:59.572: D/distance(29284): the current getdistance:6.409625
+11-26 11:01:59.572: D/distance(29284): the sum getdistance:237.52397
+11-26 11:01:59.572: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920342000,mLatitude=60.26703715324227,mLongitude=24.98501300811695,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:01:59.580: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920470000,mLatitude=60.26701569557015,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:02:07.752: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4229K/8071K, external 3092K/3776K, paused 2ms+15ms
+11-26 11:02:10.940: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:02:23.705: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4239K/8071K, external 3092K/3776K, paused 2ms+15ms
+11-26 11:02:25.947: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:02:26.002: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:02:39.518: D/dalvikvm(29284): GC_CONCURRENT freed 1494K, 48% free 4238K/8071K, external 3092K/3776K, paused 7ms+20ms
+11-26 11:02:41.010: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:02:55.291: D/dalvikvm(29284): GC_CONCURRENT freed 1488K, 48% free 4243K/8071K, external 3092K/3776K, paused 6ms+22ms
+11-26 11:02:56.018: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:11.018: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4242K/8071K, external 3092K/3776K, paused 3ms+16ms
+11-26 11:03:11.033: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:11.088: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:26.088: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:26.775: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4243K/8071K, external 3092K/3776K, paused 3ms+20ms
+11-26 11:03:31.564: D/CO2M(29284): the sum NEWCO2M:44.0
+11-26 11:03:31.564: D/distance(29284): the current getdistance:7.130676
+11-26 11:03:31.572: D/distance(29284): the sum getdistance:244.65465
+11-26 11:03:31.572: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920470000,mLatitude=60.26701569557015,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:03:31.572: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920562000,mLatitude=60.266951322553794,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:03:41.096: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:41.619: D/dalvikvm(29284): GC_CONCURRENT freed 1499K, 48% free 4230K/8071K, external 3092K/3776K, paused 7ms+16ms
+11-26 11:03:55.979: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:03:56.947: D/dalvikvm(29284): GC_CONCURRENT freed 1490K, 48% free 4247K/8071K, external 3092K/3776K, paused 5ms+15ms
+11-26 11:04:10.979: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:04:12.354: D/dalvikvm(29284): GC_CONCURRENT freed 1494K, 48% free 4241K/8071K, external 3092K/3776K, paused 5ms+15ms
+11-26 11:04:25.979: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:04:27.729: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4245K/8071K, external 3092K/3776K, paused 6ms+18ms
+11-26 11:04:40.955: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:04:43.080: D/dalvikvm(29284): GC_CONCURRENT freed 1492K, 48% free 4241K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:04:52.572: D/CO2M(29284): the sum NEWCO2M:45.0
+11-26 11:04:52.572: D/distance(29284): the current getdistance:6.0184007
+11-26 11:04:52.572: D/distance(29284): the sum getdistance:250.67305
+11-26 11:04:52.580: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920562000,mLatitude=60.266951322553794,mLongitude=24.985120296477547,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:04:52.580: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920643000,mLatitude=60.26700496673409,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:04:55.955: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:04:57.705: D/dalvikvm(29284): GC_CONCURRENT freed 1500K, 48% free 4243K/8071K, external 3092K/3776K, paused 4ms+15ms
+11-26 11:05:10.963: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:05:12.697: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4239K/8071K, external 3092K/3776K, paused 2ms+18ms
+11-26 11:05:25.971: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:05:26.025: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:05:27.744: D/dalvikvm(29284): GC_CONCURRENT freed 1496K, 48% free 4243K/8071K, external 3092K/3776K, paused 6ms+16ms
+11-26 11:05:33.596: D/CO2M(29284): the sum NEWCO2M:46.0
+11-26 11:05:33.596: D/distance(29284): the current getdistance:7.242093
+11-26 11:05:33.596: D/distance(29284): the sum getdistance:257.91513
+11-26 11:05:33.596: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920643000,mLatitude=60.26700496673409,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:05:33.596: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920684000,mLatitude=60.26706933975045,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:05:41.033: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:05:41.721: D/dalvikvm(29284): GC_CONCURRENT freed 1498K, 48% free 4230K/8071K, external 3092K/3776K, paused 2ms+20ms
+11-26 11:05:56.041: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:05:56.400: D/dalvikvm(29284): GC_CONCURRENT freed 1490K, 48% free 4239K/8071K, external 3092K/3776K, paused 5ms+18ms
+11-26 11:06:11.080: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:06:11.143: D/dalvikvm(29284): GC_CONCURRENT freed 1498K, 48% free 4249K/8071K, external 3092K/3776K, paused 6ms+42ms
+11-26 11:06:11.299: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:06:25.736: D/dalvikvm(29284): GC_CONCURRENT freed 1499K, 48% free 4239K/8071K, external 3092K/3776K, paused 3ms+19ms
+11-26 11:06:26.307: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:06:40.486: D/dalvikvm(29284): GC_CONCURRENT freed 1499K, 48% free 4238K/8071K, external 3092K/3776K, paused 12ms+21ms
+11-26 11:06:41.307: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:06:55.104: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4242K/8071K, external 3092K/3776K, paused 5ms+17ms
+11-26 11:06:56.057: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:07:09.713: D/dalvikvm(29284): GC_CONCURRENT freed 1494K, 48% free 4239K/8071K, external 3092K/3776K, paused 2ms+17ms
+11-26 11:07:11.065: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:07:24.393: D/dalvikvm(29284): GC_CONCURRENT freed 1491K, 48% free 4228K/8071K, external 3092K/3776K, paused 3ms+19ms
+11-26 11:07:26.065: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:07:39.213: D/dalvikvm(29284): GC_CONCURRENT freed 1488K, 48% free 4249K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:07:41.057: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:07:53.705: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4235K/8071K, external 3092K/3776K, paused 2ms+15ms
+11-26 11:07:56.065: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:08:08.400: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4238K/8071K, external 3092K/3776K, paused 7ms+17ms
+11-26 11:08:11.064: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:08:23.018: D/dalvikvm(29284): GC_CONCURRENT freed 1495K, 48% free 4242K/8071K, external 3092K/3776K, paused 5ms+15ms
+11-26 11:08:25.002: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:08:37.689: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4241K/8071K, external 3092K/3776K, paused 7ms+21ms
+11-26 11:08:40.018: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:08:52.189: D/dalvikvm(29284): GC_CONCURRENT freed 1497K, 48% free 4235K/8071K, external 3092K/3776K, paused 11ms+19ms
+11-26 11:08:55.026: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:08:55.604: D/CO2M(29284): the sum NEWCO2M:47.0
+11-26 11:08:55.604: D/distance(29284): the current getdistance:6.4096193
+11-26 11:08:55.604: D/distance(29284): the sum getdistance:264.32474
+11-26 11:08:55.604: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920684000,mLatitude=60.26706933975045,mLongitude=24.985141754149666,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=27.974983,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:08:55.604: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920886000,mLatitude=60.26704788207833,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:09:05.783: D/dalvikvm(29284): GC_CONCURRENT freed 1497K, 48% free 4239K/8071K, external 3092K/3776K, paused 4ms+19ms
+11-26 11:09:10.025: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:09:11.088: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:09:16.580: D/CO2M(29284): the sum NEWCO2M:48.0
+11-26 11:09:16.580: D/distance(29284): the current getdistance:6.9127913
+11-26 11:09:16.580: D/distance(29284): the sum getdistance:271.23752
+11-26 11:09:16.580: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920886000,mLatitude=60.26704788207833,mLongitude=24.98503446578907,mHasAltitude=true,mAltitude=40.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:09:16.588: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920907000,mLatitude=60.26701569557015,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:09:19.432: D/dalvikvm(29284): GC_CONCURRENT freed 1493K, 48% free 4243K/8071K, external 3092K/3776K, paused 6ms+15ms
+11-26 11:09:26.096: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:09:33.244: D/dalvikvm(29284): GC_CONCURRENT freed 1487K, 48% free 4242K/8071K, external 3092K/3776K, paused 10ms+16ms
+11-26 11:09:41.096: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:09:47.166: D/dalvikvm(29284): GC_CONCURRENT freed 1488K, 48% free 4248K/8071K, external 3092K/3776K, paused 6ms+17ms
+11-26 11:09:56.104: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:09:56.174: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:10:01.002: D/dalvikvm(29284): GC_CONCURRENT freed 1491K, 48% free 4243K/8071K, external 3092K/3776K, paused 6ms+17ms
+11-26 11:10:04.682: D/sensor(29284): Current delta acceleration:0.03922660599111453
+11-26 11:10:11.182: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:10:14.783: D/dalvikvm(29284): GC_CONCURRENT freed 1487K, 48% free 4242K/8071K, external 3092K/3776K, paused 3ms+20ms
+11-26 11:10:22.518: D/sensor(29284): Current delta acceleration:0.0392265911522901
+11-26 11:10:26.190: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:10:28.721: D/dalvikvm(29284): GC_CONCURRENT freed 1491K, 48% free 4249K/8071K, external 3092K/3776K, paused 2ms+16ms
+11-26 11:10:38.580: D/CO2M(29284): the sum NEWCO2M:50.0
+11-26 11:10:38.580: D/distance(29284): the current getdistance:7.0847664
+11-26 11:10:38.580: D/distance(29284): the sum getdistance:278.3223
+11-26 11:10:38.580: D/location(29284): the lastlocation is:Location[mProvider=gps,mTime=1353920907000,mLatitude=60.26701569557015,mLongitude=24.984927177428474,mHasAltitude=true,mAltitude=39.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=9.487171,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:10:38.588: D/location(29284): the currentlocation is:Location[mProvider=gps,mTime=1353920989000,mLatitude=60.26701569557015,mLongitude=24.98505592346119,mHasAltitude=true,mAltitude=38.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=259.0,mHasAccuracy=true,mAccuracy=4.641,mExtras=Bundle[mParcelledData.dataSize=4]]
+11-26 11:10:41.135: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:10:41.924: D/dalvikvm(29284): GC_CONCURRENT freed 1499K, 48% free 4237K/8071K, external 3092K/3776K, paused 6ms+16ms
+11-26 11:10:55.674: D/dalvikvm(29284): GC_CONCURRENT freed 1489K, 48% free 4259K/8071K, external 3092K/3776K, paused 6ms+18ms
+11-26 11:10:56.143: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:11:09.721: D/dalvikvm(29284): GC_CONCURRENT freed 1527K, 48% free 4272K/8135K, external 3092K/3776K, paused 2ms+17ms
+11-26 11:11:11.151: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:11:23.611: D/dalvikvm(29284): GC_CONCURRENT freed 1539K, 48% free 4257K/8135K, external 3092K/3776K, paused 6ms+26ms
+11-26 11:11:26.150: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:11:26.150: I/Maps.MyLocationOverlay(29284): Got fallback update soon after preferred udpate, ignoring
+11-26 11:11:36.939: D/dalvikvm(29284): GC_CONCURRENT freed 1502K, 48% free 4235K/8135K, external 3092K/3776K, paused 6ms+15ms

@@ -93,6 +93,10 @@ public class SettingActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
+			if(M == 0){
+				Toast.makeText(getApplicationContext(), "Please select the transportation mode.", Toast.LENGTH_SHORT).show();
+				return;
+			}			
 			Intent intent = new Intent();
 			intent.putExtra("M", M);	// assign M value to counterpart in MapTracking
 			intent.setClass(SettingActivity.this, MapTracking.class);

@@ -36,7 +36,9 @@
 		android:title="Map View"  />
 	
 	<item android:id="@+id/clear"
-		android:title="Clear"  />
+		android:title="Reset/Clear"  />
+	<item android:id="@+id/commit"
+		android:title="Commit"  />
 	<item android:id="@+id/about"
 		android:title="About"  />
 	

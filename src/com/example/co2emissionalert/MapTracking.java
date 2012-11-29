@@ -33,6 +33,7 @@ import android.graphics.Point;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -42,6 +43,8 @@ import android.widget.Toast;
 
 public class MapTracking extends MapActivity implements LocationListener, OnInitListener{
 
+	private static final int CO2_THRESHOLD = 5000;	// CO2 emission threshold for active alerting
+	
 	private MapView mapView;
 	private MapController mapController;
 	private MyLocationOverlay myLocationLay;
@@ -52,6 +55,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	private boolean isFirstLocation = true;	// Flag is true if current point is the first location in tracking
 	private Projection pro;
 	private List<Overlay> overlays;
+	private Toast toast;
 	
 	//private final double EARTH_RADIUS = 6378137.0;  
 	private ShakeListener shakeListener;
@@ -65,7 +69,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	private int COLOR = Color.RED;
 	private boolean isInitial = false;	// Flag is true if to initial mylocation
 	private boolean isGPSOn = true;
-	
+	private int thresBlock = 0;
 	private TextToSpeech TTS;
     private int MY_DATA_CHECK_CODE = 0;
     
@@ -84,6 +88,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         Intent intent = getIntent();
         MM = intent.getFloatExtra("M", (float) 0.0);
         
+        toast = Toast.makeText(getApplicationContext(), "Distance: " + String.valueOf(NEWSumDistance) + " m\n"
+        		+ "CO2 emission: " + String.valueOf(NEWCO2M) + " g", Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 50);
+        
         //check for TTS data
         Intent TTSIntent = new Intent();
         TTSIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
@@ -95,14 +103,14 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
             	//df.format(SumDistance);
             	// Shaking behavior triggers a text pop-up and speech of distance & CO2 emission 
             	        	
-            	Toast.makeText(getApplicationContext(), "Distance: " + String.valueOf(NEWSumDistance) + " m\n"
-            			+ "CO2 emission: " + String.valueOf(NEWCO2M) + " g", Toast.LENGTH_LONG).show();
-            	
+            	toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
+        		toast.show();
+        		
             	speaking("Your current distance is" + String.valueOf(NEWSumDistance) + "meters" + "And your current CO2 emission is" + String.valueOf(NEWCO2M) + "grams");
             }  
         });
         
-       
+        
         //t = new Thread(this);
         //t.start();
     }
@@ -163,6 +171,12 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     		mapView.invalidate(); 
     		initMyLocation();    		
         return true;
+        
+        case R.id.commit:
+        	
+        	
+        return true;
+        
         
         case R.id.about:
         	new AlertDialog.Builder(MapTracking.this).setTitle("CO2 Emission Alert").setMessage("This app is developed by Junlong Xiang, Xiang Gao, and Feihu Qu, and is released under the GPL v2 software license.\n 26.11.12 Helsinki")
@@ -367,6 +381,15 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		mapView.invalidate();
 		mapController.animateTo(end);
 		getDistance(begin,end,MM);   //calculate distance and CO2 emission
+		
+			// show the toast updated on location changed
+		toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
+		toast.show();
+		
+		if((thresBlock < 1) && (NEWCO2M > CO2_THRESHOLD)){	// actively check if the CO2 emission has exceeded the threshold
+			thresBlock += 1;       	
+        	speaking("Alas! Your current CO2 emission has exceeded the threshold.");
+		}
 		//gpsDistance(begin,end);
 		//Log.d("map", "get the currentlocation");	// DEBUG log message
 		Log.d("location", "the lastlocation is:" + lastLocation.toString());	// DEBUG log message

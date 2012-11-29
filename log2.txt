@@ -1,0 +1,72 @@
+11-26 13:55:35.760: D/dalvikvm(1028): GC_EXTERNAL_ALLOC freed 58K, 49% free 2644K/5123K, external 2357K/2773K, paused 29ms
+11-26 13:55:47.666: D/map(1028): oncreate start
+11-26 13:55:47.814: D/dalvikvm(1028): GC_CONCURRENT freed 1463K, 55% free 3169K/6919K, external 3776K/4699K, paused 2ms+3ms
+11-26 13:55:47.814: W/CursorWrapperInner(1028): Cursor finalized without prior close()
+11-26 13:55:48.307: D/map(1028): oncreate end
+11-26 13:55:48.627: D/map(1028): resume start
+11-26 13:55:49.174: D/map(1028): resume end
+11-26 13:55:49.228: D/map(1028): pause start
+11-26 13:55:49.236: D/map(1028): pause end
+11-26 13:55:49.252: W/NetworkConnectivityListener(1028): onReceived() called with UNKNOWN and Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 (has extras) }
+11-26 13:55:49.252: D/sensor(1028): Current delta acceleration:10.020117170368326
+11-26 13:55:49.275: D/dalvikvm(1028): GC_CONCURRENT freed 1352K, 55% free 3159K/6919K, external 3447K/3776K, paused 2ms+4ms
+11-26 13:55:49.283: I/TextToSpeech.java(1028): initTts() successfully bound to service
+11-26 13:55:49.291: D/map(1028): resume start
+11-26 13:55:49.330: D/map(1028): resume end
+11-26 13:55:49.330: D/sensor(1028): Current delta acceleration:0.15690612718774502
+11-26 13:55:49.838: D/sensor(1028): Current delta acceleration:0.0
+11-26 13:55:49.838: I/MapActivity(1028): Handling network change notification:CONNECTED
+11-26 13:55:49.838: E/MapActivity(1028): Couldn't get connection factory client
+11-26 13:55:50.502: D/sensor(1028): Current delta acceleration:0.043857022179375114
+11-26 13:55:51.346: D/sensor(1028): Current delta acceleration:0.10607581358490163
+11-26 13:55:51.416: D/sensor(1028): Current delta acceleration:0.06934345231501603
+11-26 13:55:51.533: D/sensor(1028): Current delta acceleration:0.050004271701043206
+11-26 13:55:51.603: D/sensor(1028): Current delta acceleration:0.02941989897135927
+11-26 13:55:51.744: D/sensor(1028): Current delta acceleration:0.0860535342216701
+11-26 13:55:51.814: D/sensor(1028): Current delta acceleration:0.16671300159543923
+11-26 13:55:51.885: D/sensor(1028): Current delta acceleration:0.07659239720473209
+11-26 13:55:51.955: D/sensor(1028): Current delta acceleration:0.1404097552206882
+11-26 13:55:52.057: D/sensor(1028): Current delta acceleration:0.8845570973263857
+11-26 13:55:52.150: D/sensor(1028): Current delta acceleration:1.2110317562705528
+11-26 13:55:52.572: D/sensor(1028): Current delta acceleration:0.3138132040604331
+11-26 13:55:52.627: D/map(1028): pause start
+11-26 13:55:52.627: D/map(1028): pause end
+11-26 13:55:52.682: D/sensor(1028): Current delta acceleration:0.10048818004369504
+11-26 13:55:52.916: D/sensor(1028): Current delta acceleration:0.039226531796936255
+11-26 13:55:53.408: D/sensor(1028): Current delta acceleration:0.019613265898468128
+11-26 13:55:54.557: D/sensor(1028): Current delta acceleration:0.03922665050755414
+11-26 13:55:54.627: D/sensor(1028): Current delta acceleration:0.06934345231501603
+11-26 13:55:54.721: D/sensor(1028): Current delta acceleration:0.06864654983229551
+11-26 13:55:54.791: D/sensor(1028): Current delta acceleration:0.13156978444299874
+11-26 13:55:54.861: D/sensor(1028): Current delta acceleration:0.40063528633897455
+11-26 13:55:54.955: D/sensor(1028): Current delta acceleration:0.8552055476550238
+11-26 13:55:55.025: D/sensor(1028): Current delta acceleration:0.13338466422382528
+11-26 13:55:55.197: D/sensor(1028): Current delta acceleration:0.4245273605634642
+11-26 13:55:55.338: D/sensor(1028): Current delta acceleration:0.1832039733411591
+11-26 13:55:55.502: D/sensor(1028): Current delta acceleration:0.13659148423692366
+11-26 13:55:55.713: D/sensor(1028): Current delta acceleration:0.009806632949234064
+11-26 13:55:55.783: D/sensor(1028): Current delta acceleration:0.13338482481504801
+11-26 13:55:55.877: D/sensor(1028): Current delta acceleration:0.04903328471812328
+11-26 13:55:55.971: D/sensor(1028): Current delta acceleration:0.10607558092040952
+11-26 13:55:56.064: D/sensor(1028): Current delta acceleration:0.009806632949234064
+11-26 13:55:56.135: D/sensor(1028): Current delta acceleration:0.05884075157839324
+11-26 13:55:56.205: D/sensor(1028): Current delta acceleration:0.08321279852335668
+11-26 13:55:56.557: D/sensor(1028): Current delta acceleration:0.2451667811464029
+11-26 13:55:56.627: D/sensor(1028): Current delta acceleration:0.39226627774498624
+11-26 13:55:56.713: D/sensor(1028): Current delta acceleration:0.16671371665085036
+11-26 13:55:56.814: D/map(1028): resume start
+11-26 13:55:57.018: I/Maps.MyLocationOverlay(1028): Request updates from gps
+11-26 13:55:57.158: I/Maps.MyLocationOverlay(1028): Request updates from network
+11-26 13:55:57.158: D/map(1028): run the funonfirstfix function
+11-26 13:55:57.158: D/map(1028): resume end
+11-26 13:55:57.174: I/MapActivity(1028): Handling network change notification:CONNECTED
+11-26 13:55:57.721: D/sensor(1028): Current delta acceleration:0.039227485923367375
+11-26 13:55:58.025: I/Maps.MyLocationOverlay(1028): Running deferred on first fix: com.example.co2emissionalert.MapTracking$5@4067be70
+11-26 13:55:58.033: D/map(1028): the firstlocation is:60202745,24966124
+11-26 13:55:58.033: D/map(1028): funonfirstfix function end
+11-26 13:55:58.205: D/dalvikvm(1028): GC_EXTERNAL_ALLOC freed 225K, 51% free 3401K/6919K, external 3763K/3776K, paused 59ms
+11-26 13:55:58.721: D/sensor(1028): Current delta acceleration:0.049034118058801306
+11-26 13:55:59.150: D/sensor(1028): Current delta acceleration:0.03922665050755414
+11-26 13:55:59.275: D/sensor(1028): Current delta acceleration:0.039226531796936255
+11-26 13:55:59.400: D/sensor(1028): Current delta acceleration:0.07845330101510828
+11-26 13:56:00.478: D/sensor(1028): Current delta acceleration:0.06279308918278419
