@@ -8,6 +8,7 @@ V1.1.3
 		add reading of duration in Toast and speech.
 	* update UI in MapTracking: add realtime display of distance & timer & emission in a TextView at the bottom of mapview, updating per second after first location set.
 	* removed Toast on location changed
+	* fixed reset function
 	
 
 

@@ -203,9 +203,12 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         case R.id.clear:
         	SumDistance=NEWSumDistance=0;
         	CO2M=NEWCO2M=0;
-        	StartTime=CurrentTime=0;
+        	Duration=0;
+        	LastTime=CurrentTime=StartTime=0;
         	overlays.clear();
     		mapView.invalidate(); 
+    		//isInitial = false;
+    		isFirstLocation = true;
     		initMyLocation();    		
         return true;
         
@@ -347,11 +350,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         Log.d("map", "initMyLocation end");	// DEBUG log message
     }
 	
-	public void initReading()
-	{
 		
-	}
-	
     /***************Pause/Stop/Destroy****************/
     
     
