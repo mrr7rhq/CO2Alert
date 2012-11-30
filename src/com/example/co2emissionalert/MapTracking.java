@@ -38,13 +38,17 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Handler;
+//import android.os.SystemClock;
 
 public class MapTracking extends MapActivity implements LocationListener, OnInitListener{
 
 	private static final int CO2_THRESHOLD = 5000;	// CO2 emission threshold for active alerting
 	
 	private MapView mapView;
+	private TextView reading;
 	private MapController mapController;
 	private MyLocationOverlay myLocationLay;
 	private LocationManager locationManager;
@@ -79,6 +83,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     private int min = 0;
     private int hour = 0;
     
+    private Handler mHandler = new Handler(); 
+    
     
     //private Thread t;
     //private volatile boolean flag= true;	// Flag for thread status
@@ -88,9 +94,33 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         super.onCreate(savedInstanceState);
         Log.d("map", "oncreate start");	// DEBUG log message
         setContentView(R.layout.activity_maptracking);
-        mapControl();	
+        final TextView reading = (TextView)findViewById(R.id.readingId);
         
         
+        Runnable mUpdateTimeTask = new Runnable() {
+            public void run() {
+                                
+        		if (StartTime == 0) {
+        			reading.setText("Initializing tracking process ...");
+        		}else{
+        			long millis = System.currentTimeMillis();
+                    millis = millis - StartTime;
+            		sec = (int) (millis / 1000);
+            		min = sec / 60; sec %= 60;
+            		hour = min / 60; min %= 60;
+            		
+        			reading.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");
+        		}            	
+            	
+                mHandler.postDelayed(this, 1000);
+            }
+        };
+         
+        mHandler.removeCallbacks(mUpdateTimeTask);
+        mHandler.postDelayed(mUpdateTimeTask, 100);
+        
+        mapControl();
+         
         // Get M from the intent by SettingActivity
         Intent intent = getIntent();
         MM = intent.getFloatExtra("M", (float) 0.0);
@@ -267,7 +297,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 				}
 			}).show();    		
     	}
-		//else {	
+		else {	
 		// get current location as the last known point in history
     	//	Log.d("map", "getLastKnownLocation");	// DEBUG log message	
     	//	if ( locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null)
@@ -280,10 +310,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		//	}
     	//Log.d("map", "the LastKnownLocation is: " + currentLocation.toString());	// DEBUG log message	
     		
-			initMyLocation();	// initMyLocation()
+			initMyLocation();	// initMyLocation()	
 			isInitial = true;	// Flag: initialization is done
 			Log.d("map", "init end");	// DEBUG log message
-    	//}
+    	}
     }
 	
 	
@@ -317,6 +347,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         Log.d("map", "initMyLocation end");	// DEBUG log message
     }
 	
+	public void initReading()
+	{
+		
+	}
 	
     /***************Pause/Stop/Destroy****************/
     
@@ -397,8 +431,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		getTotal(begin,end,MM);   //calculate distance and CO2 emission
 		
 			// show the toast updated on location changed
-		toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
-		toast.show();
+		//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
+		//toast.show();
 		
 		if((thresBlock < 1) && (NEWCO2M > CO2_THRESHOLD)){	// actively check if the CO2 emission has exceeded the threshold
 			thresBlock += 1;       	
@@ -445,9 +479,6 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		NEWCO2M = (float) (Math.round(CO2M*10)/10);
 		
 		Duration = CurrentTime - StartTime;
-		sec = (int) (Duration / 1000);
-		min = sec / 60; sec %= 60;
-		hour = min / 60; min %= 60;
 		
 		
 		//Log.d("distance", "the current getdistance:" + String.valueOf(results[0]));	// DEBUG log message
