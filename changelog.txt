@@ -1,3 +1,14 @@
+V1.1.4
+2012-11-29  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* update shake detection algorithm: detect crest within an interval, lower-bound and upper-bound, timeout and other control conditions;
+		filter noise of raw sensor data;
+		block shake-detector when on speech.
+	* update UI: welcome page
+	* remove Toast, add vibration support triggered by shake or active alert threshold (same as speech).
+	* add markers to starting point of each route of transfer on mapview
+	* stop function: enable stop tracking on clicking "Stop" in option menu, adding destination marker to final location;
+		can reset new tracking with "Reset/Clear".
+
 V1.1.3
 2012-11-29  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* module transition: Setting <-> Map -> Summary -> Setting.

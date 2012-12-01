@@ -33,6 +33,7 @@ public class SettingActivity extends Activity {
 	private Button stopButton;
 	// M: coefficient for CO2 calculation, default checked for walk/bicycle mode
 	private float M = (float) 0;
+	private int icon = 0;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -67,21 +68,21 @@ public class SettingActivity extends Activity {
 		public void onCheckedChanged(RadioGroup group, int checkedId) {
 			// TODO Auto-generated method stub
 			if(walk.getId() == checkedId){			
-				M = (float) 180;
+				M = 180f; icon = R.drawable.ic_walk;
 			}else if(bike.getId() == checkedId){			
-				M = (float) 75;
+				M = 75f; icon = R.drawable.ic_bike;
 			}else if(tram.getId() == checkedId){			
-				M = (float) 60;
+				M = 60f; icon = R.drawable.ic_tram;
 			}else if(ferry.getId() == checkedId){
-				M = (float) 125;
+				M = 125f; icon = R.drawable.ic_ferry;
 			}else if(metro.getId() == checkedId){
-				M = (float) 3.3;
+				M = 3.3f; icon = R.drawable.ic_metro;
 			}else if(train.getId() == checkedId){
-				M = (float) 43;
+				M = 43f; icon = R.drawable.ic_train;
 			}else if(bus.getId() == checkedId){
-				M = (float) 100;
+				M = 100f; icon = R.drawable.ic_bus;
 			}else if(car.getId() == checkedId){
-				M = (float) 149;
+				M = 149f; icon = R.drawable.ic_car;
 			}
 		}
 		
@@ -99,6 +100,7 @@ public class SettingActivity extends Activity {
 			}			
 			Intent intent = new Intent();
 			intent.putExtra("M", M);	// assign M value to counterpart in MapTracking
+			intent.putExtra("ICON", icon);
 			intent.setClass(SettingActivity.this, MapTracking.class);
 			SettingActivity.this.startActivity(intent);	// trigger MapTracking activity
 		}

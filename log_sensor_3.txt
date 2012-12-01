@@ -1,0 +1,240 @@
+12-01 05:04:59.275: D/sensor(13041): Vector acceleration: ( 0.6668522, 0.0, 9.796844)
+12-01 05:04:59.275: D/sensor(13041): Delta acceleration: 9.819513038013186
+12-01 05:05:35.666: D/sensor(13041): Vector acceleration: ( 0.6668522, 0.0, 9.83607)
+12-01 05:05:35.674: D/sensor(13041): Delta acceleration: 0.039226531796936255
+12-01 05:06:06.057: D/sensor(13041): Vector acceleration: ( 0.4707192, -1.3337044, 11.061901)
+12-01 05:06:06.057: D/sensor(13041): Delta acceleration: 1.8220584992900763
+12-01 05:06:06.182: D/sensor(13041): Vector acceleration: ( 1.0591182, -1.2552512, 11.218807)
+12-01 05:06:06.182: D/sensor(13041): Delta acceleration: 0.6139932617678244
+12-01 05:06:06.314: D/sensor(13041): Vector acceleration: ( 2.824315, -1.4513842, 10.669635)
+12-01 05:06:06.314: D/sensor(13041): Delta acceleration: 1.859026194961945
+12-01 05:06:06.432: D/sensor(13041): Vector acceleration: ( 3.0596747, 1.2944778, 7.923773)
+12-01 05:06:06.432: D/sensor(13041): Delta acceleration: 3.8903612407456576
+12-01 05:06:06.557: D/sensor(13041): Vector acceleration: ( 2.941995, 2.5497289, 8.551398)
+12-01 05:06:06.557: D/sensor(13041): Delta acceleration: 1.4083385640485486
+12-01 05:06:06.682: D/sensor(13041): Vector acceleration: ( 4.2364726, -0.2745862, 7.60996)
+12-01 05:06:06.682: D/sensor(13041): Delta acceleration: 3.2463415535585347
+12-01 05:06:06.807: D/sensor(13041): Vector acceleration: ( 2.8635418, 1.6475172, 9.257478)
+12-01 05:06:06.807: D/sensor(13041): Delta acceleration: 2.8798846338265687
+12-01 05:06:06.932: D/sensor(13041): Vector acceleration: ( 3.5696206, 1.5886773, 10.238142)
+12-01 05:06:06.932: D/sensor(13041): Delta acceleration: 1.2098395507613502
+12-01 05:06:07.057: D/sensor(13041): Vector acceleration: ( 2.432049, 1.8338435, 8.982891)
+12-01 05:06:07.057: D/sensor(13041): Delta acceleration: 1.7116747796083989
+12-01 05:06:07.182: D/sensor(13041): Vector acceleration: ( 2.432049, 2.4124358, 8.688692)
+12-01 05:06:07.182: D/sensor(13041): Delta acceleration: 0.6490932733534843
+12-01 05:06:07.307: D/sensor(13041): Vector acceleration: ( 2.353596, 1.6867437, 9.649743)
+12-01 05:06:07.307: D/sensor(13041): Delta acceleration: 1.206815138546699
+12-01 05:06:07.432: D/sensor(13041): Vector acceleration: ( 2.1574628, 1.735777, 9.649743)
+12-01 05:06:07.432: D/sensor(13041): Delta acceleration: 0.20216940803299274
+12-01 05:06:07.564: D/sensor(13041): Vector acceleration: ( 1.176798, 1.735777, 9.492837)
+12-01 05:06:07.564: D/sensor(13041): Delta acceleration: 0.9931379856823492
+12-01 05:06:07.682: D/sensor(13041): Vector acceleration: ( 9.92433, -1.5690639, 13.454723)
+12-01 05:06:07.682: D/sensor(13041): Delta acceleration: 10.155679821735301
+12-01 05:06:07.807: D/sensor(13041): Vector acceleration: ( -3.216581, -8.786758, 2.0397832)
+12-01 05:06:07.807: D/sensor(13041): Delta acceleration: 18.84355403867842
+12-01 05:06:07.908: D/sensor(13041): Vector acceleration: ( -43.46307, -5.76631, -8.433719)
+12-01 05:06:07.908: D/sensor(13041): Delta acceleration: 41.69649014052697
+12-01 05:06:08.057: D/sensor(13041): Vector acceleration: ( 36.63764, -12.787871, 14.082349)
+12-01 05:06:08.057: D/sensor(13041): Delta acceleration: 83.50089176638325
+12-01 05:06:08.182: D/sensor(13041): Vector acceleration: ( -52.13215, -19.299486, -7.453054)
+12-01 05:06:08.182: D/sensor(13041): Delta acceleration: 91.57647610911057
+12-01 05:06:08.353: D/sensor(13041): Vector acceleration: ( 37.14759, -0.9414384, 13.258591)
+12-01 05:06:08.361: D/sensor(13041): Delta acceleration: 93.47118435479193
+12-01 05:06:08.494: D/sensor(13041): Vector acceleration: ( 5.76631, 2.7850885, 6.7862015)
+12-01 05:06:08.494: D/sensor(13041): Delta acceleration: 32.25776803551065
+12-01 05:06:08.619: D/sensor(13041): Vector acceleration: ( 5.040618, 2.3339827, 7.590347)
+12-01 05:06:08.619: D/sensor(13041): Delta acceleration: 1.1733607728054358
+12-01 05:06:08.729: D/sensor(13041): Vector acceleration: ( 4.834678, 2.3732092, 7.6491866)
+12-01 05:06:08.729: D/sensor(13041): Delta acceleration: 0.21774303754390328
+12-01 05:06:08.932: D/sensor(13041): Vector acceleration: ( 5.060231, 2.5006957, 8.237586)
+12-01 05:06:08.932: D/sensor(13041): Delta acceleration: 0.6429159094047249
+12-01 05:06:09.057: D/sensor(13041): Vector acceleration: ( 4.883712, 3.1773546, 7.963)
+12-01 05:06:09.057: D/sensor(13041): Delta acceleration: 0.7512815176244255
+12-01 05:06:09.189: D/sensor(13041): Vector acceleration: ( 4.393379, 3.4323275, 8.080679)
+12-01 05:06:09.189: D/sensor(13041): Delta acceleration: 0.5650536533638284
+12-01 05:06:09.307: D/sensor(13041): Vector acceleration: ( 4.2168593, 3.4323275, 8.237586)
+12-01 05:06:09.307: D/sensor(13041): Delta acceleration: 0.23617599256574853
+12-01 05:06:09.432: D/sensor(13041): Vector acceleration: ( 4.2070527, 3.1871612, 8.502365)
+12-01 05:06:09.432: D/sensor(13041): Delta acceleration: 0.3609856709624327
+12-01 05:06:09.557: D/sensor(13041): Vector acceleration: ( 2.8635418, 3.000835, 9.100571)
+12-01 05:06:09.557: D/sensor(13041): Delta acceleration: 1.4824266194907196
+12-01 05:06:09.822: D/sensor(13041): Vector acceleration: ( 2.5595355, 3.2067745, 8.835792)
+12-01 05:06:09.830: D/sensor(13041): Delta acceleration: 0.45270179848563347
+12-01 05:06:09.939: D/sensor(13041): Vector acceleration: ( 2.3339827, 3.383294, 8.884825)
+12-01 05:06:09.939: D/sensor(13041): Delta acceleration: 0.2905813086902926
+12-01 05:06:10.080: D/sensor(13041): Vector acceleration: ( 2.1770763, 3.383294, 9.0515375)
+12-01 05:06:10.080: D/sensor(13041): Delta acceleration: 0.22893831497170214
+12-01 05:06:10.182: D/sensor(13041): Vector acceleration: ( 1.9613299, 3.4911673, 8.973084)
+12-01 05:06:10.182: D/sensor(13041): Delta acceleration: 0.25364940563769933
+12-01 05:06:10.307: D/sensor(13041): Vector acceleration: ( 1.9613299, 3.5794272, 8.924051)
+12-01 05:06:10.307: D/sensor(13041): Delta acceleration: 0.10096567656019734
+12-01 05:06:10.439: D/sensor(13041): Vector acceleration: ( 1.90249, 3.6774936, 8.924051)
+12-01 05:06:10.439: D/sensor(13041): Delta acceleration: 0.11436407332131888
+12-01 05:06:10.557: D/sensor(13041): Vector acceleration: ( 1.90249, 3.7167203, 8.8652115)
+12-01 05:06:10.557: D/sensor(13041): Delta acceleration: 0.07071676860280601
+12-01 05:06:10.768: D/sensor(13041): Vector acceleration: ( 2.010363, 3.7657535, 8.825985)
+12-01 05:06:10.768: D/sensor(13041): Delta acceleration: 0.12481816298159717
+12-01 05:06:10.869: D/sensor(13041): Vector acceleration: ( 2.010363, 3.8736267, 8.718112)
+12-01 05:06:10.869: D/sensor(13041): Delta acceleration: 0.1525555751913608
+12-01 05:06:10.994: D/sensor(13041): Vector acceleration: ( 2.010363, 3.9226599, 8.718112)
+12-01 05:06:10.994: D/sensor(13041): Delta acceleration: 0.049033166007472526
+12-01 05:06:11.119: D/sensor(13041): Vector acceleration: ( 1.9515233, 3.971693, 8.659272)
+12-01 05:06:11.119: D/sensor(13041): Delta acceleration: 0.09658413316774969
+12-01 05:06:11.400: D/sensor(13041): Vector acceleration: ( 1.9515233, 4.0109196, 8.659272)
+12-01 05:06:11.400: D/sensor(13041): Delta acceleration: 0.039226531796936255
+12-01 05:06:11.690: D/sensor(13041): Vector acceleration: ( 1.9515233, 4.089373, 8.610238)
+12-01 05:06:11.690: D/sensor(13041): Delta acceleration: 0.0925165031667173
+12-01 05:06:11.815: D/sensor(13041): Vector acceleration: ( 1.8926834, 4.089373, 8.610238)
+12-01 05:06:11.815: D/sensor(13041): Delta acceleration: 0.0588399166533958
+12-01 05:06:12.002: D/sensor(13041): Vector acceleration: ( 1.8926834, 4.089373, 8.600431)
+12-01 05:06:12.002: D/sensor(13041): Delta acceleration: 0.009806632949234064
+12-01 05:06:12.322: D/sensor(13041): Vector acceleration: ( 1.8926834, 4.089373, 8.551398)
+12-01 05:06:12.322: D/sensor(13041): Delta acceleration: 0.049033166007472526
+12-01 05:06:13.002: D/sensor(13041): Vector acceleration: ( 1.8926834, 4.089373, 8.610238)
+12-01 05:06:13.002: D/sensor(13041): Delta acceleration: 0.05883979794271854
+12-01 05:06:13.260: D/sensor(13041): Vector acceleration: ( 1.93191, 4.089373, 8.610238)
+12-01 05:06:13.260: D/sensor(13041): Delta acceleration: 0.03922665050755414
+12-01 05:06:13.439: D/sensor(13041): Vector acceleration: ( 1.93191, 4.0403395, 8.610238)
+12-01 05:06:13.439: D/sensor(13041): Delta acceleration: 0.04903364084835114
+12-01 05:06:13.565: D/sensor(13041): Vector acceleration: ( 1.8828768, 3.9226599, 8.286619)
+12-01 05:06:13.565: D/sensor(13041): Delta acceleration: 0.34782457027415614
+12-01 05:06:13.690: D/sensor(13041): Vector acceleration: ( 1.9221034, 3.4911673, 9.061344)
+12-01 05:06:13.690: D/sensor(13041): Delta acceleration: 0.8876504582486581
+12-01 05:06:13.830: D/sensor(13041): Vector acceleration: ( 1.9221034, 3.0890946, 9.257478)
+12-01 05:06:13.830: D/sensor(13041): Delta acceleration: 0.4473598331034571
+12-01 05:06:13.955: D/sensor(13041): Vector acceleration: ( 1.8044236, 2.657602, 9.492837)
+12-01 05:06:13.955: D/sensor(13041): Delta acceleration: 0.5053991632452357
+12-01 05:06:14.065: D/sensor(13041): Vector acceleration: ( 1.8632635, 2.520309, 9.492837)
+12-01 05:06:14.065: D/sensor(13041): Delta acceleration: 0.14937044890904588
+12-01 05:06:14.197: D/sensor(13041): Vector acceleration: ( 2.0299766, 2.3143694, 9.60071)
+12-01 05:06:14.197: D/sensor(13041): Delta acceleration: 0.28607854230828317
+12-01 05:06:14.322: D/sensor(13041): Vector acceleration: ( 2.0299766, 2.3143694, 9.5320635)
+12-01 05:06:14.322: D/sensor(13041): Delta acceleration: 0.06864643112160147
+12-01 05:06:14.447: D/sensor(13041): Vector acceleration: ( 2.0692031, 2.2457228, 9.463417)
+12-01 05:06:14.447: D/sensor(13041): Delta acceleration: 0.10470634422510908
+12-01 05:06:14.580: D/sensor(13041): Vector acceleration: ( 2.265336, 2.2457228, 9.463417)
+12-01 05:06:14.580: D/sensor(13041): Delta acceleration: 0.1961329014513353
+12-01 05:06:14.885: D/sensor(13041): Vector acceleration: ( 1.99075, 2.2457228, 9.110377)
+12-01 05:06:14.885: D/sensor(13041): Delta acceleration: 0.4472522483724391
+12-01 05:06:15.010: D/sensor(13041): Vector acceleration: ( 1.8240368, 2.186883, 9.15941)
+12-01 05:06:15.010: D/sensor(13041): Delta acceleration: 0.18346562886365042
+12-01 05:06:15.135: D/sensor(13041): Vector acceleration: ( 1.7651969, 1.8730701, 9.326124)
+12-01 05:06:15.135: D/sensor(13041): Delta acceleration: 0.36018620033433457
+12-01 05:06:15.268: D/sensor(13041): Vector acceleration: ( 1.7848103, 1.3827376, 9.54187)
+12-01 05:06:15.268: D/sensor(13041): Delta acceleration: 0.5360568466982533
+12-01 05:06:15.393: D/sensor(13041): Vector acceleration: ( 2.010363, 1.2356379, 9.590903)
+12-01 05:06:15.393: D/sensor(13041): Delta acceleration: 0.2737090533477361
+12-01 05:06:15.518: D/sensor(13041): Vector acceleration: ( 2.3143694, 1.0296983, 9.679163)
+12-01 05:06:15.518: D/sensor(13041): Delta acceleration: 0.3776516544692169
+12-01 05:06:15.666: D/sensor(13041): Vector acceleration: ( 2.9812214, 1.5200307, 9.561483)
+12-01 05:06:15.666: D/sensor(13041): Delta acceleration: 0.8360418807130133
+12-01 05:06:15.775: D/sensor(13041): Vector acceleration: ( 2.9321883, 1.7259704, 9.492837)
+12-01 05:06:15.775: D/sensor(13041): Delta acceleration: 0.22254824947004245
+12-01 05:06:15.900: D/sensor(13041): Vector acceleration: ( 2.5595355, 2.0005565, 9.492837)
+12-01 05:06:15.900: D/sensor(13041): Delta acceleration: 0.46289049623382966
+12-01 05:06:16.041: D/sensor(13041): Vector acceleration: ( 2.5105023, 2.0593965, 9.296704)
+12-01 05:06:16.041: D/sensor(13041): Delta acceleration: 0.2105574097412975
+12-01 05:06:16.158: D/sensor(13041): Vector acceleration: ( 2.3339827, 2.010363, 9.51245)
+12-01 05:06:16.158: D/sensor(13041): Delta acceleration: 0.2830366763605285
+12-01 05:06:16.291: D/sensor(13041): Vector acceleration: ( 2.3339827, 1.9613299, 9.433997)
+12-01 05:06:16.291: D/sensor(13041): Delta acceleration: 0.09251559213889952
+12-01 05:06:16.479: D/sensor(13041): Vector acceleration: ( 2.2163029, 1.90249, 9.473224)
+12-01 05:06:16.479: D/sensor(13041): Delta acceleration: 0.13729311323151508
+12-01 05:06:16.611: D/sensor(13041): Vector acceleration: ( 2.1574628, 1.90249, 9.473224)
+12-01 05:06:16.619: D/sensor(13041): Delta acceleration: 0.05884003734233882
+12-01 05:06:16.729: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.8240368, 9.473224)
+12-01 05:06:16.729: D/sensor(13041): Delta acceleration: 0.08771329846122006
+12-01 05:06:16.854: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.7651969, 9.473224)
+12-01 05:06:16.854: D/sensor(13041): Delta acceleration: 0.0588399166533958
+12-01 05:06:17.041: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.6965504, 9.473224)
+12-01 05:06:17.041: D/sensor(13041): Delta acceleration: 0.06864654983229551
+12-01 05:06:17.166: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.6279038, 9.5320635)
+12-01 05:06:17.166: D/sensor(13041): Delta acceleration: 0.09041277910681529
+12-01 05:06:17.307: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.5592573, 9.581097)
+12-01 05:06:17.307: D/sensor(13041): Delta acceleration: 0.08435994274395607
+12-01 05:06:17.416: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.5102241, 9.581097)
+12-01 05:06:17.416: D/sensor(13041): Delta acceleration: 0.049033166007472526
+12-01 05:06:17.728: D/sensor(13041): Vector acceleration: ( 2.1182363, 1.4611908, 9.581097)
+12-01 05:06:17.728: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:18.104: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.4611908, 9.581097)
+12-01 05:06:18.104: D/sensor(13041): Delta acceleration: 0.039226531796936255
+12-01 05:06:18.361: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.4121575, 9.581097)
+12-01 05:06:18.361: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:18.479: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.372931, 9.581097)
+12-01 05:06:18.479: D/sensor(13041): Delta acceleration: 0.039226531796936255
+12-01 05:06:18.619: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.3337044, 9.581097)
+12-01 05:06:18.619: D/sensor(13041): Delta acceleration: 0.03922665050755414
+12-01 05:06:18.799: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.2748644, 9.581097)
+12-01 05:06:18.799: D/sensor(13041): Delta acceleration: 0.0588399166533958
+12-01 05:06:18.939: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.2258313, 9.581097)
+12-01 05:06:18.939: D/sensor(13041): Delta acceleration: 0.049033166007472526
+12-01 05:06:19.057: D/sensor(13041): Vector acceleration: ( 2.0790098, 1.176798, 9.581097)
+12-01 05:06:19.057: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:19.244: D/sensor(13041): Vector acceleration: ( 2.0397832, 1.176798, 9.581097)
+12-01 05:06:19.244: D/sensor(13041): Delta acceleration: 0.039226531796936255
+12-01 05:06:19.432: D/sensor(13041): Vector acceleration: ( 2.0397832, 1.1277647, 9.581097)
+12-01 05:06:19.432: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:19.572: D/sensor(13041): Vector acceleration: ( 2.0397832, 1.0787314, 9.581097)
+12-01 05:06:19.572: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:19.932: D/sensor(13041): Vector acceleration: ( 2.0397832, 1.0296983, 9.581097)
+12-01 05:06:19.932: D/sensor(13041): Delta acceleration: 0.049033166007472526
+12-01 05:06:20.057: D/sensor(13041): Vector acceleration: ( 2.0397832, 0.98066497, 9.581097)
+12-01 05:06:20.057: D/sensor(13041): Delta acceleration: 0.04903328471812328
+12-01 05:06:20.244: D/sensor(13041): Vector acceleration: ( 2.098623, 0.98066497, 9.581097)
+12-01 05:06:20.244: D/sensor(13041): Delta acceleration: 0.05883979794271854
+12-01 05:06:20.627: D/sensor(13041): Vector acceleration: ( 2.098623, 1.0198916, 9.581097)
+12-01 05:06:20.627: D/sensor(13041): Delta acceleration: 0.03922665050755414
+12-01 05:06:20.744: D/sensor(13041): Vector acceleration: ( 2.1378496, 1.0885382, 9.5320635)
+12-01 05:06:20.744: D/sensor(13041): Delta acceleration: 0.09303397687401586
+12-01 05:06:20.869: D/sensor(13041): Vector acceleration: ( 2.324176, 0.9610517, 9.355544)
+12-01 05:06:20.869: D/sensor(13041): Delta acceleration: 0.28658238528114155
+12-01 05:06:20.994: D/sensor(13041): Vector acceleration: ( 2.3634026, 0.951245, 9.92433)
+12-01 05:06:20.994: D/sensor(13041): Delta acceleration: 0.570221044444953
+12-01 05:06:21.119: D/sensor(13041): Vector acceleration: ( 4.9425516, 0.0, 11.258034)
+12-01 05:06:21.119: D/sensor(13041): Delta acceleration: 3.055428417527766
+12-01 05:06:21.244: D/sensor(13041): Vector acceleration: ( -0.35303938, 0.00980665, 9.5320635)
+12-01 05:06:21.244: D/sensor(13041): Delta acceleration: 5.569771289615753
+12-01 05:06:21.369: D/sensor(13041): Vector acceleration: ( 2.2359161, -0.2353596, 8.747532)
+12-01 05:06:21.369: D/sensor(13041): Delta acceleration: 2.7163001236414095
+12-01 05:06:21.525: D/sensor(13041): Vector acceleration: ( 2.3928225, -0.19613299, 9.375157)
+12-01 05:06:21.525: D/sensor(13041): Delta acceleration: 0.6481296543921684
+12-01 05:06:21.682: D/sensor(13041): Vector acceleration: ( 4.197246, 0.9414384, 9.18883)
+12-01 05:06:21.682: D/sensor(13041): Delta acceleration: 2.1411984086376927
+12-01 05:06:21.807: D/sensor(13041): Vector acceleration: ( 2.3339827, 0.4118793, 10.002783)
+12-01 05:06:21.807: D/sensor(13041): Delta acceleration: 2.1011192109514276
+12-01 05:06:21.932: D/sensor(13041): Vector acceleration: ( 2.2457228, 0.46091253, 10.512729)
+12-01 05:06:21.932: D/sensor(13041): Delta acceleration: 0.5198450216559268
+12-01 05:06:22.064: D/sensor(13041): Vector acceleration: ( 0.35303938, 1.4906107, 10.600988)
+12-01 05:06:22.064: D/sensor(13041): Delta acceleration: 2.156459632302899
+12-01 05:06:22.182: D/sensor(13041): Vector acceleration: ( 1.2944778, 0.1569064, 8.669079)
+12-01 05:06:22.182: D/sensor(13041): Delta acceleration: 2.5292980061532218
+12-01 05:06:22.307: D/sensor(13041): Vector acceleration: ( 1.6867437, -1.5690639, 9.139797)
+12-01 05:06:22.307: D/sensor(13041): Delta acceleration: 1.8315080167994313
+12-01 05:06:22.432: D/sensor(13041): Vector acceleration: ( 1.8436501, -0.7256921, 10.640215)
+12-01 05:06:22.432: D/sensor(13041): Delta acceleration: 1.728337062082465
+12-01 05:06:22.557: D/sensor(13041): Vector acceleration: ( 0.9414384, -0.0392266, 9.845877)
+12-01 05:06:22.557: D/sensor(13041): Delta acceleration: 1.3842666221889688
+12-01 05:06:22.807: D/sensor(13041): Vector acceleration: ( 0.9414384, -0.1176798, 9.9047165)
+12-01 05:06:22.807: D/sensor(13041): Delta acceleration: 0.09806643648038853
+12-01 05:06:22.932: D/sensor(13041): Vector acceleration: ( 0.60801226, -0.2941995, 9.9047165)
+12-01 05:06:22.932: D/sensor(13041): Delta acceleration: 0.3772693750286333
+12-01 05:06:23.057: D/sensor(13041): Vector acceleration: ( 0.8727918, -0.0392266, 9.9047165)
+12-01 05:06:23.057: D/sensor(13041): Delta acceleration: 0.3675859197100242
+12-01 05:06:53.533: D/sensor(13041): Vector acceleration: ( 0.6472389, -0.02941995, 10.110656)
+12-01 05:06:53.533: D/sensor(13041): Delta acceleration: 0.3055835166814785
+12-01 05:06:53.658: D/sensor(13041): Vector acceleration: ( -0.2745862, 0.74530536, 10.267562)
+12-01 05:06:53.658: D/sensor(13041): Delta acceleration: 1.214323073301306
+12-01 05:06:53.783: D/sensor(13041): Vector acceleration: ( -0.2353596, 0.79433864, 9.57129)
+12-01 05:06:53.783: D/sensor(13041): Delta acceleration: 0.6990976708286747
+12-01 05:06:53.908: D/sensor(13041): Vector acceleration: ( 0.16671304, 0.26477954, 9.139797)
+12-01 05:06:53.908: D/sensor(13041): Delta acceleration: 0.7926420092981288
+12-01 05:06:54.033: D/sensor(13041): Vector acceleration: ( 0.51975244, -2.2359161, 9.296704)
+12-01 05:06:54.033: D/sensor(13041): Delta acceleration: 2.5303627625587684
+12-01 05:06:54.158: D/sensor(13041): Vector acceleration: ( 0.70607877, -1.372931, 11.454167)
+12-01 05:06:54.158: D/sensor(13041): Delta acceleration: 2.3311172815747696
+12-01 05:06:54.291: D/sensor(13041): Vector acceleration: ( 0.4314926, -1.6082906, 8.953471)
+12-01 05:06:54.291: D/sensor(13041): Delta acceleration: 2.526711905266522
+12-01 05:06:54.533: D/sensor(13041): Vector acceleration: ( 0.30400613, -0.78453195, 9.963556)
+12-01 05:06:54.533: D/sensor(13041): Delta acceleration: 1.3096193763821165
+12-01 05:06:54.783: D/sensor(13041): Vector acceleration: ( 0.20593965, -0.78453195, 9.963556)
+12-01 05:06:54.783: D/sensor(13041): Delta acceleration: 0.09806647921621969

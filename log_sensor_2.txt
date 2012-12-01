@@ -1,0 +1,1484 @@
+11-30 19:48:17.049: D/sensor(7532): Current delta acceleration:17.590210255314513
+11-30 19:48:17.174: D/sensor(7532): Current delta acceleration:8.51264327456634
+11-30 19:48:17.236: D/sensor(7532): Current delta acceleration:5.778620931449368
+11-30 19:48:17.299: D/sensor(7532): Current delta acceleration:5.202804784687148
+11-30 19:48:17.369: D/sensor(7532): Current delta acceleration:4.0013678119431955
+11-30 19:48:17.424: D/sensor(7532): Current delta acceleration:2.522558761985956
+11-30 19:48:17.486: D/sensor(7532): Current delta acceleration:1.5720304893808028
+11-30 19:48:17.549: D/sensor(7532): Current delta acceleration:0.5228486805930102
+11-30 19:48:17.619: D/sensor(7532): Current delta acceleration:0.8238764047380642
+11-30 19:48:17.674: D/sensor(7532): Current delta acceleration:0.5982932641533407
+11-30 19:48:17.736: D/sensor(7532): Current delta acceleration:2.3621430990298173
+11-30 19:48:17.799: D/sensor(7532): Current delta acceleration:2.67321351192655
+11-30 19:48:17.861: D/sensor(7532): Current delta acceleration:0.780892290239333
+11-30 19:48:17.924: D/sensor(7532): Current delta acceleration:1.4501143410423047
+11-30 19:48:17.986: D/sensor(7532): Current delta acceleration:2.3986377943074335
+11-30 19:48:18.049: D/sensor(7532): Current delta acceleration:2.1925935571733324
+11-30 19:48:18.111: D/sensor(7532): Current delta acceleration:1.133361630694224
+11-30 19:48:18.174: D/sensor(7532): Current delta acceleration:2.355077606671862
+11-30 19:48:18.236: D/sensor(7532): Current delta acceleration:1.4875856711456328
+11-30 19:48:18.299: D/sensor(7532): Current delta acceleration:2.360607103396591
+11-30 19:48:18.361: D/sensor(7532): Current delta acceleration:0.8466137571085373
+11-30 19:48:18.424: D/sensor(7532): Current delta acceleration:1.2672408350246047
+11-30 19:48:18.486: D/sensor(7532): Current delta acceleration:0.6942855451837072
+11-30 19:48:18.549: D/sensor(7532): Current delta acceleration:0.36562921733543213
+11-30 19:48:18.611: D/sensor(7532): Current delta acceleration:0.5723472250609796
+11-30 19:48:18.674: D/sensor(7532): Current delta acceleration:1.0386539889513968
+11-30 19:48:18.736: D/sensor(7532): Current delta acceleration:0.2715729356303639
+11-30 19:48:18.807: D/sensor(7532): Current delta acceleration:0.6699323291908205
+11-30 19:48:18.861: D/sensor(7532): Current delta acceleration:0.32312219242226486
+11-30 19:48:18.924: D/sensor(7532): Current delta acceleration:0.2981493727399941
+11-30 19:48:18.986: D/sensor(7532): Current delta acceleration:0.4610220944639623
+11-30 19:48:19.064: D/sensor(7532): Current delta acceleration:0.3696325546346633
+11-30 19:48:19.119: D/sensor(7532): Current delta acceleration:0.17002745888691423
+11-30 19:48:19.174: D/sensor(7532): Current delta acceleration:0.7149781898026423
+11-30 19:48:19.299: D/sensor(7532): Current delta acceleration:0.426422161729385
+11-30 19:48:19.299: D/sensor(7532): Current delta acceleration:0.6213195198505963
+11-30 19:48:19.361: D/sensor(7532): Current delta acceleration:1.1986367866906475
+11-30 19:48:19.424: D/sensor(7532): Current delta acceleration:1.0499550787081287
+11-30 19:48:19.486: D/sensor(7532): Current delta acceleration:7.4953413163761
+11-30 19:48:19.549: D/sensor(7532): Current delta acceleration:3.713455662883977
+11-30 19:48:19.611: D/sensor(7532): Current delta acceleration:9.891422571021604
+11-30 19:48:19.674: D/sensor(7532): Current delta acceleration:47.98626003705384
+11-30 19:48:19.736: D/sensor(7532): Current delta acceleration:20.01903391150532
+11-30 19:48:19.799: D/sensor(7532): Current delta acceleration:69.59776663869143
+11-30 19:48:19.861: D/sensor(7532): Current delta acceleration:36.89237706290505
+11-30 19:48:19.924: D/sensor(7532): Current delta acceleration:11.78388215063436
+11-30 19:48:19.986: D/sensor(7532): Current delta acceleration:14.540789354560877
+11-30 19:48:20.064: D/sensor(7532): Current delta acceleration:3.873179961979988
+11-30 19:48:20.127: D/sensor(7532): Current delta acceleration:4.948990019440776
+11-30 19:48:20.174: D/sensor(7532): Current delta acceleration:3.5940709509790407
+11-30 19:48:20.236: D/sensor(7532): Current delta acceleration:4.638273420386688
+11-30 19:48:20.291: D/sensor(7532): Current delta acceleration:3.6746670111483932
+11-30 19:48:20.299: D/sensor(7532): Current delta acceleration:2.6674410967057045
+11-30 19:48:20.361: D/sensor(7532): Current delta acceleration:3.0804542984261887
+11-30 19:48:20.432: D/sensor(7532): Current delta acceleration:3.2187691104654923
+11-30 19:48:20.494: D/sensor(7532): Current delta acceleration:2.5945454492269446
+11-30 19:48:20.557: D/sensor(7532): Current delta acceleration:2.021819657241939
+11-30 19:48:20.619: D/sensor(7532): Current delta acceleration:0.43987786006621
+11-30 19:48:20.682: D/sensor(7532): Current delta acceleration:0.42734551717054564
+11-30 19:48:20.744: D/sensor(7532): Current delta acceleration:2.601659641227873
+11-30 19:48:20.814: D/sensor(7532): Current delta acceleration:2.5006650040221916
+11-30 19:48:20.869: D/sensor(7532): Current delta acceleration:1.4104276274457574
+11-30 19:48:20.932: D/sensor(7532): Current delta acceleration:2.725179326867578
+11-30 19:48:20.971: D/sensor(7532): Current delta acceleration:0.4782167396545532
+11-30 19:48:21.010: D/sensor(7532): Current delta acceleration:3.4645767539109644
+11-30 19:48:21.057: D/sensor(7532): Current delta acceleration:2.16019311359538
+11-30 19:48:21.119: D/sensor(7532): Current delta acceleration:2.3943848806330204
+11-30 19:48:21.182: D/sensor(7532): Current delta acceleration:2.767636532056147
+11-30 19:48:21.252: D/sensor(7532): Current delta acceleration:7.823554435025216
+11-30 19:48:21.330: D/sensor(7532): Current delta acceleration:3.71742635298675
+11-30 19:48:21.385: D/sensor(7532): Current delta acceleration:4.216805469103099
+11-30 19:48:21.455: D/sensor(7532): Current delta acceleration:1.0186954156025207
+11-30 19:48:21.525: D/sensor(7532): Current delta acceleration:1.3506380127681967
+11-30 19:48:21.588: D/sensor(7532): Current delta acceleration:0.9424940290691953
+11-30 19:48:21.588: D/sensor(7532): Current delta acceleration:0.9494239679481761
+11-30 19:48:21.611: D/sensor(7532): Current delta acceleration:0.6856969468054767
+11-30 19:49:20.486: D/sensor(7532): Current delta acceleration:3.9087152865155117
+11-30 19:49:20.611: D/sensor(7532): Current delta acceleration:0.5852372117305432
+11-30 19:49:20.674: D/sensor(7532): Current delta acceleration:0.5939757269385675
+11-30 19:49:20.807: D/sensor(7532): Current delta acceleration:0.7686732587269742
+11-30 19:49:20.861: D/sensor(7532): Current delta acceleration:0.3260049678432747
+11-30 19:49:20.924: D/sensor(7532): Current delta acceleration:0.32506383351523893
+11-30 19:49:20.986: D/sensor(7532): Current delta acceleration:0.7568270775061035
+11-30 19:49:21.064: D/sensor(7532): Current delta acceleration:0.5401337525060932
+11-30 19:49:21.111: D/sensor(7532): Current delta acceleration:0.6140291306841892
+11-30 19:49:21.174: D/sensor(7532): Current delta acceleration:1.0714364937080678
+11-30 19:49:21.236: D/sensor(7532): Current delta acceleration:0.7084655965475999
+11-30 19:49:21.299: D/sensor(7532): Current delta acceleration:0.3514463444722504
+11-30 19:49:21.369: D/sensor(7532): Current delta acceleration:0.6485315737218237
+11-30 19:49:21.424: D/sensor(7532): Current delta acceleration:0.5520685181939129
+11-30 19:49:21.486: D/sensor(7532): Current delta acceleration:0.18210247758251413
+11-30 19:49:21.549: D/sensor(7532): Current delta acceleration:0.3333918351255446
+11-30 19:49:21.611: D/sensor(7532): Current delta acceleration:0.9935188072509388
+11-30 19:49:21.682: D/sensor(7532): Current delta acceleration:0.729264965697612
+11-30 19:49:21.736: D/sensor(7532): Current delta acceleration:1.503703314230092
+11-30 19:49:21.799: D/sensor(7532): Current delta acceleration:0.9042812535561832
+11-30 19:49:21.861: D/sensor(7532): Current delta acceleration:1.0348153758662515
+11-30 19:49:21.924: D/sensor(7532): Current delta acceleration:0.8815555908408368
+11-30 19:49:21.994: D/sensor(7532): Current delta acceleration:1.5535666868140607
+11-30 19:49:22.057: D/sensor(7532): Current delta acceleration:2.887316650910834
+11-30 19:49:22.111: D/sensor(7532): Current delta acceleration:1.002634393145557
+11-30 19:49:22.174: D/sensor(7532): Current delta acceleration:0.6662314728027036
+11-30 19:49:22.236: D/sensor(7532): Current delta acceleration:1.4972493064064742
+11-30 19:49:22.299: D/sensor(7532): Current delta acceleration:1.7624655618752567
+11-30 19:49:22.361: D/sensor(7532): Current delta acceleration:0.6451936496898649
+11-30 19:49:22.424: D/sensor(7532): Current delta acceleration:3.3829996880946407
+11-30 19:49:22.486: D/sensor(7532): Current delta acceleration:2.3058896824833583
+11-30 19:49:22.549: D/sensor(7532): Current delta acceleration:2.3597112757046146
+11-30 19:49:22.611: D/sensor(7532): Current delta acceleration:0.8868669226441909
+11-30 19:49:22.674: D/sensor(7532): Current delta acceleration:0.7478373261414489
+11-30 19:49:22.736: D/sensor(7532): Current delta acceleration:1.6624432776390259
+11-30 19:49:22.799: D/sensor(7532): Current delta acceleration:0.3792694356875645
+11-30 19:49:22.861: D/sensor(7532): Current delta acceleration:0.41826884468273284
+11-30 19:49:26.869: D/sensor(7532): Current delta acceleration:0.27440555057017274
+11-30 19:49:33.315: D/sensor(7532): Current delta acceleration:9.67728559914312
+11-30 19:49:33.377: D/sensor(7532): Current delta acceleration:2.7019859957215617
+11-30 19:49:33.439: D/sensor(7532): Current delta acceleration:0.6103075667737119
+11-30 19:49:33.518: D/sensor(7532): Current delta acceleration:2.451281978976328
+11-30 19:49:33.572: D/sensor(7532): Current delta acceleration:1.3615314435798718
+11-30 19:49:33.635: D/sensor(7532): Current delta acceleration:3.4125428473049806
+11-30 19:49:33.697: D/sensor(7532): Current delta acceleration:2.4211015019842015
+11-30 19:49:33.760: D/sensor(7532): Current delta acceleration:1.6266945293390571
+11-30 19:49:33.822: D/sensor(7532): Current delta acceleration:1.9887558046612286
+11-30 19:49:33.885: D/sensor(7532): Current delta acceleration:0.8159205986268209
+11-30 19:49:33.963: D/sensor(7532): Current delta acceleration:0.6722533690927447
+11-30 19:49:34.010: D/sensor(7532): Current delta acceleration:0.2284800672987881
+11-30 19:49:34.072: D/sensor(7532): Current delta acceleration:0.6394580120815727
+11-30 19:49:34.143: D/sensor(7532): Current delta acceleration:0.6602643167199442
+11-30 19:49:34.197: D/sensor(7532): Current delta acceleration:0.47802859063614195
+11-30 19:49:34.260: D/sensor(7532): Current delta acceleration:0.28403801024554426
+11-30 19:49:34.322: D/sensor(7532): Current delta acceleration:0.3727586441598413
+11-30 19:49:34.385: D/sensor(7532): Current delta acceleration:0.15697697560309118
+11-30 19:49:34.447: D/sensor(7532): Current delta acceleration:0.38985294338845666
+11-30 19:49:34.510: D/sensor(7532): Current delta acceleration:0.3182369535068905
+11-30 19:49:34.572: D/sensor(7532): Current delta acceleration:1.3673276121006501
+11-30 19:49:34.635: D/sensor(7532): Current delta acceleration:0.7546815986481549
+11-30 19:49:34.697: D/sensor(7532): Current delta acceleration:0.25491430738406295
+11-30 19:49:34.768: D/sensor(7532): Current delta acceleration:1.0508915726276136
+11-30 19:49:34.822: D/sensor(7532): Current delta acceleration:0.2709580403322007
+11-30 19:49:34.885: D/sensor(7532): Current delta acceleration:0.26193281216114034
+11-30 19:49:35.010: D/sensor(7532): Current delta acceleration:0.8351708577718979
+11-30 19:49:35.080: D/sensor(7532): Current delta acceleration:0.696073073263084
+11-30 19:49:35.135: D/sensor(7532): Current delta acceleration:0.32467743014451805
+11-30 19:49:35.197: D/sensor(7532): Current delta acceleration:0.17742507347136588
+11-30 19:49:35.221: D/sensor(7532): Current delta acceleration:0.08310424588622739
+11-30 19:49:35.322: D/sensor(7532): Current delta acceleration:0.08437938446997957
+11-30 19:49:35.385: D/sensor(7532): Current delta acceleration:0.09940947782515898
+11-30 19:49:35.447: D/sensor(7532): Current delta acceleration:0.06527049712059392
+11-30 19:49:35.510: D/sensor(7532): Current delta acceleration:0.07407485980003066
+11-30 19:49:37.205: D/sensor(7532): Current delta acceleration:1.4233205803799371
+11-30 19:49:37.268: D/sensor(7532): Current delta acceleration:0.42490966201403213
+11-30 19:49:37.338: D/sensor(7532): Current delta acceleration:0.0974346937802548
+11-30 19:49:37.580: D/sensor(7532): Current delta acceleration:3.047705747373063
+11-30 19:49:37.650: D/sensor(7532): Current delta acceleration:0.9365179004048056
+11-30 19:49:37.705: D/sensor(7532): Current delta acceleration:0.15526031342709537
+11-30 19:49:37.830: D/sensor(7532): Current delta acceleration:1.448216752531831
+11-30 19:49:37.893: D/sensor(7532): Current delta acceleration:0.7858255295215983
+11-30 19:49:37.971: D/sensor(7532): Current delta acceleration:0.3902218836712533
+11-30 19:49:38.080: D/sensor(7532): Current delta acceleration:0.2969985880344556
+11-30 19:49:38.143: D/sensor(7532): Current delta acceleration:0.16727114127130735
+11-30 19:49:38.205: D/sensor(7532): Current delta acceleration:0.18555624084927483
+11-30 19:49:38.268: D/sensor(7532): Current delta acceleration:0.11394032767883665
+11-30 19:49:38.330: D/sensor(7532): Current delta acceleration:0.08242674130722684
+11-30 19:49:38.393: D/sensor(7532): Current delta acceleration:0.10685277959514365
+11-30 19:49:38.518: D/sensor(7532): Current delta acceleration:0.09277047102351485
+11-30 19:49:38.580: D/sensor(7532): Current delta acceleration:0.06358493210723824
+11-30 19:49:38.705: D/sensor(7532): Current delta acceleration:0.05535694358637098
+11-30 19:49:38.768: D/sensor(7532): Current delta acceleration:0.06321240259173964
+11-30 19:49:39.018: D/sensor(7532): Current delta acceleration:0.08633971373850241
+11-30 19:49:39.080: D/sensor(7532): Current delta acceleration:0.03669032229098916
+11-30 19:49:39.143: D/sensor(7532): Current delta acceleration:0.05899226249606195
+11-30 19:49:39.205: D/sensor(7532): Current delta acceleration:0.02720176070646894
+11-30 19:49:39.330: D/sensor(7532): Current delta acceleration:0.03155641165993388
+11-30 19:49:39.455: D/sensor(7532): Current delta acceleration:0.040072626200027654
+11-30 19:49:39.580: D/sensor(7532): Current delta acceleration:0.07007962976921824
+11-30 19:49:39.643: D/sensor(7532): Current delta acceleration:0.08212339244391229
+11-30 19:49:39.705: D/sensor(7532): Current delta acceleration:0.07957717584066032
+11-30 19:49:39.830: D/sensor(7532): Current delta acceleration:0.20707553713730126
+11-30 19:49:39.900: D/sensor(7532): Current delta acceleration:0.032411429793752264
+11-30 19:49:40.080: D/sensor(7532): Current delta acceleration:0.1579041422664195
+11-30 19:49:40.150: D/sensor(7532): Current delta acceleration:0.08746847655620539
+11-30 19:49:40.268: D/sensor(7532): Current delta acceleration:0.11119589565533983
+11-30 19:49:40.330: D/sensor(7532): Current delta acceleration:0.07270801940461258
+11-30 19:49:40.643: D/sensor(7532): Current delta acceleration:0.7123838530788738
+11-30 19:49:40.713: D/sensor(7532): Current delta acceleration:0.21499344205835103
+11-30 19:49:40.768: D/sensor(7532): Current delta acceleration:0.14684575327391447
+11-30 19:49:40.893: D/sensor(7532): Current delta acceleration:0.3459648391685902
+11-30 19:49:41.033: D/sensor(7532): Current delta acceleration:0.2664977629649976
+11-30 19:49:41.080: D/sensor(7532): Current delta acceleration:0.18872823367077887
+11-30 19:49:41.143: D/sensor(7532): Current delta acceleration:0.7889184725912567
+11-30 19:49:41.205: D/sensor(7532): Current delta acceleration:0.08087212328459796
+11-30 19:49:41.268: D/sensor(7532): Current delta acceleration:1.2894544525740572
+11-30 19:49:41.330: D/sensor(7532): Current delta acceleration:0.2357589630377994
+11-30 19:49:41.393: D/sensor(7532): Current delta acceleration:0.8152526663321626
+11-30 19:49:41.455: D/sensor(7532): Current delta acceleration:1.4829076641967454
+11-30 19:49:41.518: D/sensor(7532): Current delta acceleration:0.34665567019372917
+11-30 19:49:41.580: D/sensor(7532): Current delta acceleration:1.4403353385414008
+11-30 19:49:41.643: D/sensor(7532): Current delta acceleration:2.369142033890245
+11-30 19:49:41.705: D/sensor(7532): Current delta acceleration:2.0729797455920225
+11-30 19:49:41.768: D/sensor(7532): Current delta acceleration:2.527292430893188
+11-30 19:49:41.830: D/sensor(7532): Current delta acceleration:2.3146300944341105
+11-30 19:49:41.893: D/sensor(7532): Current delta acceleration:3.553844444155083
+11-30 19:49:41.963: D/sensor(7532): Current delta acceleration:0.3912777786935681
+11-30 19:49:42.018: D/sensor(7532): Current delta acceleration:1.0981787256028497
+11-30 19:49:42.127: D/sensor(7532): Current delta acceleration:3.496027735934016
+11-30 19:49:42.143: D/sensor(7532): Current delta acceleration:6.313420596837213
+11-30 19:49:42.205: D/sensor(7532): Current delta acceleration:3.189227365421677
+11-30 19:49:42.268: D/sensor(7532): Current delta acceleration:4.1124400033023845
+11-30 19:49:42.330: D/sensor(7532): Current delta acceleration:6.888898637552781
+11-30 19:49:42.393: D/sensor(7532): Current delta acceleration:16.911017516037713
+11-30 19:49:42.455: D/sensor(7532): Current delta acceleration:4.669937803846736
+11-30 19:49:42.518: D/sensor(7532): Current delta acceleration:4.861401297975313
+11-30 19:49:42.580: D/sensor(7532): Current delta acceleration:3.5769286175378086
+11-30 19:49:42.643: D/sensor(7532): Current delta acceleration:13.013085455279477
+11-30 19:49:42.705: D/sensor(7532): Current delta acceleration:15.720824330389075
+11-30 19:49:42.775: D/sensor(7532): Current delta acceleration:20.02208710819051
+11-30 19:49:42.830: D/sensor(7532): Current delta acceleration:4.317863335797127
+11-30 19:49:42.893: D/sensor(7532): Current delta acceleration:3.849928317703154
+11-30 19:49:42.955: D/sensor(7532): Current delta acceleration:5.364711584638314
+11-30 19:49:43.018: D/sensor(7532): Current delta acceleration:5.332358191670674
+11-30 19:49:43.088: D/sensor(7532): Current delta acceleration:4.691343435713434
+11-30 19:49:43.143: D/sensor(7532): Current delta acceleration:4.456250830351978
+11-30 19:49:43.189: D/sensor(7532): Current delta acceleration:2.577663033450993
+11-30 19:49:43.205: D/sensor(7532): Current delta acceleration:1.826493603114286
+11-30 19:49:43.268: D/sensor(7532): Current delta acceleration:0.9405092263182397
+11-30 19:49:43.330: D/sensor(7532): Current delta acceleration:0.9142538017212682
+11-30 19:49:43.393: D/sensor(7532): Current delta acceleration:1.2668647345647834
+11-30 19:49:43.455: D/sensor(7532): Current delta acceleration:1.3445290813173651
+11-30 19:49:43.518: D/sensor(7532): Current delta acceleration:0.9676133840494708
+11-30 19:49:43.580: D/sensor(7532): Current delta acceleration:0.8635385397443002
+11-30 19:49:43.643: D/sensor(7532): Current delta acceleration:0.20157236215579785
+11-30 19:49:43.705: D/sensor(7532): Current delta acceleration:0.28132947487627763
+11-30 19:49:43.768: D/sensor(7532): Current delta acceleration:0.7540084690508798
+11-30 19:49:43.830: D/sensor(7532): Current delta acceleration:0.3394162350046279
+11-30 19:49:43.893: D/sensor(7532): Current delta acceleration:0.26394480954887706
+11-30 19:49:43.955: D/sensor(7532): Current delta acceleration:0.5948635000041922
+11-30 19:49:44.018: D/sensor(7532): Current delta acceleration:0.49392517579748385
+11-30 19:49:44.080: D/sensor(7532): Current delta acceleration:0.26517796766350926
+11-30 19:49:44.143: D/sensor(7532): Current delta acceleration:0.3512514857942916
+11-30 19:49:44.213: D/sensor(7532): Current delta acceleration:0.4516872418504365
+11-30 19:49:44.268: D/sensor(7532): Current delta acceleration:0.2530691432547262
+11-30 19:49:44.369: D/sensor(7532): Current delta acceleration:0.36965011072248743
+11-30 19:49:44.393: D/sensor(7532): Current delta acceleration:0.1767356184203303
+11-30 19:49:44.455: D/sensor(7532): Current delta acceleration:1.7959376004685161
+11-30 19:49:44.525: D/sensor(7532): Current delta acceleration:2.049810503133127
+11-30 19:49:44.580: D/sensor(7532): Current delta acceleration:5.323027289249485
+11-30 19:49:44.643: D/sensor(7532): Current delta acceleration:9.67773772546612
+11-30 19:49:44.705: D/sensor(7532): Current delta acceleration:12.009032346952699
+11-30 19:49:44.768: D/sensor(7532): Current delta acceleration:19.65879603940053
+11-30 19:49:44.830: D/sensor(7532): Current delta acceleration:4.177511343903495
+11-30 19:49:44.893: D/sensor(7532): Current delta acceleration:11.997768194559796
+11-30 19:49:44.955: D/sensor(7532): Current delta acceleration:27.230679163313436
+11-30 19:49:45.018: D/sensor(7532): Current delta acceleration:11.15088992822574
+11-30 19:49:45.080: D/sensor(7532): Current delta acceleration:2.01978222230143
+11-30 19:49:45.143: D/sensor(7532): Current delta acceleration:1.4188809573865353
+11-30 19:49:45.205: D/sensor(7532): Current delta acceleration:5.181035989683106
+11-30 19:49:45.268: D/sensor(7532): Current delta acceleration:5.501632794854981
+11-30 19:49:45.330: D/sensor(7532): Current delta acceleration:5.070667601201542
+11-30 19:49:45.393: D/sensor(7532): Current delta acceleration:3.889057992861302
+11-30 19:49:45.455: D/sensor(7532): Current delta acceleration:2.2733788761301565
+11-30 19:49:45.518: D/sensor(7532): Current delta acceleration:0.8358162765309214
+11-30 19:49:45.643: D/sensor(7532): Current delta acceleration:1.9508116182370436
+11-30 19:49:45.705: D/sensor(7532): Current delta acceleration:1.2529996642791956
+11-30 19:49:45.830: D/sensor(7532): Current delta acceleration:0.9890971980705372
+11-30 19:49:45.893: D/sensor(7532): Current delta acceleration:0.4155809701815778
+11-30 19:49:45.955: D/sensor(7532): Current delta acceleration:0.17327151496481452
+11-30 19:49:46.088: D/sensor(7532): Current delta acceleration:0.5422024705562499
+11-30 19:49:46.143: D/sensor(7532): Current delta acceleration:1.9586644467656535
+11-30 19:49:46.205: D/sensor(7532): Current delta acceleration:0.8534388038404598
+11-30 19:49:46.275: D/sensor(7532): Current delta acceleration:3.8056534122653773
+11-30 19:49:46.330: D/sensor(7532): Current delta acceleration:6.852554301701204
+11-30 19:49:46.393: D/sensor(7532): Current delta acceleration:21.870514328032073
+11-30 19:49:46.455: D/sensor(7532): Current delta acceleration:8.731736223012106
+11-30 19:49:46.518: D/sensor(7532): Current delta acceleration:2.639627121399319
+11-30 19:49:46.588: D/sensor(7532): Current delta acceleration:15.122744557589458
+11-30 19:49:46.643: D/sensor(7532): Current delta acceleration:27.51940233513098
+11-30 19:49:46.705: D/sensor(7532): Current delta acceleration:9.272071281389502
+11-30 19:49:46.768: D/sensor(7532): Current delta acceleration:4.436530853607878
+11-30 19:49:46.830: D/sensor(7532): Current delta acceleration:5.115300932950431
+11-30 19:49:46.900: D/sensor(7532): Current delta acceleration:7.5399618452407005
+11-30 19:49:46.955: D/sensor(7532): Current delta acceleration:4.951735822172654
+11-30 19:49:47.018: D/sensor(7532): Current delta acceleration:3.9521502472892447
+11-30 19:49:47.080: D/sensor(7532): Current delta acceleration:2.752665614967333
+11-30 19:49:47.143: D/sensor(7532): Current delta acceleration:0.9233123113520587
+11-30 19:49:47.205: D/sensor(7532): Current delta acceleration:1.1141483610861096
+11-30 19:49:47.268: D/sensor(7532): Current delta acceleration:1.4321006878772546
+11-30 19:49:47.330: D/sensor(7532): Current delta acceleration:1.5690531069275535
+11-30 19:49:47.393: D/sensor(7532): Current delta acceleration:1.3561935026293617
+11-30 19:49:47.455: D/sensor(7532): Current delta acceleration:2.046292637105246
+11-30 19:49:47.518: D/sensor(7532): Current delta acceleration:2.609941341135601
+11-30 19:49:47.580: D/sensor(7532): Current delta acceleration:13.521660840652986
+11-30 19:49:47.643: D/sensor(7532): Current delta acceleration:25.739429859880712
+11-30 19:49:47.705: D/sensor(7532): Current delta acceleration:12.118196761442002
+11-30 19:49:47.768: D/sensor(7532): Current delta acceleration:13.026637443371742
+11-30 19:49:47.830: D/sensor(7532): Current delta acceleration:5.254069975957292
+11-30 19:49:47.893: D/sensor(7532): Current delta acceleration:20.233139742700743
+11-30 19:49:47.955: D/sensor(7532): Current delta acceleration:28.376862721073042
+11-30 19:49:48.018: D/sensor(7532): Current delta acceleration:4.850077968639255
+11-30 19:49:48.080: D/sensor(7532): Current delta acceleration:5.986169132778531
+11-30 19:49:48.143: D/sensor(7532): Current delta acceleration:7.854691249284215
+11-30 19:49:48.205: D/sensor(7532): Current delta acceleration:4.664137540945217
+11-30 19:49:48.268: D/sensor(7532): Current delta acceleration:3.3072543084545245
+11-30 19:49:48.400: D/sensor(7532): Current delta acceleration:3.3962428932270026
+11-30 19:49:48.400: D/sensor(7532): Current delta acceleration:1.9289216286226576
+11-30 19:49:48.455: D/sensor(7532): Current delta acceleration:1.3382100190437112
+11-30 19:49:48.517: D/sensor(7532): Current delta acceleration:1.445992304759041
+11-30 19:49:48.580: D/sensor(7532): Current delta acceleration:1.6280080390844163
+11-30 19:49:48.643: D/sensor(7532): Current delta acceleration:1.5198004712099675
+11-30 19:49:48.705: D/sensor(7532): Current delta acceleration:0.9623122267430654
+11-30 19:49:48.768: D/sensor(7532): Current delta acceleration:0.49884474927523376
+11-30 19:49:48.830: D/sensor(7532): Current delta acceleration:0.1746016767370796
+11-30 19:49:48.893: D/sensor(7532): Current delta acceleration:0.2883523129797573
+11-30 19:49:48.963: D/sensor(7532): Current delta acceleration:0.30949140921026264
+11-30 19:49:49.018: D/sensor(7532): Current delta acceleration:1.2114700130950329
+11-30 19:49:49.080: D/sensor(7532): Current delta acceleration:15.868167398041452
+11-30 19:49:49.143: D/sensor(7532): Current delta acceleration:12.833657859232947
+11-30 19:49:49.205: D/sensor(7532): Current delta acceleration:20.98622987776561
+11-30 19:49:49.275: D/sensor(7532): Current delta acceleration:34.88136282681985
+11-30 19:49:49.330: D/sensor(7532): Current delta acceleration:19.111843794940025
+11-30 19:49:49.393: D/sensor(7532): Current delta acceleration:37.17312451924693
+11-30 19:49:49.416: D/sensor(7532): Current delta acceleration:2.8534631535002846
+11-30 19:49:49.455: D/sensor(7532): Current delta acceleration:10.716669976296712
+11-30 19:49:49.518: D/sensor(7532): Current delta acceleration:8.528223639756819
+11-30 19:49:49.588: D/sensor(7532): Current delta acceleration:2.0523727780871472
+11-30 19:49:49.643: D/sensor(7532): Current delta acceleration:2.5206253869746655
+11-30 19:49:49.705: D/sensor(7532): Current delta acceleration:2.4668424938873654
+11-30 19:49:49.768: D/sensor(7532): Current delta acceleration:2.95942170087145
+11-30 19:49:49.838: D/sensor(7532): Current delta acceleration:3.809455281163512
+11-30 19:49:49.893: D/sensor(7532): Current delta acceleration:3.0612622309323982
+11-30 19:49:49.955: D/sensor(7532): Current delta acceleration:1.5930520567688808
+11-30 19:49:50.018: D/sensor(7532): Current delta acceleration:1.3887209769580287
+11-30 19:49:50.080: D/sensor(7532): Current delta acceleration:0.6208083738733137
+11-30 19:49:50.143: D/sensor(7532): Current delta acceleration:0.38933194723043113
+11-30 19:49:50.205: D/sensor(7532): Current delta acceleration:0.2802930685472048
+11-30 19:49:50.268: D/sensor(7532): Current delta acceleration:0.2342476578318531
+11-30 19:49:50.330: D/sensor(7532): Current delta acceleration:0.344640423870603
+11-30 19:49:50.393: D/sensor(7532): Current delta acceleration:0.8919197509167223
+11-30 19:49:50.455: D/sensor(7532): Current delta acceleration:1.0364501927246197
+11-30 19:49:50.518: D/sensor(7532): Current delta acceleration:0.17868125126984893
+11-30 19:49:50.580: D/sensor(7532): Current delta acceleration:1.1638010230592701
+11-30 19:49:50.643: D/sensor(7532): Current delta acceleration:2.472226363141691
+11-30 19:49:50.713: D/sensor(7532): Current delta acceleration:5.374891767964634
+11-30 19:49:50.768: D/sensor(7532): Current delta acceleration:1.8206168644753113
+11-30 19:49:50.830: D/sensor(7532): Current delta acceleration:3.6738008683697827
+11-30 19:49:50.893: D/sensor(7532): Current delta acceleration:20.670262095760226
+11-30 19:49:50.955: D/sensor(7532): Current delta acceleration:32.031589175033524
+11-30 19:49:51.033: D/sensor(7532): Current delta acceleration:4.6412349004728455
+11-30 19:49:51.080: D/sensor(7532): Current delta acceleration:42.63354048650033
+11-30 19:49:51.143: D/sensor(7532): Current delta acceleration:40.759819860238125
+11-30 19:49:51.205: D/sensor(7532): Current delta acceleration:17.04573280431022
+11-30 19:49:51.268: D/sensor(7532): Current delta acceleration:6.021437494749391
+11-30 19:49:51.338: D/sensor(7532): Current delta acceleration:2.621314777088684
+11-30 19:49:51.393: D/sensor(7532): Current delta acceleration:2.480341870524653
+11-30 19:49:51.455: D/sensor(7532): Current delta acceleration:3.275421633769809
+11-30 19:49:51.518: D/sensor(7532): Current delta acceleration:4.076019328123018
+11-30 19:49:51.580: D/sensor(7532): Current delta acceleration:3.231090407423981
+11-30 19:49:51.643: D/sensor(7532): Current delta acceleration:2.629793060051739
+11-30 19:49:51.705: D/sensor(7532): Current delta acceleration:1.3633407098870596
+11-30 19:49:51.768: D/sensor(7532): Current delta acceleration:1.521037789105465
+11-30 19:49:51.830: D/sensor(7532): Current delta acceleration:1.3512535403590795
+11-30 19:49:51.893: D/sensor(7532): Current delta acceleration:0.3140879459416044
+11-30 19:49:51.955: D/sensor(7532): Current delta acceleration:4.912268185181315
+11-30 19:49:52.018: D/sensor(7532): Current delta acceleration:5.935152573588765
+11-30 19:49:52.096: D/sensor(7532): Current delta acceleration:9.161641170953624
+11-30 19:49:52.143: D/sensor(7532): Current delta acceleration:35.762909805739206
+11-30 19:49:52.205: D/sensor(7532): Current delta acceleration:18.703607156222482
+11-30 19:49:52.291: D/sensor(7532): Current delta acceleration:35.42617557704508
+11-30 19:49:52.330: D/sensor(7532): Current delta acceleration:19.63029884674454
+11-30 19:49:52.393: D/sensor(7532): Current delta acceleration:16.299425285832548
+11-30 19:49:52.455: D/sensor(7532): Current delta acceleration:7.878984926556237
+11-30 19:49:52.518: D/sensor(7532): Current delta acceleration:1.847936951684698
+11-30 19:49:52.650: D/sensor(7532): Current delta acceleration:2.8197375950574672
+11-30 19:49:52.650: D/sensor(7532): Current delta acceleration:3.7346389230335255
+11-30 19:49:52.650: D/sensor(7532): Current delta acceleration:5.214087865103028
+11-30 19:49:52.775: D/sensor(7532): Current delta acceleration:7.536435443357458
+11-30 19:49:52.830: D/sensor(7532): Current delta acceleration:3.4179508928104956
+11-30 19:49:52.893: D/sensor(7532): Current delta acceleration:1.0215073650391482
+11-30 19:49:52.955: D/sensor(7532): Current delta acceleration:1.4985197233646497
+11-30 19:49:53.018: D/sensor(7532): Current delta acceleration:1.8464112553202208
+11-30 19:49:53.104: D/sensor(7532): Current delta acceleration:1.4652474215930174
+11-30 19:49:53.143: D/sensor(7532): Current delta acceleration:1.2662616588360818
+11-30 19:49:53.205: D/sensor(7532): Current delta acceleration:0.6691452729909398
+11-30 19:49:53.268: D/sensor(7532): Current delta acceleration:0.8947053098621434
+11-30 19:49:53.338: D/sensor(7532): Current delta acceleration:3.498077409484264
+11-30 19:49:53.393: D/sensor(7532): Current delta acceleration:25.68617530989737
+11-30 19:49:53.455: D/sensor(7532): Current delta acceleration:39.31728005269677
+11-30 19:49:53.518: D/sensor(7532): Current delta acceleration:24.212699597057405
+11-30 19:49:53.580: D/sensor(7532): Current delta acceleration:29.909511153174588
+11-30 19:49:53.643: D/sensor(7532): Current delta acceleration:35.72106701802523
+11-30 19:49:53.705: D/sensor(7532): Current delta acceleration:28.788604558773013
+11-30 19:49:53.744: D/sensor(7532): Current delta acceleration:3.9608162705267747
+11-30 19:49:53.768: D/sensor(7532): Current delta acceleration:19.986575389515366
+11-30 19:49:53.830: D/sensor(7532): Current delta acceleration:5.233472512858616
+11-30 19:49:53.893: D/sensor(7532): Current delta acceleration:6.085184973833703
+11-30 19:49:53.955: D/sensor(7532): Current delta acceleration:3.4898587853573444
+11-30 19:49:54.018: D/sensor(7532): Current delta acceleration:3.967448103624804
+11-30 19:49:54.080: D/sensor(7532): Current delta acceleration:3.876740464688628
+11-30 19:49:54.143: D/sensor(7532): Current delta acceleration:4.212183157667215
+11-30 19:49:54.205: D/sensor(7532): Current delta acceleration:2.8784348245504137
+11-30 19:49:54.268: D/sensor(7532): Current delta acceleration:1.877426294233718
+11-30 19:49:54.330: D/sensor(7532): Current delta acceleration:1.0022890000171403
+11-30 19:49:54.393: D/sensor(7532): Current delta acceleration:0.5258597226128274
+11-30 19:49:54.455: D/sensor(7532): Current delta acceleration:1.2262470787394624
+11-30 19:49:54.533: D/sensor(7532): Current delta acceleration:3.438933749737411
+11-30 19:49:54.580: D/sensor(7532): Current delta acceleration:12.649101593321324
+11-30 19:49:54.643: D/sensor(7532): Current delta acceleration:18.907108709837814
+11-30 19:49:54.705: D/sensor(7532): Current delta acceleration:24.903070148719237
+11-30 19:49:54.768: D/sensor(7532): Current delta acceleration:14.629991510979359
+11-30 19:49:54.838: D/sensor(7532): Current delta acceleration:17.75992618304884
+11-30 19:49:54.893: D/sensor(7532): Current delta acceleration:40.77478696392079
+11-30 19:49:54.955: D/sensor(7532): Current delta acceleration:22.859631321187685
+11-30 19:49:55.018: D/sensor(7532): Current delta acceleration:6.036810490822087
+11-30 19:49:55.080: D/sensor(7532): Current delta acceleration:3.589413622303445
+11-30 19:49:55.143: D/sensor(7532): Current delta acceleration:2.0143447476966903
+11-30 19:49:55.205: D/sensor(7532): Current delta acceleration:2.578037514791695
+11-30 19:49:55.268: D/sensor(7532): Current delta acceleration:3.2197858014151546
+11-30 19:49:55.330: D/sensor(7532): Current delta acceleration:2.506043187310434
+11-30 19:49:55.393: D/sensor(7532): Current delta acceleration:1.8819840377390142
+11-30 19:49:55.463: D/sensor(7532): Current delta acceleration:1.107298183093031
+11-30 19:49:55.518: D/sensor(7532): Current delta acceleration:0.6868233819089585
+11-30 19:49:55.580: D/sensor(7532): Current delta acceleration:0.5962630845079716
+11-30 19:49:55.643: D/sensor(7532): Current delta acceleration:0.15891432730364483
+11-30 19:49:55.705: D/sensor(7532): Current delta acceleration:0.5647942591257891
+11-30 19:49:55.775: D/sensor(7532): Current delta acceleration:1.7759878499070814
+11-30 19:49:55.830: D/sensor(7532): Current delta acceleration:0.19282763993595034
+11-30 19:49:55.893: D/sensor(7532): Current delta acceleration:0.5343424324239372
+11-30 19:49:55.955: D/sensor(7532): Current delta acceleration:2.2243163440813367
+11-30 19:49:56.025: D/sensor(7532): Current delta acceleration:0.9191568031946169
+11-30 19:49:56.080: D/sensor(7532): Current delta acceleration:0.7932751819858641
+11-30 19:49:56.143: D/sensor(7532): Current delta acceleration:1.506993679213099
+11-30 19:49:56.205: D/sensor(7532): Current delta acceleration:1.6503730005530841
+11-30 19:49:56.268: D/sensor(7532): Current delta acceleration:2.082010752163697
+11-30 19:49:56.330: D/sensor(7532): Current delta acceleration:4.914974934542163
+11-30 19:49:56.393: D/sensor(7532): Current delta acceleration:1.098001446186218
+11-30 19:49:56.455: D/sensor(7532): Current delta acceleration:3.3298710644020426
+11-30 19:49:56.518: D/sensor(7532): Current delta acceleration:3.0122201306779726
+11-30 19:49:56.580: D/sensor(7532): Current delta acceleration:3.911393830046469
+11-30 19:49:56.666: D/sensor(7532): Current delta acceleration:6.022083333108106
+11-30 19:49:56.705: D/sensor(7532): Current delta acceleration:5.847647769491179
+11-30 19:49:56.768: D/sensor(7532): Current delta acceleration:8.270373532624788
+11-30 19:49:56.830: D/sensor(7532): Current delta acceleration:30.495523092921974
+11-30 19:49:56.908: D/sensor(7532): Current delta acceleration:10.975674174463471
+11-30 19:49:56.955: D/sensor(7532): Current delta acceleration:14.458406974025959
+11-30 19:49:57.025: D/sensor(7532): Current delta acceleration:16.740999906841267
+11-30 19:49:57.080: D/sensor(7532): Current delta acceleration:50.33049949769523
+11-30 19:49:57.143: D/sensor(7532): Current delta acceleration:21.976202144441597
+11-30 19:49:57.205: D/sensor(7532): Current delta acceleration:4.002885492978467
+11-30 19:49:57.268: D/sensor(7532): Current delta acceleration:6.763715584702108
+11-30 19:49:57.330: D/sensor(7532): Current delta acceleration:3.204930685070421
+11-30 19:49:57.393: D/sensor(7532): Current delta acceleration:2.462866133372227
+11-30 19:49:57.455: D/sensor(7532): Current delta acceleration:4.17184299642453
+11-30 19:49:57.518: D/sensor(7532): Current delta acceleration:2.6814805863115296
+11-30 19:49:57.580: D/sensor(7532): Current delta acceleration:1.9649084243596149
+11-30 19:49:57.643: D/sensor(7532): Current delta acceleration:2.1095888382640635
+11-30 19:49:57.705: D/sensor(7532): Current delta acceleration:1.3905198132455512
+11-30 19:49:57.768: D/sensor(7532): Current delta acceleration:2.372029203244796
+11-30 19:49:57.830: D/sensor(7532): Current delta acceleration:0.7906314246478289
+11-30 19:49:57.893: D/sensor(7532): Current delta acceleration:0.4914693133911932
+11-30 19:49:57.963: D/sensor(7532): Current delta acceleration:0.358669417631904
+11-30 19:49:58.041: D/sensor(7532): Current delta acceleration:0.1462859144495994
+11-30 19:49:58.080: D/sensor(7532): Current delta acceleration:0.0678918415713421
+11-30 19:49:58.158: D/sensor(7532): Current delta acceleration:0.7785780418935058
+11-30 19:49:58.205: D/sensor(7532): Current delta acceleration:0.089803790452616
+11-30 19:49:58.268: D/sensor(7532): Current delta acceleration:2.026377894361774
+11-30 19:49:58.330: D/sensor(7532): Current delta acceleration:2.2481136892085627
+11-30 19:49:58.400: D/sensor(7532): Current delta acceleration:2.817515161536108
+11-30 19:49:58.463: D/sensor(7532): Current delta acceleration:5.654696256404694
+11-30 19:49:58.525: D/sensor(7532): Current delta acceleration:0.5504569323026719
+11-30 19:49:58.588: D/sensor(7532): Current delta acceleration:1.5701023549531083
+11-30 19:49:58.650: D/sensor(7532): Current delta acceleration:5.2818536357021
+11-30 19:49:58.713: D/sensor(7532): Current delta acceleration:1.2838650045911109
+11-30 19:49:58.775: D/sensor(7532): Current delta acceleration:1.4799739443573197
+11-30 19:49:58.838: D/sensor(7532): Current delta acceleration:2.9048993653612127
+11-30 19:49:58.916: D/sensor(7532): Current delta acceleration:1.4997772210307698
+11-30 19:49:58.971: D/sensor(7532): Current delta acceleration:1.5476977539659433
+11-30 19:49:59.033: D/sensor(7532): Current delta acceleration:0.061108076404876706
+11-30 19:49:59.111: D/sensor(7532): Current delta acceleration:0.647119538530069
+11-30 19:49:59.158: D/sensor(7532): Current delta acceleration:1.4056414241009327
+11-30 19:49:59.221: D/sensor(7532): Current delta acceleration:0.5264290683020835
+11-30 19:49:59.283: D/sensor(7532): Current delta acceleration:0.599059110262757
+11-30 19:49:59.346: D/sensor(7532): Current delta acceleration:0.7479807772206337
+11-30 19:49:59.408: D/sensor(7532): Current delta acceleration:1.4135029987320937
+11-30 19:49:59.471: D/sensor(7532): Current delta acceleration:1.040242550424214
+11-30 19:49:59.533: D/sensor(7532): Current delta acceleration:2.2843933396966554
+11-30 19:49:59.564: D/sensor(7532): Current delta acceleration:0.40674425283309573
+11-30 19:49:59.596: D/sensor(7532): Current delta acceleration:0.6023937526189587
+11-30 19:49:59.666: D/sensor(7532): Current delta acceleration:3.3972036643122245
+11-30 19:49:59.721: D/sensor(7532): Current delta acceleration:3.3946510706431163
+11-30 19:49:59.791: D/sensor(7532): Current delta acceleration:1.885316568601351
+11-30 19:49:59.854: D/sensor(7532): Current delta acceleration:3.7915236198074918
+11-30 19:49:59.916: D/sensor(7532): Current delta acceleration:4.6225872447898
+11-30 19:49:59.979: D/sensor(7532): Current delta acceleration:0.1973439429396217
+11-30 19:50:00.041: D/sensor(7532): Current delta acceleration:2.037835581472828
+11-30 19:50:00.104: D/sensor(7532): Current delta acceleration:1.2053314882404278
+11-30 19:50:00.166: D/sensor(7532): Current delta acceleration:0.147945278102655
+11-30 19:50:00.228: D/sensor(7532): Current delta acceleration:0.18927984079948298
+11-30 19:50:00.291: D/sensor(7532): Current delta acceleration:0.19019971802083382
+11-30 19:50:00.354: D/sensor(7532): Current delta acceleration:0.2811157913005834
+11-30 19:50:00.416: D/sensor(7532): Current delta acceleration:0.27240712991537136
+11-30 19:50:00.682: D/sensor(7532): Current delta acceleration:0.9000308627558926
+11-30 19:50:02.955: D/sensor(7532): Current delta acceleration:0.9382478592114073
+11-30 19:52:19.291: D/sensor(7532): Current delta acceleration:0.3560155289335709
+11-30 19:52:27.807: D/sensor(7532): Current delta acceleration:1.4925186029549602
+11-30 19:54:54.518: D/sensor(7532): Current delta acceleration:0.6114203532790928
+11-30 19:58:15.994: D/sensor(7532): Current delta acceleration:1.907227437555803
+11-30 19:58:16.494: D/sensor(7532): Current delta acceleration:11.207579255292906
+11-30 20:00:28.424: D/sensor(7532): Current delta acceleration:20.073026468411843
+11-30 20:00:28.861: D/sensor(7532): Current delta acceleration:156.59610417807335
+11-30 20:00:28.924: D/sensor(7532): Current delta acceleration:38.59025793918071
+11-30 20:00:29.002: D/sensor(7532): Current delta acceleration:23.637423362184066
+11-30 20:00:29.049: D/sensor(7532): Current delta acceleration:44.6064332436337
+11-30 20:00:29.111: D/sensor(7532): Current delta acceleration:41.959077789965484
+11-30 20:00:29.174: D/sensor(7532): Current delta acceleration:30.793313388040307
+11-30 20:00:29.236: D/sensor(7532): Current delta acceleration:21.97063844901695
+11-30 20:00:29.299: D/sensor(7532): Current delta acceleration:13.84856529103709
+11-30 20:00:29.361: D/sensor(7532): Current delta acceleration:7.052170753406718
+11-30 20:00:29.424: D/sensor(7532): Current delta acceleration:4.234001565492365
+11-30 20:00:29.486: D/sensor(7532): Current delta acceleration:3.65088109394787
+11-30 20:00:29.549: D/sensor(7532): Current delta acceleration:3.344978891029524
+11-30 20:00:29.674: D/sensor(7532): Current delta acceleration:2.6803836196371575
+11-30 20:00:29.674: D/sensor(7532): Current delta acceleration:1.8955520868412512
+11-30 20:00:29.736: D/sensor(7532): Current delta acceleration:2.115761702613239
+11-30 20:00:29.799: D/sensor(7532): Current delta acceleration:0.7927164136664419
+11-30 20:00:29.932: D/sensor(7532): Current delta acceleration:0.9191071289807037
+11-30 20:00:29.986: D/sensor(7532): Current delta acceleration:0.8074552472825572
+11-30 20:00:30.057: D/sensor(7532): Current delta acceleration:0.523272388664569
+11-30 20:02:10.307: D/sensor(7829): Vector acceleration: ( 0.0, 0.0, 0.0)
+11-30 20:02:10.307: D/sensor(7829): Delta acceleration: 0.0
+11-30 20:02:10.439: D/sensor(7829): Vector acceleration: ( 0.0, 0.058629155, -0.048856735)
+11-30 20:02:10.439: D/sensor(7829): Delta acceleration: 0.0763174829414403
+11-30 20:02:10.439: D/sensor(7829): Vector acceleration: ( -1.1920929E-7, 0.05832815, -0.04860592)
+11-30 20:02:10.439: D/sensor(7829): Delta acceleration: 3.91805990040219E-4
+11-30 20:02:11.400: D/sensor(7829): Vector acceleration: ( -3.5762787E-7, 0.09645879, -0.04771614)
+11-30 20:02:11.400: D/sensor(7829): Delta acceleration: 0.03814102126427084
+11-30 20:02:12.690: D/sensor(7829): Vector acceleration: ( 0.0, 0.0, 0.0)
+11-30 20:02:12.690: D/sensor(7829): Delta acceleration: 0.10761565589853386
+11-30 20:02:12.697: D/sensor(7829): Vector acceleration: ( -0.0381037, -0.17146468, 0.0)
+11-30 20:02:12.697: D/sensor(7829): Delta acceleration: 0.17564745685622796
+11-30 20:02:12.705: D/sensor(7829): Vector acceleration: ( -0.02543807, -0.11446881, 9.536743E-7)
+11-30 20:02:12.705: D/sensor(7829): Delta acceleration: 0.05838619067082852
+11-30 20:02:12.705: D/sensor(7829): Vector acceleration: ( -0.07360494, -0.14489782, 9.536743E-7)
+11-30 20:02:12.713: D/sensor(7829): Delta acceleration: 0.05697343121218319
+11-30 20:02:12.721: D/sensor(7829): Vector acceleration: ( -0.10130155, -0.2719071, 9.536743E-7)
+11-30 20:02:12.721: D/sensor(7829): Delta acceleration: 0.12999406509882103
+11-30 20:02:12.721: D/sensor(7829): Vector acceleration: ( -0.24456215, 0.51037955, 9.536743E-7)
+11-30 20:02:12.721: D/sensor(7829): Delta acceleration: 0.7952961708296116
+11-30 20:02:12.728: D/sensor(7829): Vector acceleration: ( -0.22526014, -0.6691862, 0.03908539)
+11-30 20:02:12.728: D/sensor(7829): Delta acceleration: 1.1803708150091194
+11-30 20:02:12.728: D/sensor(7829): Vector acceleration: ( -0.196473, -0.7122796, 0.03815174)
+11-30 20:02:12.728: D/sensor(7829): Delta acceleration: 0.05183257470437885
+11-30 20:02:12.744: D/sensor(7829): Vector acceleration: ( -0.10466778, -0.6365487, 0.06618309)
+11-30 20:02:12.744: D/sensor(7829): Delta acceleration: 0.12226662681096036
+11-30 20:02:12.744: D/sensor(7829): Vector acceleration: ( -0.04418069, -0.761385, 0.11366367)
+11-30 20:02:12.744: D/sensor(7829): Delta acceleration: 0.14661924511176136
+11-30 20:02:12.752: D/sensor(7829): Vector acceleration: ( -0.04152751, -0.6456575, 0.09871197)
+11-30 20:02:12.752: D/sensor(7829): Delta acceleration: 0.1167195673483709
+11-30 20:02:12.760: D/sensor(7829): Vector acceleration: ( -0.053252876, -0.6745305, 0.08033085)
+11-30 20:02:12.760: D/sensor(7829): Delta acceleration: 0.0361801237233651
+11-30 20:02:12.760: D/sensor(7829): Vector acceleration: ( -0.08562827, -0.48268923, 0.05959034)
+11-30 20:02:12.760: D/sensor(7829): Delta acceleration: 0.19565635929491507
+11-30 20:02:12.760: D/sensor(7829): Vector acceleration: ( -0.123657405, -0.39922798, 0.07806969)
+11-30 20:02:12.760: D/sensor(7829): Delta acceleration: 0.09356004623961764
+11-30 20:02:12.791: D/sensor(7829): Vector acceleration: ( -0.11228591, -0.3175692, 0.10785389)
+11-30 20:02:12.791: D/sensor(7829): Delta acceleration: 0.08766165684362931
+11-30 20:02:13.135: D/sensor(7829): Vector acceleration: ( -0.11981684, -0.14542894, 0.07112789)
+11-30 20:02:13.135: D/sensor(7829): Delta acceleration: 0.17617543316311918
+11-30 20:03:39.416: D/sensor(7829): Vector acceleration: ( 0.45525038, 0.75071627, -0.32250214)
+11-30 20:03:39.416: D/sensor(7829): Delta acceleration: 1.135219463523216
+11-30 20:03:39.471: D/sensor(7829): Vector acceleration: ( -0.9101922, 1.2446228, -0.45877838)
+11-30 20:03:39.471: D/sensor(7829): Delta acceleration: 1.4584060196700501
+11-30 20:03:39.533: D/sensor(7829): Vector acceleration: ( -0.88218546, 1.8801929, 0.5552149)
+11-30 20:03:39.533: D/sensor(7829): Delta acceleration: 1.1970447131117967
+11-30 20:03:39.596: D/sensor(7829): Vector acceleration: ( -0.8742651, 1.4887507, -0.25653553)
+11-30 20:03:39.596: D/sensor(7829): Delta acceleration: 0.9012371725791182
+11-30 20:03:39.658: D/sensor(7829): Vector acceleration: ( -0.17674074, 0.9501029, -1.5024757)
+11-30 20:03:39.658: D/sensor(7829): Delta acceleration: 1.5261220899965504
+11-30 20:03:39.721: D/sensor(7829): Vector acceleration: ( 0.25117654, 0.35808092, -1.2365074)
+11-30 20:03:39.721: D/sensor(7829): Delta acceleration: 0.7773946237450318
+11-30 20:03:39.783: D/sensor(7829): Vector acceleration: ( 0.60061806, -0.1398508, -0.8969679)
+11-30 20:03:39.783: D/sensor(7829): Delta acceleration: 0.6966580647716277
+11-30 20:03:39.846: D/sensor(7829): Vector acceleration: ( 1.9482471, -1.0263057, -0.4355564)
+11-30 20:03:39.846: D/sensor(7829): Delta acceleration: 1.6777386382185357
+11-30 20:03:39.908: D/sensor(7829): Vector acceleration: ( 2.1687405, -0.9519232, -0.39456654)
+11-30 20:03:39.908: D/sensor(7829): Delta acceleration: 0.23628431497358596
+11-30 20:03:39.971: D/sensor(7829): Vector acceleration: ( 2.1478515, -0.954558, -0.19152164)
+11-30 20:03:39.971: D/sensor(7829): Delta acceleration: 0.20413359249248764
+11-30 20:03:40.033: D/sensor(7829): Vector acceleration: ( 2.0092094, -2.2774656, 0.98202705)
+11-30 20:03:40.033: D/sensor(7829): Delta acceleration: 1.773843995951351
+11-30 20:03:40.096: D/sensor(7829): Vector acceleration: ( 1.3355987, -0.8569652, 1.2297583)
+11-30 20:03:40.096: D/sensor(7829): Delta acceleration: 1.5915223803539045
+11-30 20:03:40.158: D/sensor(7829): Vector acceleration: ( -0.64382076, 0.06341085, 0.12027836)
+11-30 20:03:40.158: D/sensor(7829): Delta acceleration: 2.4487015027418164
+11-30 20:03:40.221: D/sensor(7829): Vector acceleration: ( -0.7758106, -0.35280523, 1.8738661)
+11-30 20:03:40.221: D/sensor(7829): Delta acceleration: 1.8071322705191935
+11-30 20:03:40.283: D/sensor(7829): Vector acceleration: ( -0.8121031, -0.13185978, 0.42671967)
+11-30 20:03:40.283: D/sensor(7829): Delta acceleration: 1.464365644632658
+11-30 20:03:40.346: D/sensor(7829): Vector acceleration: ( -0.6529148, -0.0050815344, 0.2064619)
+11-30 20:03:40.346: D/sensor(7829): Delta acceleration: 0.29987848721727
+11-30 20:03:40.408: D/sensor(7829): Vector acceleration: ( -0.35031116, 0.042956293, -0.001335144)
+11-30 20:03:40.408: D/sensor(7829): Delta acceleration: 0.37021104332199095
+11-30 20:03:40.471: D/sensor(7829): Vector acceleration: ( 0.009950757, 0.044215024, -0.22369957)
+11-30 20:03:40.471: D/sensor(7829): Delta acceleration: 0.423362933698453
+11-30 20:03:40.846: D/sensor(7829): Vector acceleration: ( -0.1321472, -0.09404731, 1.1049509)
+11-30 20:03:40.846: D/sensor(7829): Delta acceleration: 1.3433615988146985
+11-30 20:05:19.768: D/sensor(7829): Vector acceleration: ( -0.6451322, 0.12441236, -0.42757893)
+11-30 20:05:19.768: D/sensor(7829): Delta acceleration: 1.6308052830662696
+11-30 20:05:19.893: D/sensor(7829): Vector acceleration: ( 0.11339533, -0.018321753, -0.7637148)
+11-30 20:05:19.893: D/sensor(7829): Delta acceleration: 0.8418576955397449
+11-30 20:05:19.986: D/sensor(7829): Vector acceleration: ( 0.7401578, -0.056510508, -0.9122362)
+11-30 20:05:19.986: D/sensor(7829): Delta acceleration: 0.6452504624664765
+11-30 20:05:20.018: D/sensor(7829): Vector acceleration: ( 0.956334, -0.2458995, -0.8656168)
+11-30 20:05:20.018: D/sensor(7829): Delta acceleration: 0.29115925515116275
+11-30 20:05:20.080: D/sensor(7829): Vector acceleration: ( 0.8932109, -0.17945075, -0.68582344)
+11-30 20:05:20.088: D/sensor(7829): Delta acceleration: 0.20180588414502446
+11-30 20:05:23.908: D/sensor(7829): Vector acceleration: ( -7.913625, 2.010258, 6.7297525)
+11-30 20:05:23.908: D/sensor(7829): Delta acceleration: 11.719468727959685
+11-30 20:05:24.033: D/sensor(7829): Vector acceleration: ( -4.628383, 1.2741048, 3.7479467)
+11-30 20:05:24.033: D/sensor(7829): Delta acceleration: 4.497321285240336
+11-30 20:05:24.103: D/sensor(7829): Vector acceleration: ( -2.2166667, 0.7294233, 1.6706858)
+11-30 20:05:24.103: D/sensor(7829): Delta acceleration: 3.2292518030244137
+11-30 20:05:24.283: D/sensor(7829): Vector acceleration: ( 1.0279229, -0.24395478, -0.8286476)
+11-30 20:05:24.283: D/sensor(7829): Delta acceleration: 4.209690567569381
+11-30 20:05:26.229: D/sensor(7829): Vector acceleration: ( 7.315318, -2.2053769, -5.734681)
+11-30 20:05:26.229: D/sensor(7829): Delta acceleration: 8.212653506163807
+11-30 20:05:26.354: D/sensor(7829): Vector acceleration: ( 3.5703325, -1.1219914, -2.7785044)
+11-30 20:05:26.354: D/sensor(7829): Delta acceleration: 4.892608922682509
+11-30 20:05:26.416: D/sensor(7829): Vector acceleration: ( 1.0292819, -0.43668348, -0.8859644)
+11-30 20:05:26.416: D/sensor(7829): Delta acceleration: 3.241649757739949
+11-30 20:05:26.479: D/sensor(7829): Vector acceleration: ( -0.4537388, 0.20772302, 0.13662624)
+11-30 20:05:26.479: D/sensor(7829): Delta acceleration: 1.9131914920711026
+11-30 20:05:26.541: D/sensor(7829): Vector acceleration: ( -1.0520413, 0.3970328, 0.5611191)
+11-30 20:05:26.541: D/sensor(7829): Delta acceleration: 0.757626697532717
+11-30 20:05:26.604: D/sensor(7829): Vector acceleration: ( -1.2942705, 0.5979801, 0.62873936)
+11-30 20:05:26.604: D/sensor(7829): Delta acceleration: 0.32191195877622797
+11-30 20:05:26.666: D/sensor(7829): Vector acceleration: ( -1.1589608, 0.7449027, 0.56419086)
+11-30 20:05:26.666: D/sensor(7829): Delta acceleration: 0.209908234834906
+11-30 20:05:26.729: D/sensor(7829): Vector acceleration: ( -1.0383242, 0.6876699, 0.40470982)
+11-30 20:05:26.729: D/sensor(7829): Delta acceleration: 0.2079975501739218
+11-30 20:05:26.799: D/sensor(7829): Vector acceleration: ( -0.79701984, 1.2446909, 0.3213873)
+11-30 20:05:26.799: D/sensor(7829): Delta acceleration: 0.6127339247264518
+11-30 20:05:26.853: D/sensor(7829): Vector acceleration: ( -0.5369519, 1.0118021, 0.20101452)
+11-30 20:05:26.853: D/sensor(7829): Delta acceleration: 0.36927244063199305
+11-30 20:05:26.916: D/sensor(7829): Vector acceleration: ( -0.32585135, 0.87298894, 0.066802025)
+11-30 20:05:26.916: D/sensor(7829): Delta acceleration: 0.28608656369511637
+11-30 20:05:26.979: D/sensor(7829): Vector acceleration: ( -0.118474305, 0.90986854, 0.011464119)
+11-30 20:05:26.979: D/sensor(7829): Delta acceleration: 0.2177788515658151
+11-30 20:05:27.041: D/sensor(7829): Vector acceleration: ( 0.037790686, 0.73534185, -0.21599483)
+11-30 20:05:27.041: D/sensor(7829): Delta acceleration: 0.32652088155612036
+11-30 20:05:27.111: D/sensor(7829): Vector acceleration: ( 0.097345084, 1.5372591, -0.22299957)
+11-30 20:05:27.111: D/sensor(7829): Delta acceleration: 0.8041561186960132
+11-30 20:05:27.174: D/sensor(7829): Vector acceleration: ( 0.30428386, 1.1645896, -0.2873745)
+11-30 20:05:27.174: D/sensor(7829): Delta acceleration: 0.43110359235964424
+11-30 20:05:27.236: D/sensor(7829): Vector acceleration: ( 0.3517344, 1.1382437, -0.42882538)
+11-30 20:05:27.236: D/sensor(7829): Delta acceleration: 0.15150582517269515
+11-30 20:05:27.299: D/sensor(7829): Vector acceleration: ( 0.31377298, 1.073241, -0.657711)
+11-30 20:05:27.299: D/sensor(7829): Delta acceleration: 0.2409461726645211
+11-30 20:05:27.361: D/sensor(7829): Vector acceleration: ( 0.25620586, 1.5045681, -0.7768364)
+11-30 20:05:27.361: D/sensor(7829): Delta acceleration: 0.45116282532438484
+11-30 20:05:27.432: D/sensor(7829): Vector acceleration: ( 0.1881054, 1.3003167, -0.49817944)
+11-30 20:05:27.432: D/sensor(7829): Delta acceleration: 0.35214487159688096
+11-30 20:05:27.486: D/sensor(7829): Vector acceleration: ( -0.12400249, 1.0298293, -0.57861423)
+11-30 20:05:27.486: D/sensor(7829): Delta acceleration: 0.42076661065689613
+11-30 20:05:27.549: D/sensor(7829): Vector acceleration: ( -0.17619148, 0.98323524, -0.4420061)
+11-30 20:05:27.549: D/sensor(7829): Delta acceleration: 0.15348118645704423
+11-30 20:05:27.611: D/sensor(7829): Vector acceleration: ( -0.20193818, 0.7593496, -0.36698627)
+11-30 20:05:27.611: D/sensor(7829): Delta acceleration: 0.2375197985829305
+11-30 20:05:27.674: D/sensor(7829): Vector acceleration: ( -0.1965734, -0.15344, -0.03272915)
+11-30 20:05:27.674: D/sensor(7829): Delta acceleration: 0.9720809951265754
+11-30 20:05:27.736: D/sensor(7829): Vector acceleration: ( -0.16550115, 0.32498312, 0.060230255)
+11-30 20:05:27.744: D/sensor(7829): Delta acceleration: 0.48836013156781616
+11-30 20:05:27.799: D/sensor(7829): Vector acceleration: ( -0.17845178, 0.19851565, 0.11964035)
+11-30 20:05:27.799: D/sensor(7829): Delta acceleration: 0.1403256846926024
+11-30 20:05:27.861: D/sensor(7829): Vector acceleration: ( 0.046079338, -0.965009, -0.08203602)
+11-30 20:05:27.861: D/sensor(7829): Delta acceleration: 1.2020304271001465
+11-30 20:05:27.924: D/sensor(7829): Vector acceleration: ( 0.08576468, -0.034998894, -0.08457756)
+11-30 20:05:27.924: D/sensor(7829): Delta acceleration: 0.9308598923771774
+11-30 20:05:27.986: D/sensor(7829): Vector acceleration: ( 0.99823046, -1.2897452, 1.173563)
+11-30 20:05:27.986: D/sensor(7829): Delta acceleration: 1.9974733724717135
+11-30 20:05:28.057: D/sensor(7829): Vector acceleration: ( 0.76593316, -0.5344336, 0.2782278)
+11-30 20:05:28.064: D/sensor(7829): Delta acceleration: 1.1941871082466782
+11-30 20:05:28.111: D/sensor(7829): Vector acceleration: ( 1.6136637, -0.40426755, 1.2726908)
+11-30 20:05:28.111: D/sensor(7829): Delta acceleration: 1.313220008270886
+11-30 20:05:28.174: D/sensor(7829): Vector acceleration: ( 1.4649236, -0.4667349, 0.49518013)
+11-30 20:05:28.174: D/sensor(7829): Delta acceleration: 0.7940709013571402
+11-30 20:05:28.236: D/sensor(7829): Vector acceleration: ( 1.0064956, -0.5241021, 0.110648155)
+11-30 20:05:28.236: D/sensor(7829): Delta acceleration: 0.601092414983383
+11-30 20:05:28.314: D/sensor(7829): Vector acceleration: ( 0.98779917, -0.2307998, -0.8283291)
+11-30 20:05:28.314: D/sensor(7829): Delta acceleration: 0.9838973809130719
+11-30 20:05:28.361: D/sensor(7829): Vector acceleration: ( 0.9027586, -0.07959676, -0.68354607)
+11-30 20:05:28.361: D/sensor(7829): Delta acceleration: 0.22595658341748445
+11-30 20:05:28.424: D/sensor(7829): Vector acceleration: ( 0.6329528, -0.0027477741, -0.40098)
+11-30 20:05:28.424: D/sensor(7829): Delta acceleration: 0.39817648173008796
+11-30 20:05:28.486: D/sensor(7829): Vector acceleration: ( 0.13271499, 0.115532875, -0.33035088)
+11-30 20:05:28.486: D/sensor(7829): Delta acceleration: 0.5188609222950554
+11-30 20:05:28.549: D/sensor(7829): Vector acceleration: ( -0.11582172, 0.13757765, -0.20505905)
+11-30 20:05:28.549: D/sensor(7829): Delta acceleration: 0.2792033459043795
+11-30 20:05:28.611: D/sensor(7829): Vector acceleration: ( -0.47666252, 0.13508248, -0.035743713)
+11-30 20:05:28.611: D/sensor(7829): Delta acceleration: 0.39859753554941774
+11-30 20:05:28.674: D/sensor(7829): Vector acceleration: ( -0.5124029, 0.11425161, 0.12182236)
+11-30 20:05:28.674: D/sensor(7829): Delta acceleration: 0.16290600495948415
+11-30 20:05:28.799: D/sensor(7829): Vector acceleration: ( -0.07824564, 0.043774605, 0.15719986)
+11-30 20:05:28.799: D/sensor(7829): Delta acceleration: 0.44126079492089065
+11-30 20:05:28.861: D/sensor(7829): Vector acceleration: ( 0.08858967, 0.003404379, 0.14796257)
+11-30 20:05:28.861: D/sensor(7829): Delta acceleration: 0.171898525968776
+11-30 20:05:28.924: D/sensor(7829): Vector acceleration: ( 0.25029445, -0.016996384, 0.057400703)
+11-30 20:05:28.924: D/sensor(7829): Delta acceleration: 0.1864566383782039
+11-30 20:05:28.994: D/sensor(7829): Vector acceleration: ( 0.30340695, 0.014576197, -0.06212616)
+11-30 20:05:28.994: D/sensor(7829): Delta acceleration: 0.1345527321857754
+11-30 20:05:29.049: D/sensor(7829): Vector acceleration: ( 0.30621648, 0.014033318, -0.15118885)
+11-30 20:05:29.049: D/sensor(7829): Delta acceleration: 0.08910864734536507
+11-30 20:05:29.174: D/sensor(7829): Vector acceleration: ( 0.21824932, 0.017633677, -0.10810375)
+11-30 20:05:29.174: D/sensor(7829): Delta acceleration: 0.09801790029669112
+11-30 20:05:29.236: D/sensor(7829): Vector acceleration: ( 0.18094921, 0.016667604, -0.08561897)
+11-30 20:05:29.236: D/sensor(7829): Delta acceleration: 0.043563709158617334
+11-30 20:05:29.299: D/sensor(7829): Vector acceleration: ( 0.14669871, 0.011554956, -0.046922684)
+11-30 20:05:29.299: D/sensor(7829): Delta acceleration: 0.05192916773069238
+11-30 20:05:29.361: D/sensor(7829): Vector acceleration: ( 0.159132, 0.005105257, -0.007065773)
+11-30 20:05:29.361: D/sensor(7829): Delta acceleration: 0.0422464038980345
+11-30 20:05:29.549: D/sensor(7829): Vector acceleration: ( 0.017151594, -0.00934124, 0.08877659)
+11-30 20:05:29.549: D/sensor(7829): Delta acceleration: 0.1719095563828893
+11-30 20:05:29.924: D/sensor(7829): Vector acceleration: ( -0.42977786, -0.01732707, -0.30086613)
+11-30 20:05:29.924: D/sensor(7829): Delta acceleration: 0.5929849614878789
+11-30 20:05:30.361: D/sensor(7829): Vector acceleration: ( 1.0624087, -0.29344058, 0.59071255)
+11-30 20:05:30.361: D/sensor(7829): Delta acceleration: 1.7600488297234438
+11-30 20:05:30.486: D/sensor(7829): Vector acceleration: ( 0.69469976, -0.18469238, 0.3986025)
+11-30 20:05:30.486: D/sensor(7829): Delta acceleration: 0.42888493580484277
+11-30 20:05:31.111: D/sensor(7829): Vector acceleration: ( -0.06901431, -0.011619806, 0.081152916)
+11-30 20:05:31.111: D/sensor(7829): Delta acceleration: 0.8449778276841361
+11-30 20:05:31.174: D/sensor(7829): Vector acceleration: ( -0.39769554, 0.009849548, -0.09613609)
+11-30 20:05:31.174: D/sensor(7829): Delta acceleration: 0.3740637336716987
+11-30 20:05:31.299: D/sensor(7829): Vector acceleration: ( -0.2768159, -0.06689215, -0.16815948)
+11-30 20:05:31.299: D/sensor(7829): Delta acceleration: 0.16027647251246482
+11-30 20:05:31.361: D/sensor(7829): Vector acceleration: ( -0.13815355, -0.11565101, -0.17800903)
+11-30 20:05:31.361: D/sensor(7829): Delta acceleration: 0.14731491513633413
+11-30 20:05:31.424: D/sensor(7829): Vector acceleration: ( -0.05448222, -0.16914582, -0.13978386)
+11-30 20:05:31.424: D/sensor(7829): Delta acceleration: 0.10641311456017093
+11-30 20:05:31.486: D/sensor(7829): Vector acceleration: ( 0.008593559, -0.23319376, -0.08211136)
+11-30 20:05:31.486: D/sensor(7829): Delta acceleration: 0.10680266425313553
+11-30 20:05:31.557: D/sensor(7829): Vector acceleration: ( 0.047269106, -0.2760955, -0.028177261)
+11-30 20:05:31.564: D/sensor(7829): Delta acceleration: 0.07902686394972003
+11-30 20:05:31.611: D/sensor(7829): Vector acceleration: ( 0.062582254, -0.41393352, 0.05867195)
+11-30 20:05:31.611: D/sensor(7829): Delta acceleration: 0.1636355498616076
+11-30 20:05:31.674: D/sensor(7829): Vector acceleration: ( 0.060236454, -0.52789485, 0.12574387)
+11-30 20:05:31.674: D/sensor(7829): Delta acceleration: 0.13225480402097473
+11-30 20:05:31.736: D/sensor(7829): Vector acceleration: ( 0.047601223, -0.52720356, 0.17427444)
+11-30 20:05:31.736: D/sensor(7829): Delta acceleration: 0.050153204774956536
+11-30 20:05:31.799: D/sensor(7829): Vector acceleration: ( 0.07043195, -0.48836398, 0.15803623)
+11-30 20:05:31.799: D/sensor(7829): Delta acceleration: 0.0478898158246206
+11-30 20:05:31.877: D/sensor(7829): Vector acceleration: ( 0.10353327, -0.45514476, 0.16978359)
+11-30 20:05:31.877: D/sensor(7829): Delta acceleration: 0.04834474673596805
+11-30 20:05:31.924: D/sensor(7829): Vector acceleration: ( 0.15691018, -0.41381907, 0.17419338)
+11-30 20:05:31.924: D/sensor(7829): Delta acceleration: 0.06764874984981008
+11-30 20:05:31.986: D/sensor(7829): Vector acceleration: ( 0.13998199, -0.36406004, 0.13651276)
+11-30 20:05:31.986: D/sensor(7829): Delta acceleration: 0.06467112606939343
+11-30 20:05:32.049: D/sensor(7829): Vector acceleration: ( 0.11865735, -0.3220837, 0.09916401)
+11-30 20:05:32.049: D/sensor(7829): Delta acceleration: 0.060097267135982006
+11-30 20:05:32.150: D/sensor(7829): Vector acceleration: ( 0.09267998, -0.28163004, 0.06499386)
+11-30 20:05:32.150: D/sensor(7829): Delta acceleration: 0.05898239467151201
+11-30 20:05:32.174: D/sensor(7829): Vector acceleration: ( 0.06454158, -0.25284535, 0.036333084)
+11-30 20:05:32.174: D/sensor(7829): Delta acceleration: 0.049414249653518344
+11-30 20:05:32.236: D/sensor(7829): Vector acceleration: ( 0.07707143, -0.23412073, 0.06354427)
+11-30 20:05:32.236: D/sensor(7829): Delta acceleration: 0.03532785515121172
+11-30 20:05:32.299: D/sensor(7829): Vector acceleration: ( 0.09385848, -0.22403562, 0.048214912)
+11-30 20:05:32.299: D/sensor(7829): Delta acceleration: 0.024869736191636106
+11-30 20:05:32.799: D/sensor(7829): Vector acceleration: ( -0.95421624, 2.35425, -0.59742355)
+11-30 20:05:32.799: D/sensor(7829): Delta acceleration: 2.8570730813906784
+11-30 20:05:32.861: D/sensor(7829): Vector acceleration: ( -1.2472084, 3.103118, -0.77921104)
+11-30 20:05:32.861: D/sensor(7829): Delta acceleration: 0.8244357433599688
+11-30 20:05:32.924: D/sensor(7829): Vector acceleration: ( -1.1719577, 2.9368484, -0.7349968)
+11-30 20:05:32.924: D/sensor(7829): Delta acceleration: 0.187784753581066
+11-30 20:05:33.002: D/sensor(7829): Vector acceleration: ( -0.9908521, 2.5006108, -0.6531887)
+11-30 20:05:33.002: D/sensor(7829): Delta acceleration: 0.4793694022347928
+11-30 20:05:33.049: D/sensor(7829): Vector acceleration: ( -0.76534224, 1.8295355, -0.4889183)
+11-30 20:05:33.049: D/sensor(7829): Delta acceleration: 0.7267610012149543
+11-30 20:05:33.111: D/sensor(7829): Vector acceleration: ( -0.5767019, 1.2586886, -0.33281517)
+11-30 20:05:33.111: D/sensor(7829): Delta acceleration: 0.6211437709027121
+11-30 20:05:33.236: D/sensor(7829): Vector acceleration: ( -0.2126987, 0.43291628, -0.1015892)
+11-30 20:05:33.236: D/sensor(7829): Delta acceleration: 0.9315919683454164
+11-30 20:05:33.307: D/sensor(7829): Vector acceleration: ( -0.06264496, -0.031009912, 0.021392822)
+11-30 20:05:33.307: D/sensor(7829): Delta acceleration: 0.5028600551955151
+11-30 20:05:33.924: D/sensor(7829): Vector acceleration: ( 0.34554672, -0.84621537, 0.23683167)
+11-30 20:05:33.924: D/sensor(7829): Delta acceleration: 0.9368000278415073
+11-30 20:05:33.986: D/sensor(7829): Vector acceleration: ( 0.4512844, -1.1285172, 0.2885189)
+11-30 20:05:33.986: D/sensor(7829): Delta acceleration: 0.3058534346353199
+11-30 20:05:34.049: D/sensor(7829): Vector acceleration: ( 0.41965723, -1.0640055, 0.252491)
+11-30 20:05:34.049: D/sensor(7829): Delta acceleration: 0.08037439063762256
+11-30 20:05:34.111: D/sensor(7829): Vector acceleration: ( 0.34176207, -0.91230524, 0.1920948)
+11-30 20:05:34.111: D/sensor(7829): Delta acceleration: 0.18090971664228025
+11-30 20:05:34.174: D/sensor(7829): Vector acceleration: ( 0.30523372, -0.7232679, 0.12770176)
+11-30 20:05:34.174: D/sensor(7829): Delta acceleration: 0.20301697682990705
+11-30 20:05:34.236: D/sensor(7829): Vector acceleration: ( 0.27301002, -0.55460614, 0.07312775)
+11-30 20:05:34.236: D/sensor(7829): Delta acceleration: 0.18017625679428903
+11-30 20:05:34.299: D/sensor(7829): Vector acceleration: ( 0.2539742, -0.36636084, 0.03330803)
+11-30 20:05:34.299: D/sensor(7829): Delta acceleration: 0.19335010776082723
+11-30 20:05:34.361: D/sensor(7829): Vector acceleration: ( 0.22825861, -0.26861912, 0.04698181)
+11-30 20:05:34.361: D/sensor(7829): Delta acceleration: 0.10198876444939438
+11-30 20:05:34.424: D/sensor(7829): Vector acceleration: ( 0.17303991, -0.20898205, 0.032356262)
+11-30 20:05:34.424: D/sensor(7829): Delta acceleration: 0.08258081733569629
+11-30 20:05:35.236: D/sensor(7829): Vector acceleration: ( 0.05750203, -0.02473545, 0.018982887)
+11-30 20:05:35.236: D/sensor(7829): Delta acceleration: 0.2178867968786845
+11-30 20:05:35.299: D/sensor(7829): Vector acceleration: ( -0.005430937, 0.086609185, 0.009402275)
+11-30 20:05:35.299: D/sensor(7829): Delta acceleration: 0.1282574553381601
+11-30 20:05:35.361: D/sensor(7829): Vector acceleration: ( -0.077471495, 0.16390169, 6.904602E-4)
+11-30 20:05:35.361: D/sensor(7829): Delta acceleration: 0.10601824209740048
+11-30 20:05:35.424: D/sensor(7829): Vector acceleration: ( -0.090937614, 0.20457935, -0.006181717)
+11-30 20:05:35.424: D/sensor(7829): Delta acceleration: 0.043396264355738394
+11-30 20:05:35.486: D/sensor(7829): Vector acceleration: ( -0.08919597, 0.22467291, -0.010251999)
+11-30 20:05:35.486: D/sensor(7829): Delta acceleration: 0.020575512392078707
+11-30 20:05:35.611: D/sensor(7829): Vector acceleration: ( -0.088250875, 0.13557708, -0.008489609)
+11-30 20:05:35.611: D/sensor(7829): Delta acceleration: 0.08911827269366861
+11-30 20:05:36.135: D/sensor(7829): Vector acceleration: ( 1.1634243, -2.1186247, 0.11662102)
+11-30 20:05:36.135: D/sensor(7829): Delta acceleration: 2.581427845589503
+11-30 20:05:36.174: D/sensor(7829): Vector acceleration: ( 1.5001416, -2.761182, 0.15088654)
+11-30 20:05:36.174: D/sensor(7829): Delta acceleration: 0.7262456469643379
+11-30 20:05:36.299: D/sensor(7829): Vector acceleration: ( 0.7293376, -1.3834287, 0.07487869)
+11-30 20:05:36.299: D/sensor(7829): Delta acceleration: 1.5805443074847232
+11-30 20:05:36.361: D/sensor(7829): Vector acceleration: ( 0.26051807, -0.5478725, 0.02818203)
+11-30 20:05:36.361: D/sensor(7829): Delta acceleration: 0.9592322128352806
+11-30 20:05:36.424: D/sensor(7829): Vector acceleration: ( -0.010454416, -0.0862667, 5.683899E-4)
+11-30 20:05:36.424: D/sensor(7829): Delta acceleration: 0.5359743645003465
+11-30 20:05:36.486: D/sensor(7829): Vector acceleration: ( -0.14983582, 0.113538265, 0.024929047)
+11-30 20:05:36.486: D/sensor(7829): Delta acceleration: 0.2448318614154826
+11-30 20:05:36.635: D/sensor(7829): Vector acceleration: ( -0.18590832, 0.12948239, 0.019742966)
+11-30 20:05:36.635: D/sensor(7829): Delta acceleration: 0.03977857733833505
+11-30 20:05:36.986: D/sensor(7829): Vector acceleration: ( 0.9875083, -0.62691957, -0.12628937)
+11-30 20:05:36.986: D/sensor(7829): Delta acceleration: 1.4037007856021821
+11-30 20:05:37.049: D/sensor(7829): Vector acceleration: ( 1.3013307, -0.84239215, -0.17316437)
+11-30 20:05:37.049: D/sensor(7829): Delta acceleration: 0.3835494674325845
+11-30 20:05:37.174: D/sensor(7829): Vector acceleration: ( 0.6905968, -0.3595842, -0.10869217)
+11-30 20:05:37.174: D/sensor(7829): Delta acceleration: 0.7811888480095098
+11-30 20:05:37.299: D/sensor(7829): Vector acceleration: ( 0.18668604, 0.12580037, -0.04099655)
+11-30 20:05:37.299: D/sensor(7829): Delta acceleration: 0.7029274133050311
+11-30 20:05:37.361: D/sensor(7829): Vector acceleration: ( -0.080878496, 0.32910138, -0.17706299)
+11-30 20:05:37.361: D/sensor(7829): Delta acceleration: 0.3625412654409032
+11-30 20:05:37.424: D/sensor(7829): Vector acceleration: ( -0.24902391, 0.36296505, -0.15108204)
+11-30 20:05:37.424: D/sensor(7829): Delta acceleration: 0.17347806872766416
+11-30 20:05:37.486: D/sensor(7829): Vector acceleration: ( -0.2772863, 0.36780357, -0.09037018)
+11-30 20:05:37.486: D/sensor(7829): Delta acceleration: 0.06714241017424556
+11-30 20:05:37.986: D/sensor(7829): Vector acceleration: ( 2.4305174, -3.3258948, 1.2420197)
+11-30 20:05:37.986: D/sensor(7829): Delta acceleration: 4.769787380830008
+11-30 20:05:38.064: D/sensor(7829): Vector acceleration: ( 3.230012, -4.379539, 1.6656713)
+11-30 20:05:38.064: D/sensor(7829): Delta acceleration: 1.3888262141179653
+11-30 20:05:38.111: D/sensor(7829): Vector acceleration: ( 3.0666084, -4.105376, 1.6057005)
+11-30 20:05:38.111: D/sensor(7829): Delta acceleration: 0.3247502118991692
+11-30 20:05:38.299: D/sensor(7829): Vector acceleration: ( -0.3023498, 0.54852986, -0.13439178)
+11-30 20:05:38.299: D/sensor(7829): Delta acceleration: 6.00305257075401
+11-30 20:05:38.369: D/sensor(7829): Vector acceleration: ( -1.7602155, 2.4952743, -0.89165115)
+11-30 20:05:38.369: D/sensor(7829): Delta acceleration: 2.547278623835872
+11-30 20:05:38.424: D/sensor(7829): Vector acceleration: ( -2.1794837, 2.9279811, -1.0677261)
+11-30 20:05:38.424: D/sensor(7829): Delta acceleration: 0.6277127996320203
+11-30 20:05:38.549: D/sensor(7829): Vector acceleration: ( -1.2541151, 1.4773092, -0.5750513)
+11-30 20:05:38.549: D/sensor(7829): Delta acceleration: 1.7898280742063706
+11-30 20:05:39.111: D/sensor(7829): Vector acceleration: ( 5.9637957, -8.274996, 2.9237995)
+11-30 20:05:39.111: D/sensor(7829): Delta acceleration: 12.627258098840246
+11-30 20:05:39.236: D/sensor(7829): Vector acceleration: ( 4.45928, -5.594722, 2.1654768)
+11-30 20:05:39.236: D/sensor(7829): Delta acceleration: 3.165831572861938
+11-30 20:05:39.424: D/sensor(7829): Vector acceleration: ( -0.21304822, 0.8788953, -0.12830162)
+11-30 20:05:39.424: D/sensor(7829): Delta acceleration: 8.306611004311755
+11-30 20:05:40.174: D/sensor(7829): Vector acceleration: ( -1.8535993, 2.8059506, -0.922184)
+11-30 20:05:40.174: D/sensor(7829): Delta acceleration: 2.652394986676049
+11-30 20:05:40.236: D/sensor(7829): Vector acceleration: ( -2.4221213, 3.2474277, -1.1884499)
+11-30 20:05:40.236: D/sensor(7829): Delta acceleration: 0.7674742572580148
+11-30 20:05:40.486: D/sensor(7829): Vector acceleration: ( 1.6198865, -2.7909079, 0.8199587)
+11-30 20:05:40.486: D/sensor(7829): Delta acceleration: 7.5387685135361195
+11-30 20:05:40.549: D/sensor(7829): Vector acceleration: ( 3.2096689, -5.008713, 1.6291847)
+11-30 20:05:40.549: D/sensor(7829): Delta acceleration: 2.8462104633116723
+11-30 20:05:40.611: D/sensor(7829): Vector acceleration: ( 3.682355, -5.35741, 1.8455682)
+11-30 20:05:40.611: D/sensor(7829): Delta acceleration: 0.6259741582244073
+11-30 20:05:40.674: D/sensor(7829): Vector acceleration: ( 3.5556674, -4.71955, 1.7445393)
+11-30 20:05:40.674: D/sensor(7829): Delta acceleration: 0.658119852928039
+11-30 20:05:40.736: D/sensor(7829): Vector acceleration: ( 3.0655415, -3.6914577, 1.4642878)
+11-30 20:05:40.736: D/sensor(7829): Delta acceleration: 1.172918694168606
+11-30 20:05:40.799: D/sensor(7829): Vector acceleration: ( 2.3040679, -2.532463, 1.0237379)
+11-30 20:05:40.799: D/sensor(7829): Delta acceleration: 1.4550583806074422
+11-30 20:05:40.861: D/sensor(7829): Vector acceleration: ( 1.51144, -1.5429691, 0.6558113)
+11-30 20:05:40.861: D/sensor(7829): Delta acceleration: 1.3201239185977187
+11-30 20:05:40.924: D/sensor(7829): Vector acceleration: ( 0.7907876, -0.68978524, 0.33708096)
+11-30 20:05:40.924: D/sensor(7829): Delta acceleration: 1.161400792132029
+11-30 20:05:40.986: D/sensor(7829): Vector acceleration: ( 0.27908254, -0.14814013, 0.14153194)
+11-30 20:05:40.986: D/sensor(7829): Delta acceleration: 0.7703641073337948
+11-30 20:05:41.111: D/sensor(7829): Vector acceleration: ( -0.14522672, 0.23824853, -0.037283897)
+11-30 20:05:41.111: D/sensor(7829): Delta acceleration: 0.6010903821890012
+11-30 20:05:41.174: D/sensor(7829): Vector acceleration: ( -0.31275654, 0.30634215, -0.1091156)
+11-30 20:05:41.174: D/sensor(7829): Delta acceleration: 0.19458360082484066
+11-30 20:05:41.361: D/sensor(7829): Vector acceleration: ( 0.12809944, -0.12166202, 0.08113861)
+11-30 20:05:41.361: D/sensor(7829): Delta acceleration: 0.6432248834835465
+11-30 20:05:41.486: D/sensor(7829): Vector acceleration: ( 0.08412957, -0.13406658, 0.074728966)
+11-30 20:05:41.486: D/sensor(7829): Delta acceleration: 0.04613357032166364
+11-30 20:05:41.549: D/sensor(7829): Vector acceleration: ( 0.013123989, -0.107818425, 0.056881905)
+11-30 20:05:41.549: D/sensor(7829): Delta acceleration: 0.07777709386173393
+11-30 20:05:41.611: D/sensor(7829): Vector acceleration: ( 0.030229092, -0.069039226, 0.035553932)
+11-30 20:05:41.611: D/sensor(7829): Delta acceleration: 0.047447792831040156
+11-30 20:05:41.924: D/sensor(7829): Vector acceleration: ( -0.07337451, 0.19052285, -0.10611153)
+11-30 20:05:41.924: D/sensor(7829): Delta acceleration: 0.31332934716704003
+11-30 20:05:42.494: D/sensor(7829): Vector acceleration: ( -0.035398483, 1.0258396, -0.38888836)
+11-30 20:05:42.494: D/sensor(7829): Delta acceleration: 0.8826998073252252
+11-30 20:05:42.861: D/sensor(7829): Vector acceleration: ( -0.115201, -2.9907026, 1.1269407)
+11-30 20:05:42.861: D/sensor(7829): Delta acceleration: 4.293799947256573
+11-30 20:05:43.361: D/sensor(7829): Vector acceleration: ( -6.047949, -7.189063, 1.4129839)
+11-30 20:05:43.361: D/sensor(7829): Delta acceleration: 7.273620275378719
+11-30 20:05:45.861: D/sensor(7829): Vector acceleration: ( 2.4739628, 18.464224, -6.4738264)
+11-30 20:05:45.861: D/sensor(7829): Delta acceleration: 28.158761203567376
+11-30 20:05:46.299: D/sensor(7829): Vector acceleration: ( 19.519943, -21.4481, 12.288802)
+11-30 20:05:46.299: D/sensor(7829): Delta acceleration: 47.2820813294397
+11-30 20:05:48.564: D/sensor(7829): Vector acceleration: ( -25.484718, 15.996289, -11.535655)
+11-30 20:05:48.564: D/sensor(7829): Delta acceleration: 63.20685634844629
+11-30 20:05:48.768: D/sensor(7829): Vector acceleration: ( 7.878541, -1.4186611, 2.275425)
+11-30 20:05:48.768: D/sensor(7829): Delta acceleration: 40.089070142893995
+11-30 20:05:48.963: D/sensor(7829): Vector acceleration: ( 4.474466, -2.234459, 1.7861667)
+11-30 20:05:48.963: D/sensor(7829): Delta acceleration: 3.534491072822205
+11-30 20:05:49.135: D/sensor(7829): Vector acceleration: ( -3.6250682, 0.5540049, -0.9937811)
+11-30 20:05:49.135: D/sensor(7829): Delta acceleration: 9.005892202350168
+11-30 20:05:49.322: D/sensor(7829): Vector acceleration: ( -0.13258982, 0.2854898, -0.08739948)
+11-30 20:05:49.322: D/sensor(7829): Delta acceleration: 3.6181532557193536
+11-30 20:05:49.385: D/sensor(7829): Vector acceleration: ( 1.4147243, 0.10902858, 0.33381367)
+11-30 20:05:49.385: D/sensor(7829): Delta acceleration: 1.6133010530526415
+11-30 20:05:49.822: D/sensor(7829): Vector acceleration: ( -3.1727965, -1.4915981, -0.7409487)
+11-30 20:05:49.822: D/sensor(7829): Delta acceleration: 4.976189759576641
+11-30 20:05:49.947: D/sensor(7829): Vector acceleration: ( -1.5147295, -0.7309931, -0.44002342)
+11-30 20:05:49.947: D/sensor(7829): Delta acceleration: 1.8488542411050946
+11-30 20:05:50.143: D/sensor(7829): Vector acceleration: ( 1.4269087, 0.5012466, 0.25334072)
+11-30 20:05:50.143: D/sensor(7829): Delta acceleration: 3.2638020515162887
+11-30 20:05:50.205: D/sensor(7829): Vector acceleration: ( 2.3765202, 0.9179057, 0.49632454)
+11-30 20:05:50.205: D/sensor(7829): Delta acceleration: 1.0650857987564986
+11-30 20:05:50.393: D/sensor(7829): Vector acceleration: ( -0.9554863, -0.29588693, -0.18439865)
+11-30 20:05:50.393: D/sensor(7829): Delta acceleration: 3.6109476998027055
+11-30 20:05:50.643: D/sensor(7829): Vector acceleration: ( 0.17859888, -0.025004864, -0.024385452)
+11-30 20:05:50.643: D/sensor(7829): Delta acceleration: 1.1769156828912235
+11-30 20:05:50.783: D/sensor(7829): Vector acceleration: ( 0.2739699, 0.049854428, 0.029623032)
+11-30 20:05:50.783: D/sensor(7829): Delta acceleration: 0.13272700643490448
+11-30 20:05:50.900: D/sensor(7829): Vector acceleration: ( 0.0051834583, 0.02298373, 0.026518822)
+11-30 20:05:50.900: D/sensor(7829): Delta acceleration: 0.2701440561961317
+11-30 20:05:51.088: D/sensor(7829): Vector acceleration: ( -0.17483163, -0.013462901, -0.00467968)
+11-30 20:05:51.088: D/sensor(7829): Delta acceleration: 0.18629851435853703
+11-30 20:05:51.150: D/sensor(7829): Vector acceleration: ( -0.83800244, 0.19856036, 0.22650146)
+11-30 20:05:51.150: D/sensor(7829): Delta acceleration: 0.7336171480617579
+11-30 20:05:51.213: D/sensor(7829): Vector acceleration: ( -1.7983345, 1.7475212, 0.14006329)
+11-30 20:05:51.213: D/sensor(7829): Delta acceleration: 1.82455166835913
+11-30 20:05:51.275: D/sensor(7829): Vector acceleration: ( -1.6680909, 1.5062811, 0.186203)
+11-30 20:05:51.275: D/sensor(7829): Delta acceleration: 0.27800900633634545
+11-30 20:05:51.338: D/sensor(7829): Vector acceleration: ( -1.3886232, 0.59912163, 0.16294098)
+11-30 20:05:51.338: D/sensor(7829): Delta acceleration: 0.949516563634646
+11-30 20:05:51.424: D/sensor(7829): Vector acceleration: ( -1.0343931, 0.34476513, -0.08513832)
+11-30 20:05:51.424: D/sensor(7829): Delta acceleration: 0.5017166471244202
+11-30 20:05:51.463: D/sensor(7829): Vector acceleration: ( 0.16951609, -0.07075024, -0.11813736)
+11-30 20:05:51.463: D/sensor(7829): Delta acceleration: 1.2740248279368036
+11-30 20:05:51.525: D/sensor(7829): Vector acceleration: ( 0.456465, -0.57307094, -1.0971537)
+11-30 20:05:51.525: D/sensor(7829): Delta acceleration: 1.1371625839988315
+11-30 20:05:51.596: D/sensor(7829): Vector acceleration: ( 0.48528945, -0.6692913, -0.76968956)
+11-30 20:05:51.596: D/sensor(7829): Delta acceleration: 0.342522923579506
+11-30 20:05:51.658: D/sensor(7829): Vector acceleration: ( 0.5389073, -0.7219117, -0.46249962)
+11-30 20:05:51.658: D/sensor(7829): Delta acceleration: 0.316242682010433
+11-30 20:05:51.721: D/sensor(7829): Vector acceleration: ( -0.35299128, -0.88990045, -0.32333946)
+11-30 20:05:51.721: D/sensor(7829): Delta acceleration: 0.9181878011166925
+11-30 20:05:51.783: D/sensor(7829): Vector acceleration: ( -0.26206976, -0.9098418, 1.0423231)
+11-30 20:05:51.783: D/sensor(7829): Delta acceleration: 1.368831104331712
+11-30 20:05:51.846: D/sensor(7829): Vector acceleration: ( -0.4052745, -0.91237587, 0.44734955)
+11-30 20:05:51.846: D/sensor(7829): Delta acceleration: 0.6119702169426758
+11-30 20:05:51.908: D/sensor(7829): Vector acceleration: ( -0.61592036, -0.76565176, 0.47134113)
+11-30 20:05:51.908: D/sensor(7829): Delta acceleration: 0.25782791727380283
+11-30 20:05:51.994: D/sensor(7829): Vector acceleration: ( -0.56300336, -0.77707404, 1.1444569)
+11-30 20:05:51.994: D/sensor(7829): Delta acceleration: 0.6752891733500085
+11-30 20:05:52.033: D/sensor(7829): Vector acceleration: ( -0.62504995, -0.5361077, 0.75322247)
+11-30 20:05:52.041: D/sensor(7829): Delta acceleration: 0.4636581753102475
+11-30 20:05:52.135: D/sensor(7829): Vector acceleration: ( -0.49135828, -0.36886016, 0.35332966)
+11-30 20:05:52.135: D/sensor(7829): Delta acceleration: 0.45360717112323906
+11-30 20:05:52.158: D/sensor(7829): Vector acceleration: ( -0.41040277, -0.18439807, -0.023041725)
+11-30 20:05:52.158: D/sensor(7829): Delta acceleration: 0.4268904770018399
+11-30 20:05:52.221: D/sensor(7829): Vector acceleration: ( -0.32947442, -0.069285884, -0.1730547)
+11-30 20:05:52.221: D/sensor(7829): Delta acceleration: 0.20567961993520462
+11-30 20:05:52.307: D/sensor(7829): Vector acceleration: ( -0.21969453, 0.00976336, 0.68436146)
+11-30 20:05:52.307: D/sensor(7829): Delta acceleration: 0.8680223793471663
+11-30 20:05:52.346: D/sensor(7829): Vector acceleration: ( -0.13254377, 0.053465873, -0.25938606)
+11-30 20:05:52.346: D/sensor(7829): Delta acceleration: 0.9487700166965475
+11-30 20:05:52.408: D/sensor(7829): Vector acceleration: ( -0.028785199, 0.068250805, -0.2721119)
+11-30 20:05:52.408: D/sensor(7829): Delta acceleration: 0.105576429323527
+11-30 20:05:52.486: D/sensor(7829): Vector acceleration: ( 0.18103549, 0.058949515, -0.2652769)
+11-30 20:05:52.486: D/sensor(7829): Delta acceleration: 0.2101379358189192
+11-30 20:05:52.627: D/sensor(7829): Vector acceleration: ( 0.1829049, 0.024602383, -0.19967365)
+11-30 20:05:52.627: D/sensor(7829): Delta acceleration: 0.07407433803025515
+11-30 20:06:20.315: D/sensor(7829): Vector acceleration: ( -2.167519, -0.19443135, 1.3522663)
+11-30 20:06:20.315: D/sensor(7829): Delta acceleration: 2.825063998417347
+11-30 20:06:20.377: D/sensor(7829): Vector acceleration: ( -4.508521, -0.24630228, 1.7942305)
+11-30 20:06:20.377: D/sensor(7829): Delta acceleration: 2.3829212601651815
+11-30 20:06:20.440: D/sensor(7829): Vector acceleration: ( -4.2833147, -0.21400462, 1.6855097)
+11-30 20:06:20.440: D/sensor(7829): Delta acceleration: 0.2521532432045005
+11-30 20:06:20.502: D/sensor(7829): Vector acceleration: ( -3.7102618, -0.15225148, 1.3486156)
+11-30 20:06:20.502: D/sensor(7829): Delta acceleration: 0.6676081526215639
+11-30 20:06:20.565: D/sensor(7829): Vector acceleration: ( -2.883335, -0.09117764, 0.9575577)
+11-30 20:06:20.565: D/sensor(7829): Delta acceleration: 0.9167682995952806
+11-30 20:06:20.627: D/sensor(7829): Vector acceleration: ( -1.9918351, -0.04405121, 0.6028271)
+11-30 20:06:20.627: D/sensor(7829): Delta acceleration: 0.9606388527362156
+11-30 20:06:21.971: D/sensor(7829): Vector acceleration: ( -0.84249765, 0.020279437, 0.10844898)
+11-30 20:06:21.971: D/sensor(7829): Delta acceleration: 1.2528068024336148
+11-30 20:06:22.002: D/sensor(7829): Vector acceleration: ( -0.12515646, 0.043566264, -0.14456558)
+11-30 20:06:22.002: D/sensor(7829): Delta acceleration: 0.7610105694852642
+11-30 20:08:03.424: D/sensor(7829): Vector acceleration: ( 0.29369992, 0.033673674, -0.2057972)
+11-30 20:08:03.424: D/sensor(7829): Delta acceleration: 0.4234239435313263
+11-30 20:12:01.189: D/sensor(7829): Vector acceleration: ( 0.0, 0.0, 0.0)
+11-30 20:12:01.189: D/sensor(7829): Delta acceleration: 0.36020278960963487
+11-30 20:12:01.189: D/sensor(7829): Vector acceleration: ( 0.19611144, 0.049028397, 0.03922367)
+11-30 20:12:01.189: D/sensor(7829): Delta acceleration: 0.20591740306106088
+11-30 20:12:01.189: D/sensor(7829): Vector acceleration: ( 0.4508729, 0.09801149, 0.039188385)
+11-30 20:12:01.189: D/sensor(7829): Delta acceleration: 0.2594277184695669
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( 0.0, 0.0, 0.0)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 0.4630640887926844
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -1.4901161E-8, -0.17648602, 0.66672564)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 0.689688601819201
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -2.9802322E-8, -1.0589147, 0.86238813)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 0.9038606914094105
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -0.038279176, -0.9496305, 0.72424316)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 0.1802563577580959
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -0.022893235, 0.3629818, -0.5495205)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 1.8291149882298916
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -0.011412144, 2.3046432, -2.6890821)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 2.8892739927743554
+11-30 20:12:01.463: D/sensor(7829): Vector acceleration: ( -0.20558557, 3.157687, -3.4332867)
+11-30 20:12:01.463: D/sensor(7829): Delta acceleration: 1.1485762739350438
+11-30 20:12:01.791: D/sensor(7829): Vector acceleration: ( -0.24033904, 3.6219041, -3.8849459)
+11-30 20:12:01.791: D/sensor(7829): Delta acceleration: 0.6486150199841331
+11-30 20:12:01.791: D/sensor(7829): Vector acceleration: ( -0.27815455, 3.307542, -3.137515)
+11-30 20:12:01.791: D/sensor(7829): Delta acceleration: 0.811730460558836
+11-30 20:12:01.791: D/sensor(7829): Vector acceleration: ( -0.24509832, 2.5932343, -2.5227728)
+11-30 20:12:01.791: D/sensor(7829): Delta acceleration: 0.9429933457852778
+11-30 20:12:01.791: D/sensor(7829): Vector acceleration: ( -0.12131828, 1.8232727, -1.9254999)
+11-30 20:12:01.791: D/sensor(7829): Delta acceleration: 0.982291817825214
+11-30 20:12:01.791: D/sensor(7829): Vector acceleration: ( -0.0015488863, 1.0864859, -1.3166656)
+11-30 20:12:01.807: D/sensor(7829): Delta acceleration: 0.9632646248303973
+11-30 20:12:01.807: D/sensor(7829): Vector acceleration: ( 0.044908375, -0.6119325, 0.48876)
+11-30 20:12:01.807: D/sensor(7829): Delta acceleration: 2.479182352823165
+11-30 20:12:01.877: D/sensor(7829): Vector acceleration: ( 0.3686508, -1.0770638, 0.9595661)
+11-30 20:12:01.877: D/sensor(7829): Delta acceleration: 0.7367595754337066
+11-30 20:12:01.877: D/sensor(7829): Vector acceleration: ( 0.52868146, -1.4517002, 0.96258736)
+11-30 20:12:01.877: D/sensor(7829): Delta acceleration: 0.4073958559588149
+11-30 20:12:01.924: D/sensor(7829): Vector acceleration: ( 0.51097995, -1.4457417, 0.98501205)
+11-30 20:12:01.924: D/sensor(7829): Delta acceleration: 0.029184154384994176
+11-30 20:12:01.939: D/sensor(7829): Vector acceleration: ( 0.4928, -1.425183, 0.8237591)
+11-30 20:12:01.939: D/sensor(7829): Delta acceleration: 0.16357166231349746
+11-30 20:12:02.002: D/sensor(7829): Vector acceleration: ( 0.22956851, -0.4147334, 0.59860325)
+11-30 20:12:02.002: D/sensor(7829): Delta acceleration: 1.0681734638145657
+11-30 20:12:02.908: D/sensor(7829): Vector acceleration: ( -0.085209936, -0.8396119, 0.31259918)
+11-30 20:12:02.908: D/sensor(7829): Delta acceleration: 0.6011701270283154
+11-30 20:12:02.908: D/sensor(7829): Vector acceleration: ( -1.2497251, -0.32522655, 0.009350777)
+11-30 20:12:02.908: D/sensor(7829): Delta acceleration: 1.308681564800741
+11-30 20:12:02.908: D/sensor(7829): Vector acceleration: ( -1.2392857, -0.15537691, -0.43650627)
+11-30 20:12:02.908: D/sensor(7829): Delta acceleration: 0.47722780970485157
+11-30 20:12:02.916: D/sensor(7829): Vector acceleration: ( -0.9185566, -0.8035939, -0.44136715)
+11-30 20:12:02.916: D/sensor(7829): Delta acceleration: 0.72323993102527
+11-30 20:12:02.916: D/sensor(7829): Vector acceleration: ( -0.7554418, -0.6721424, -0.1901226)
+11-30 20:12:02.916: D/sensor(7829): Delta acceleration: 0.3271234417376431
+11-30 20:12:02.924: D/sensor(7829): Vector acceleration: ( -0.2878002, -0.60589325, -0.11597824)
+11-30 20:12:02.924: D/sensor(7829): Delta acceleration: 0.47809515404889336
+11-30 20:12:03.283: D/sensor(7829): Vector acceleration: ( 0.6101274, -1.1588328, -0.02944088)
+11-30 20:12:03.283: D/sensor(7829): Delta acceleration: 1.058066542982802
+11-30 20:12:03.283: D/sensor(7829): Vector acceleration: ( 0.7089571, -0.98317003, 0.08889103)
+11-30 20:12:03.283: D/sensor(7829): Delta acceleration: 0.23372451796327426
+11-30 20:12:03.283: D/sensor(7829): Vector acceleration: ( 0.7019968, -0.80786276, 0.16534328)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.19137929220512798
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( 0.48656142, -0.5473372, 0.16955948)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.3380884021689029
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( 0.08249164, -0.19764006, 0.38715553)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.5769822451010119
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( -0.11144245, 0.067255795, 0.055308342)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.466800609876942
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( -0.1955077, 0.32764584, -0.2303114)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.3955358047940404
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( -0.19909519, 0.33555168, -0.20807934)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.023867061873369132
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( -0.21109188, 0.30677992, -0.16830349)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.0505356581106372
+11-30 20:12:03.291: D/sensor(7829): Vector acceleration: ( -0.20289922, 0.24789572, -0.15297794)
+11-30 20:12:03.291: D/sensor(7829): Delta acceleration: 0.06139496225733785
+11-30 20:12:03.330: D/sensor(7829): Vector acceleration: ( 0.13870192, -0.2583695, 0.19325447)
+11-30 20:12:03.330: D/sensor(7829): Delta acceleration: 0.7020489193738678
+11-30 20:12:03.408: D/sensor(7829): Vector acceleration: ( 0.28556168, -0.4319827, 0.2521162)
+11-30 20:12:03.408: D/sensor(7829): Delta acceleration: 0.23489153686084568
+11-30 20:12:03.439: D/sensor(7829): Vector acceleration: ( 0.24722517, -0.49092883, 0.2765932)
+11-30 20:12:03.439: D/sensor(7829): Delta acceleration: 0.07445440400336947
+11-30 20:12:03.502: D/sensor(7829): Vector acceleration: ( 0.21097815, -0.35462207, -0.4885025)
+11-30 20:12:03.502: D/sensor(7829): Delta acceleration: 0.7779876878911538
+11-30 20:12:03.564: D/sensor(7829): Vector acceleration: ( 0.09688449, -0.25331038, 0.55229664)
+11-30 20:12:03.564: D/sensor(7829): Delta acceleration: 1.051924073405646
+11-30 20:12:03.627: D/sensor(7829): Vector acceleration: ( 0.09224534, -0.11783922, -0.1879301)
+11-30 20:12:03.627: D/sensor(7829): Delta acceleration: 0.7525354681812806
+11-30 20:12:03.690: D/sensor(7829): Vector acceleration: ( 0.098330915, -0.040063262, -0.1984539)
+11-30 20:12:03.690: D/sensor(7829): Delta acceleration: 0.07872028650273655
+11-30 20:12:03.752: D/sensor(7829): Vector acceleration: ( 0.06933844, 0.011004448, -0.12694454)
+11-30 20:12:03.752: D/sensor(7829): Delta acceleration: 0.09253141556782646
+11-30 20:12:03.814: D/sensor(7829): Vector acceleration: ( 0.05039352, 0.07616556, -0.062418938)
+11-30 20:12:03.814: D/sensor(7829): Delta acceleration: 0.0936399151268959
+11-30 20:12:03.877: D/sensor(7829): Vector acceleration: ( 0.036747873, 0.08185589, 0.030449867)
+11-30 20:12:03.877: D/sensor(7829): Delta acceleration: 0.09403828166559217
+11-30 20:12:04.010: D/sensor(7829): Vector acceleration: ( 0.06392002, 0.047729373, 0.06967735)
+11-30 20:12:04.010: D/sensor(7829): Delta acceleration: 0.0586663511624599
+11-30 20:12:04.064: D/sensor(7829): Vector acceleration: ( 0.097950995, 0.023935676, 0.08147144)
+11-30 20:12:04.064: D/sensor(7829): Delta acceleration: 0.043166512855609546
+11-30 20:12:04.127: D/sensor(7829): Vector acceleration: ( 0.12351662, -0.042874455, 0.13724613)
+11-30 20:12:04.127: D/sensor(7829): Delta acceleration: 0.09070838163029517
+11-30 20:12:04.190: D/sensor(7829): Vector acceleration: ( 0.16589433, -0.05417323, 0.110188484)
+11-30 20:12:04.190: D/sensor(7829): Delta acceleration: 0.051532990327055606
+11-30 20:12:04.252: D/sensor(7829): Vector acceleration: ( 0.20438758, -0.12632453, 0.1302967)
+11-30 20:12:04.252: D/sensor(7829): Delta acceleration: 0.08421330798424552
+11-30 20:12:04.330: D/sensor(7829): Vector acceleration: ( 0.33303326, -0.16911936, 0.10187721)
+11-30 20:12:04.330: D/sensor(7829): Delta acceleration: 0.13852356649656025
+11-30 20:12:04.377: D/sensor(7829): Vector acceleration: ( 0.29493994, -0.20166439, 0.13432312)
+11-30 20:12:04.377: D/sensor(7829): Delta acceleration: 0.059691017618930635
+11-30 20:12:04.721: D/sensor(7829): Vector acceleration: ( 0.3147834, -0.23409659, 0.109674454)
+11-30 20:12:04.721: D/sensor(7829): Delta acceleration: 0.04531188812336016
+11-30 20:12:04.721: D/sensor(7829): Vector acceleration: ( 0.30434933, -0.19806796, 0.08553505)
+11-30 20:12:04.721: D/sensor(7829): Delta acceleration: 0.04460540503291807
+11-30 20:12:04.721: D/sensor(7829): Vector acceleration: ( 0.28721368, -0.22356623, 0.06188774)
+11-30 20:12:04.721: D/sensor(7829): Delta acceleration: 0.03876838225960994
+11-30 20:12:04.721: D/sensor(7829): Vector acceleration: ( 0.21898066, -0.33289403, 0.08872509)
+11-30 20:12:04.728: D/sensor(7829): Delta acceleration: 0.13163797562647012
+11-30 20:12:04.752: D/sensor(7829): Vector acceleration: ( 0.1383813, -0.2637623, 0.09766483)
+11-30 20:12:04.752: D/sensor(7829): Delta acceleration: 0.10656157977022877
+11-30 20:12:04.815: D/sensor(7829): Vector acceleration: ( 0.11034288, -0.17921728, 0.07127094)
+11-30 20:12:04.815: D/sensor(7829): Delta acceleration: 0.0929012923375846
+11-30 20:12:04.877: D/sensor(7829): Vector acceleration: ( 0.06379783, -0.16510382, 0.108795166)
+11-30 20:12:04.877: D/sensor(7829): Delta acceleration: 0.06143043884000766
+11-30 20:12:05.002: D/sensor(7829): Vector acceleration: ( 0.07318851, -0.058058113, 0.06932068)
+11-30 20:12:05.002: D/sensor(7829): Delta acceleration: 0.1144779643813368
+11-30 20:12:05.064: D/sensor(7829): Vector acceleration: ( 0.00960809, -0.049144447, 0.10076237)
+11-30 20:12:05.064: D/sensor(7829): Delta acceleration: 0.07148778664937007
+11-30 20:12:05.143: D/sensor(7829): Vector acceleration: ( 0.1494891, -0.022546977, 0.009534836)
+11-30 20:12:05.143: D/sensor(7829): Delta acceleration: 0.1691052501150375
+11-30 20:12:05.190: D/sensor(7829): Vector acceleration: ( 0.13504352, -0.01247713, -0.04860878)
+11-30 20:12:05.190: D/sensor(7829): Delta acceleration: 0.06075159962828281
+11-30 20:12:05.252: D/sensor(7829): Vector acceleration: ( 0.050537847, 0.20606142, 0.17281151)
+11-30 20:12:05.252: D/sensor(7829): Delta acceleration: 0.3223775033665017
+11-30 20:12:05.322: D/sensor(7829): Vector acceleration: ( 0.03139071, 0.26175627, 0.16279793)
+11-30 20:12:05.322: D/sensor(7829): Delta acceleration: 0.05973943950114164
+11-30 20:12:05.377: D/sensor(7829): Vector acceleration: ( -0.1644465, 1.3030453, -0.063729286)
+11-30 20:12:05.377: D/sensor(7829): Delta acceleration: 1.083489547372771
+11-30 20:12:05.494: D/sensor(7829): Vector acceleration: ( -1.6122234, 3.627444, -1.0349712)
+11-30 20:12:05.494: D/sensor(7829): Delta acceleration: 2.9055462056826653
+11-30 20:12:05.502: D/sensor(7829): Vector acceleration: ( -1.2853963, 3.420875, -1.6902666)
+11-30 20:12:05.502: D/sensor(7829): Delta acceleration: 0.760853907323334
+11-30 20:12:05.565: D/sensor(7829): Vector acceleration: ( -2.6011999, 6.1576753, -1.6133003)
+11-30 20:12:05.565: D/sensor(7829): Delta acceleration: 3.037653500795236
+11-30 20:12:05.627: D/sensor(7829): Vector acceleration: ( -0.92342687, 4.055786, -3.4295053)
+11-30 20:12:05.627: D/sensor(7829): Delta acceleration: 3.2452212192736454
+11-30 20:12:05.690: D/sensor(7829): Vector acceleration: ( -1.3433251, 3.0498006, -2.2088923)
+11-30 20:12:05.690: D/sensor(7829): Delta acceleration: 1.6365260190541608
+11-30 20:12:05.768: D/sensor(7829): Vector acceleration: ( -0.7585592, 0.74385476, -1.585639)
+11-30 20:12:05.768: D/sensor(7829): Delta acceleration: 2.4592239469214796
+11-30 20:12:05.814: D/sensor(7829): Vector acceleration: ( -0.15096784, -0.15939331, -1.2536893)
+11-30 20:12:05.814: D/sensor(7829): Delta acceleration: 1.1380751340061013
+11-30 20:12:05.900: D/sensor(7829): Vector acceleration: ( -2.0056517, -0.8674612, 1.1761365)
+11-30 20:12:05.900: D/sensor(7829): Delta acceleration: 3.137716588299327
+11-30 20:12:05.939: D/sensor(7829): Vector acceleration: ( 1.5660914, -0.049654484, -0.057529926)
+11-30 20:12:05.939: D/sensor(7829): Delta acceleration: 3.866275810898009
+11-30 20:12:06.002: D/sensor(7829): Vector acceleration: ( 1.69121, -0.8646879, -0.10271549)
+11-30 20:12:06.002: D/sensor(7829): Delta acceleration: 0.8258183581947706
+11-30 20:12:06.064: D/sensor(7829): Vector acceleration: ( -0.16692984, 0.100859165, 3.01093)
+11-30 20:12:06.064: D/sensor(7829): Delta acceleration: 3.7522998115465698
+11-30 20:12:06.127: D/sensor(7829): Vector acceleration: ( 1.507679, -0.41838646, 0.030434132)
+11-30 20:12:06.127: D/sensor(7829): Delta acceleration: 3.457931004909843
+11-30 20:12:06.190: D/sensor(7829): Vector acceleration: ( 1.0507727, -0.2628045, -2.094812)
+11-30 20:12:06.190: D/sensor(7829): Delta acceleration: 2.1793668777756436
+11-30 20:12:06.252: D/sensor(7829): Vector acceleration: ( 1.5265459, -1.5331666, 0.1816926)
+11-30 20:12:06.252: D/sensor(7829): Delta acceleration: 2.6500287972091168
+11-30 20:12:06.322: D/sensor(7829): Vector acceleration: ( 1.3096675, -1.4077208, 1.2295151)
+11-30 20:12:06.322: D/sensor(7829): Delta acceleration: 1.0773601306668597
+11-30 20:12:06.408: D/sensor(7829): Vector acceleration: ( 0.31647766, -2.9577253, 2.2916684)
+11-30 20:12:06.408: D/sensor(7829): Delta acceleration: 2.12534935267373
+11-30 20:12:06.440: D/sensor(7829): Vector acceleration: ( 2.175713, -2.069744, 3.2924948)
+11-30 20:12:06.440: D/sensor(7829): Delta acceleration: 2.2906157656037216
+11-30 20:12:06.502: D/sensor(7829): Vector acceleration: ( 4.3402567, -2.5721898, 5.270563)
+11-30 20:12:06.502: D/sensor(7829): Delta acceleration: 2.9749714761857216
+11-30 20:12:06.564: D/sensor(7829): Vector acceleration: ( 5.6454973, -2.167234, 6.0808125)
+11-30 20:12:06.564: D/sensor(7829): Delta acceleration: 1.5887562174341503
+11-30 20:12:06.627: D/sensor(7829): Vector acceleration: ( -10.356068, -2.6675391, -1.3117914)
+11-30 20:12:06.635: D/sensor(7829): Delta acceleration: 17.633801582527607
+11-30 20:12:06.690: D/sensor(7829): Vector acceleration: ( -38.15421, -11.865426, -11.160193)
+11-30 20:12:06.690: D/sensor(7829): Delta acceleration: 30.892213540338528
+11-30 20:12:06.752: D/sensor(7829): Vector acceleration: ( -0.10127469, -10.390814, -1.3723955)
+11-30 20:12:06.752: D/sensor(7829): Delta acceleration: 39.31922047336153
+11-30 20:12:06.814: D/sensor(7829): Vector acceleration: ( 42.403336, 5.116876, 8.3053)
+11-30 20:12:06.814: D/sensor(7829): Delta acceleration: 46.26865386066603
+11-30 20:12:06.978: D/sensor(7829): Vector acceleration: ( 4.9695544, 2.4402828, -6.892365)
+11-30 20:12:06.978: D/sensor(7829): Delta acceleration: 40.4897658992754
+11-30 20:12:06.978: D/sensor(7829): Vector acceleration: ( -18.45969, -5.2564473, -1.3400984)
+11-30 20:12:06.978: D/sensor(7829): Delta acceleration: 25.27838654210104
+11-30 20:12:07.010: D/sensor(7829): Vector acceleration: ( 1.7781303, 4.628, -0.6963053)
+11-30 20:12:07.010: D/sensor(7829): Delta acceleration: 22.53189064839891
+11-30 20:12:07.072: D/sensor(7829): Vector acceleration: ( 7.0590816, 9.382098, -1.3755836)
+11-30 20:12:07.072: D/sensor(7829): Delta acceleration: 7.138019111314854
+11-30 20:12:07.416: D/sensor(7829): Vector acceleration: ( 2.3721209, 6.1359134, 1.6828194)
+11-30 20:12:07.416: D/sensor(7829): Delta acceleration: 6.469864459025711
+11-30 20:12:07.416: D/sensor(7829): Vector acceleration: ( 1.9941858, 5.1742067, 1.8429546)
+11-30 20:12:07.424: D/sensor(7829): Delta acceleration: 1.0456375665815894
+11-30 20:12:07.424: D/sensor(7829): Vector acceleration: ( 0.65179706, 2.0801983, 1.9584808)
+11-30 20:12:07.432: D/sensor(7829): Delta acceleration: 3.374647051405171
+11-30 20:12:07.432: D/sensor(7829): Vector acceleration: ( 0.4152808, 0.8888767, 0.8192787)
+11-30 20:12:07.432: D/sensor(7829): Delta acceleration: 1.6652232675094674
+11-30 20:12:07.432: D/sensor(7829): Vector acceleration: ( 0.07177806, -0.19930053, 0.5239258)
+11-30 20:12:07.439: D/sensor(7829): Delta acceleration: 1.1787098755788246
+11-30 20:12:07.471: D/sensor(7829): Vector acceleration: ( -0.24863762, -0.9321408, 0.23612118)
+11-30 20:12:07.471: D/sensor(7829): Delta acceleration: 0.850030939156179
+11-30 20:12:07.510: D/sensor(7829): Vector acceleration: ( -0.40065908, -1.1597617, -0.061494827)
+11-30 20:12:07.510: D/sensor(7829): Delta acceleration: 0.4043476975788761
+11-30 20:12:07.572: D/sensor(7829): Vector acceleration: ( -0.40334007, -1.2880085, 0.042686462)
+11-30 20:12:07.572: D/sensor(7829): Delta acceleration: 0.16525182609299388
+11-30 20:12:07.635: D/sensor(7829): Vector acceleration: ( -0.1752646, -1.261379, 0.17193317)
+11-30 20:12:07.635: D/sensor(7829): Delta acceleration: 0.26350001633008874
+11-30 20:12:07.697: D/sensor(7829): Vector acceleration: ( -0.007619664, -0.977456, 0.21569252)
+11-30 20:12:07.697: D/sensor(7829): Delta acceleration: 0.33261388260727726
+11-30 20:12:07.760: D/sensor(7829): Vector acceleration: ( 0.3134478, -0.59704185, 0.15879726)
+11-30 20:12:07.760: D/sensor(7829): Delta acceleration: 0.5010352146846216
+11-30 20:12:07.822: D/sensor(7829): Vector acceleration: ( 0.43358213, -0.29419398, 0.1139164)
+11-30 20:12:07.822: D/sensor(7829): Delta acceleration: 0.3288820140000782
+11-30 20:12:07.885: D/sensor(7829): Vector acceleration: ( 0.4345335, -0.052724004, 0.09141064)
+11-30 20:12:07.885: D/sensor(7829): Delta acceleration: 0.24251838353860802
+11-30 20:12:07.955: D/sensor(7829): Vector acceleration: ( 0.31829998, 0.008905411, 0.047873497)
+11-30 20:12:07.955: D/sensor(7829): Delta acceleration: 0.13857813474083278
+11-30 20:12:08.018: D/sensor(7829): Vector acceleration: ( 0.14989303, -0.010734558, 0.009539604)
+11-30 20:12:08.018: D/sensor(7829): Delta acceleration: 0.1738278303251019
+11-30 20:12:08.080: D/sensor(7829): Vector acceleration: ( -0.011435956, -0.04459977, -0.016352654)
+11-30 20:12:08.080: D/sensor(7829): Delta acceleration: 0.1668661266371587
+11-30 20:12:08.143: D/sensor(7829): Vector acceleration: ( -0.34907788, -0.67611563, -0.028456688)
+11-30 20:12:08.143: D/sensor(7829): Delta acceleration: 0.7162128532723177
+11-30 20:12:08.205: D/sensor(7829): Vector acceleration: ( -0.43269226, -0.5134975, -0.029244423)
+11-30 20:12:08.205: D/sensor(7829): Delta acceleration: 0.182856917487252
+11-30 20:12:08.268: D/sensor(7829): Vector acceleration: ( -0.42177907, -0.41710472, -0.09228325)
+11-30 20:12:08.268: D/sensor(7829): Delta acceleration: 0.1156916274952746
+11-30 20:12:08.330: D/sensor(7829): Vector acceleration: ( -0.29601792, -0.3377453, -0.014193535)
+11-30 20:12:08.330: D/sensor(7829): Delta acceleration: 0.16796364887387155
+11-30 20:12:08.393: D/sensor(7829): Vector acceleration: ( -0.1537809, -0.31394422, -0.0034837723)
+11-30 20:12:08.393: D/sensor(7829): Delta acceleration: 0.14461174862488624
+11-30 20:12:08.455: D/sensor(7829): Vector acceleration: ( -0.013616174, -0.20573938, 0.27029324)
+11-30 20:12:08.455: D/sensor(7829): Delta acceleration: 0.32604951904924195
+11-30 20:12:08.518: D/sensor(7829): Vector acceleration: ( 0.05710367, -1.1527327, 0.21247578)
+11-30 20:12:08.518: D/sensor(7829): Delta acceleration: 0.9513887632018762
+11-30 20:12:08.580: D/sensor(7829): Vector acceleration: ( -0.5371728, -1.0641207, 0.25723648)
+11-30 20:12:08.580: D/sensor(7829): Delta acceleration: 0.6025115614292258
+11-30 20:12:08.643: D/sensor(7829): Vector acceleration: ( 0.308779, -0.8836881, -0.48814106)
+11-30 20:12:08.643: D/sensor(7829): Delta acceleration: 1.1418310086567176
+11-30 20:12:08.705: D/sensor(7829): Vector acceleration: ( 1.2583572, -0.012185752, -0.56714725)
+11-30 20:12:08.705: D/sensor(7829): Delta acceleration: 1.291300547405308
+11-30 20:12:08.768: D/sensor(7829): Vector acceleration: ( 1.022664, -0.7016618, 0.30042362)
+11-30 20:12:08.768: D/sensor(7829): Delta acceleration: 1.1329641306452447
+11-30 20:12:08.830: D/sensor(7829): Vector acceleration: ( 0.67346686, -0.5920536, 0.280097)
+11-30 20:12:08.830: D/sensor(7829): Delta acceleration: 0.3665593232182233
+11-30 20:12:08.893: D/sensor(7829): Vector acceleration: ( 0.26657468, -0.45102647, 0.3148775)
+11-30 20:12:08.893: D/sensor(7829): Delta acceleration: 0.4320411722378632
+11-30 20:12:08.955: D/sensor(7829): Vector acceleration: ( 0.74895465, -0.33754185, 0.109666824)
+11-30 20:12:08.955: D/sensor(7829): Delta acceleration: 0.5363586728258688
+11-30 20:12:09.018: D/sensor(7829): Vector acceleration: ( 0.33891022, -0.23844928, 0.084085464)
+11-30 20:12:09.018: D/sensor(7829): Delta acceleration: 0.4226229712734593
+11-30 20:12:09.080: D/sensor(7829): Vector acceleration: ( -0.082042515, 0.013865113, 0.08560467)
+11-30 20:12:09.080: D/sensor(7829): Delta acceleration: 0.4907810916554251
+11-30 20:12:09.143: D/sensor(7829): Vector acceleration: ( -0.4795222, -0.10490291, 0.24215698)
+11-30 20:12:09.143: D/sensor(7829): Delta acceleration: 0.44340113304541445
+11-30 20:12:09.236: D/sensor(7829): Vector acceleration: ( -0.74989516, -0.21547379, 0.20026684)
+11-30 20:12:09.236: D/sensor(7829): Delta acceleration: 0.2950969959271591
+11-30 20:12:09.299: D/sensor(7829): Vector acceleration: ( -0.7798774, -0.342852, 0.87979317)
+11-30 20:12:09.299: D/sensor(7829): Delta acceleration: 0.6920116812651693
+11-30 20:12:09.361: D/sensor(7829): Vector acceleration: ( -0.6902405, -1.3719614, 0.08810997)
+11-30 20:12:09.361: D/sensor(7829): Delta acceleration: 1.3014849801121955
+11-30 20:12:09.416: D/sensor(7829): Vector acceleration: ( -0.5509428, -0.10022449, 0.08203888)
+11-30 20:12:09.416: D/sensor(7829): Delta acceleration: 1.2793573962157299
+11-30 20:12:09.486: D/sensor(7829): Vector acceleration: ( -1.0304737, -0.051291093, -0.8347416)
+11-30 20:12:09.486: D/sensor(7829): Delta acceleration: 1.0357754564777832
+11-30 20:12:09.518: D/sensor(7829): Vector acceleration: ( 0.43144917, 0.06555861, 1.0745506)
+11-30 20:12:09.518: D/sensor(7829): Delta acceleration: 2.4075441719669284
+11-30 20:12:09.580: D/sensor(7829): Vector acceleration: ( 0.50454515, 0.347623, 0.15100574)
+11-30 20:12:09.580: D/sensor(7829): Delta acceleration: 0.9684206187280812
+11-30 20:12:09.643: D/sensor(7829): Vector acceleration: ( 0.40263283, 0.3918937, -0.017785072)
+11-30 20:12:09.643: D/sensor(7829): Delta acceleration: 0.20208007467401978
+11-30 20:12:09.705: D/sensor(7829): Vector acceleration: ( 0.47830358, 0.37944534, -0.2367096)
+11-30 20:12:09.705: D/sensor(7829): Delta acceleration: 0.23196760229438082
+11-30 20:12:09.768: D/sensor(7829): Vector acceleration: ( 0.18734466, 0.35719058, -0.2649908)
+11-30 20:12:09.768: D/sensor(7829): Delta acceleration: 0.29317606902013393
+11-30 20:12:09.830: D/sensor(7829): Vector acceleration: ( 0.13267773, 0.3074654, -0.22840214)
+11-30 20:12:09.830: D/sensor(7829): Delta acceleration: 0.08246087353919371
+11-30 20:12:09.908: D/sensor(7829): Vector acceleration: ( -0.027644008, 0.1651034, -0.2124157)
+11-30 20:12:09.908: D/sensor(7829): Delta acceleration: 0.2150013172447528
+11-30 20:12:09.963: D/sensor(7829): Vector acceleration: ( -0.3248596, 0.08253224, -0.17025375)
+11-30 20:12:09.963: D/sensor(7829): Delta acceleration: 0.31134020639524335
+11-30 20:12:10.143: D/sensor(7829): Vector acceleration: ( -0.21462293, -0.07146189, -0.21446514)
+11-30 20:12:10.143: D/sensor(7829): Delta acceleration: 0.19447612977342746
+11-30 20:12:10.252: D/sensor(7829): Vector acceleration: ( -0.11365457, -1.1464968, 0.20635319)
+11-30 20:12:10.252: D/sensor(7829): Delta acceleration: 1.1588712826725673
+11-30 20:12:10.275: D/sensor(7829): Vector acceleration: ( 9.499453E-4, -0.054416366, 0.082686424)
+11-30 20:12:10.275: D/sensor(7829): Delta acceleration: 1.1050190904098842
+11-30 20:12:10.330: D/sensor(7829): Vector acceleration: ( 0.101745635, 0.029686987, 0.30273438)
+11-30 20:12:10.330: D/sensor(7829): Delta acceleration: 0.25623084903889165
+11-30 20:12:10.393: D/sensor(7829): Vector acceleration: ( 0.16313963, 0.12844913, 0.058818817)
+11-30 20:12:10.393: D/sensor(7829): Delta acceleration: 0.27021840172104744
+11-30 20:12:10.463: D/sensor(7829): Vector acceleration: ( 0.11426595, -0.04950419, 0.08164883)
+11-30 20:12:10.463: D/sensor(7829): Delta acceleration: 0.18594953113388069
+11-30 20:12:10.588: D/sensor(7829): Vector acceleration: ( 0.037640274, 0.011698708, 0.015063286)
+11-30 20:12:10.588: D/sensor(7829): Delta acceleration: 0.11853659050212512
+11-30 20:12:10.650: D/sensor(7829): Vector acceleration: ( 0.16670066, -0.16070801, -0.016875267)
+11-30 20:12:10.650: D/sensor(7829): Delta acceleration: 0.21771709072411022
+11-30 20:12:10.713: D/sensor(7829): Vector acceleration: ( 0.18730661, -0.10122909, -0.024991035)
+11-30 20:12:10.713: D/sensor(7829): Delta acceleration: 0.06346820629578181
+11-30 20:12:10.775: D/sensor(7829): Vector acceleration: ( 0.21515334, -0.042984545, 0.027943611)
+11-30 20:12:10.775: D/sensor(7829): Delta acceleration: 0.0834861855456038
+11-30 20:12:10.853: D/sensor(7829): Vector acceleration: ( 0.22971448, -0.03155023, 0.034965515)
+11-30 20:12:10.853: D/sensor(7829): Delta acceleration: 0.019800952591176365
+11-30 20:12:10.971: D/sensor(7829): Vector acceleration: ( 0.16797987, 0.06036243, 0.035362244)
+11-30 20:12:10.971: D/sensor(7829): Delta acceleration: 0.11072152918929865
+11-30 20:12:43.440: D/sensor(7829): Vector acceleration: ( -3.0486267, -0.6322808, -0.57104874)
+11-30 20:12:43.440: D/sensor(7829): Delta acceleration: 3.345750584574727
+11-30 20:12:43.565: D/sensor(7829): Vector acceleration: ( -1.8716114, -0.47563004, -0.32126236)
+11-30 20:12:43.565: D/sensor(7829): Delta acceleration: 1.2133827378272
+11-30 20:12:43.689: D/sensor(7829): Vector acceleration: ( -0.56964236, -0.19312564, -0.08859348)
+11-30 20:12:43.689: D/sensor(7829): Delta acceleration: 1.352430032129585
+11-30 20:12:44.377: D/sensor(7829): Vector acceleration: ( 0.4724771, -0.00204321, 0.09078121)
+11-30 20:12:44.377: D/sensor(7829): Delta acceleration: 1.0745700885853318
+11-30 20:15:07.666: D/sensor(7829): Vector acceleration: ( 2.3089724, 0.38359287, 0.41062832)
+11-30 20:15:07.666: D/sensor(7829): Delta acceleration: 1.9036103404885458
+11-30 20:16:18.291: D/sensor(7829): Vector acceleration: ( 5.1460195, 1.0552423, 0.96587753)
+11-30 20:16:18.291: D/sensor(7829): Delta acceleration: 2.967869838945167
+11-30 20:16:18.361: D/sensor(7829): Vector acceleration: ( 5.1881194, 1.1636064, 0.9575348)
+11-30 20:16:18.361: D/sensor(7829): Delta acceleration: 0.1165537945587689
+11-30 20:16:18.424: D/sensor(7829): Vector acceleration: ( 4.3138046, 1.0587273, 0.78692055)
+11-30 20:16:18.424: D/sensor(7829): Delta acceleration: 0.896958867581228
+11-30 20:16:37.463: D/sensor(7829): Vector acceleration: ( -21.554123, -5.356225, -3.9477434)
+11-30 20:16:37.463: D/sensor(7829): Delta acceleration: 27.068770248275158
+11-30 20:16:51.525: D/sensor(7829): Vector acceleration: ( -28.59377, -7.207268, -5.226857)
+11-30 20:16:51.525: D/sensor(7829): Delta acceleration: 7.390474281629149
+11-30 20:16:51.713: D/sensor(7829): Vector acceleration: ( 4.9549675, 0.60708815, 0.94428444)
+11-30 20:16:51.713: D/sensor(7829): Delta acceleration: 34.99521277249486
+11-30 20:16:51.775: D/sensor(7829): Vector acceleration: ( 18.52786, 3.9728782, 3.5018864)
+11-30 20:16:51.775: D/sensor(7829): Delta acceleration: 14.215952034117452
+11-30 20:16:51.838: D/sensor(7829): Vector acceleration: ( 21.149137, 4.8750362, 3.9778128)
+11-30 20:16:51.838: D/sensor(7829): Delta acceleration: 2.8127365860507707
+11-30 20:16:51.900: D/sensor(7829): Vector acceleration: ( 18.481548, 4.540276, 3.467433)
+11-30 20:16:51.900: D/sensor(7829): Delta acceleration: 2.736527734483146
+11-30 20:16:52.025: D/sensor(7829): Vector acceleration: ( 6.899895, 1.9396994, 1.296792)
+11-30 20:16:52.025: D/sensor(7829): Delta acceleration: 12.066871601984877
+11-30 20:16:52.103: D/sensor(7829): Vector acceleration: ( 0.47764808, 0.4829095, 0.04336834)
+11-30 20:16:52.103: D/sensor(7829): Delta acceleration: 6.703623221850786
+11-30 20:16:52.150: D/sensor(7829): Vector acceleration: ( -2.5699189, -0.41724724, -0.52844334)
+11-30 20:16:52.150: D/sensor(7829): Delta acceleration: 3.228763596184519
+11-30 20:16:52.275: D/sensor(7829): Vector acceleration: ( -2.0975158, -0.66216373, -0.4973154)
+11-30 20:16:52.275: D/sensor(7829): Delta acceleration: 0.5330269211488605
+11-30 20:16:52.338: D/sensor(7829): Vector acceleration: ( -1.5220776, -0.6015092, -0.33656597)
+11-30 20:16:52.338: D/sensor(7829): Delta acceleration: 0.6005402090140122
+11-30 20:16:52.400: D/sensor(7829): Vector acceleration: ( -0.8733705, -0.44748473, -0.04777336)
+11-30 20:16:52.400: D/sensor(7829): Delta acceleration: 0.7265985951635554
+11-30 20:16:52.463: D/sensor(7829): Vector acceleration: ( -0.12717116, -0.23270622, 0.26500797)
+11-30 20:16:52.463: D/sensor(7829): Delta acceleration: 0.8371233149946302
+11-30 20:16:52.525: D/sensor(7829): Vector acceleration: ( 0.4252745, -0.04260969, 0.18323326)
+11-30 20:16:52.525: D/sensor(7829): Delta acceleration: 0.5899321887681175
+11-30 20:16:52.588: D/sensor(7829): Vector acceleration: ( 0.87941825, -0.11334276, 0.25360584)
+11-30 20:16:52.588: D/sensor(7829): Delta acceleration: 0.4649752903597584
+11-30 20:16:52.650: D/sensor(7829): Vector acceleration: ( 0.90480417, -0.10318464, 0.2279129)
+11-30 20:16:52.650: D/sensor(7829): Delta acceleration: 0.037520118124967555
+11-30 20:16:52.721: D/sensor(7829): Vector acceleration: ( 0.7860761, -0.3823939, 0.17037678)
+11-30 20:16:52.721: D/sensor(7829): Delta acceleration: 0.30881153341009654
+11-30 20:16:52.775: D/sensor(7829): Vector acceleration: ( 0.3245669, -0.29735732, -0.15440845)
+11-30 20:16:52.775: D/sensor(7829): Delta acceleration: 0.5707078373457913
+11-30 20:16:52.838: D/sensor(7829): Vector acceleration: ( 0.07799888, -0.051191807, -0.20307732)
+11-30 20:16:52.838: D/sensor(7829): Delta acceleration: 0.3517981057650635
+11-30 20:16:52.900: D/sensor(7829): Vector acceleration: ( -0.28271422, 0.16410145, -0.29381657)
+11-30 20:16:52.900: D/sensor(7829): Delta acceleration: 0.42976590221557665
+11-30 20:16:52.963: D/sensor(7829): Vector acceleration: ( -0.33055478, 0.43035752, -0.2823782)
+11-30 20:16:52.963: D/sensor(7829): Delta acceleration: 0.270761611807474
+11-30 20:16:53.033: D/sensor(7829): Vector acceleration: ( -0.28217942, 0.44817364, -0.43626404)
+11-30 20:16:53.033: D/sensor(7829): Delta acceleration: 0.16229122946128996
+11-30 20:16:53.088: D/sensor(7829): Vector acceleration: ( 0.7846454, 0.42544967, -0.15707493)
+11-30 20:16:53.088: D/sensor(7829): Delta acceleration: 1.1029860044232993
+11-30 20:16:53.150: D/sensor(7829): Vector acceleration: ( 0.6588766, 0.36040092, -0.36756802)
+11-30 20:16:53.150: D/sensor(7829): Delta acceleration: 0.25368575278745065
+11-30 20:16:53.213: D/sensor(7829): Vector acceleration: ( 0.6697746, 0.26864862, 0.44876766)
+11-30 20:16:53.213: D/sensor(7829): Delta acceleration: 0.821548040066152
+11-30 20:16:53.275: D/sensor(7829): Vector acceleration: ( -0.34733242, -0.015048921, -0.24234104)
+11-30 20:16:53.275: D/sensor(7829): Delta acceleration: 1.2619913473996405
+11-30 20:16:53.346: D/sensor(7829): Vector acceleration: ( -0.21126795, -0.09618053, 0.04040718)
+11-30 20:16:53.346: D/sensor(7829): Delta acceleration: 0.32410250728561885
+11-30 20:16:53.400: D/sensor(7829): Vector acceleration: ( -0.30215877, -0.1462793, 0.92413044)
+11-30 20:16:53.400: D/sensor(7829): Delta acceleration: 0.8897965242013162
+11-30 20:16:53.463: D/sensor(7829): Vector acceleration: ( -0.5558208, -0.16026095, -0.19843388)
+11-30 20:16:53.463: D/sensor(7829): Delta acceleration: 1.1509520321751214
+11-30 20:16:53.525: D/sensor(7829): Vector acceleration: ( -0.7131381, -0.14387271, 0.048416138)
+11-30 20:16:53.525: D/sensor(7829): Delta acceleration: 0.2931761198467923
+11-30 20:16:53.588: D/sensor(7829): Vector acceleration: ( -0.6261745, -0.10946545, 0.25679874)
+11-30 20:16:53.588: D/sensor(7829): Delta acceleration: 0.22840717383127546
+11-30 20:16:53.658: D/sensor(7829): Vector acceleration: ( -0.4993782, -0.06974229, 0.13933372)
+11-30 20:16:53.658: D/sensor(7829): Delta acceleration: 0.17735067807751675
+11-30 20:16:53.721: D/sensor(7829): Vector acceleration: ( -0.35190314, -0.082612574, 0.024190903)
+11-30 20:16:53.721: D/sensor(7829): Delta acceleration: 0.1875430892070266
+11-30 20:16:53.775: D/sensor(7829): Vector acceleration: ( -0.1777726, -0.055752635, 0.03660965)
+11-30 20:16:53.775: D/sensor(7829): Delta acceleration: 0.17662708970437993
+11-30 20:16:53.838: D/sensor(7829): Vector acceleration: ( -0.00833106, -0.09585482, -0.031811714)
+11-30 20:16:53.838: D/sensor(7829): Delta acceleration: 0.1870831385556958
+11-30 20:27:57.494: D/sensor(7829): Vector acceleration: ( 0.19733831, 0.20630169, 0.008776665)
+11-30 20:27:57.494: D/sensor(7829): Delta acceleration: 0.3677578817958295
+11-30 20:27:57.744: D/sensor(7829): Vector acceleration: ( -0.28748816, -0.096291006, 0.041305542)
+11-30 20:27:57.744: D/sensor(7829): Delta acceleration: 0.572430948066055
+11-30 20:27:57.807: D/sensor(7829): Vector acceleration: ( -0.39878106, -0.2227566, -0.036744118)
+11-30 20:27:57.807: D/sensor(7829): Delta acceleration: 0.18566476188927628
+11-30 20:27:58.057: D/sensor(7829): Vector acceleration: ( 0.78341436, 0.064318776, -0.09164715)
+11-30 20:27:58.057: D/sensor(7829): Delta acceleration: 1.2177900299434727
+11-30 20:27:58.119: D/sensor(7829): Vector acceleration: ( 1.0726488, 0.21274668, -0.13094044)
+11-30 20:27:58.119: D/sensor(7829): Delta acceleration: 0.32746196924588794
+11-30 20:27:58.182: D/sensor(7829): Vector acceleration: ( 0.85931814, 0.3076561, -0.045534134)
+11-30 20:27:58.182: D/sensor(7829): Delta acceleration: 0.24862018172551592
+11-30 20:27:58.244: D/sensor(7829): Vector acceleration: ( 0.4712863, 0.31593966, 0.051057816)
+11-30 20:27:58.244: D/sensor(7829): Delta acceleration: 0.3999591642635338
+11-30 20:27:58.307: D/sensor(7829): Vector acceleration: ( 0.26649204, 0.3117559, 0.11767006)
+11-30 20:27:58.307: D/sensor(7829): Delta acceleration: 0.21539587687612366
+11-30 20:27:58.494: D/sensor(7829): Vector acceleration: ( -0.19732273, -0.027499616, 0.064575195)
+11-30 20:27:58.494: D/sensor(7829): Delta acceleration: 0.5770940093373853
+11-30 20:27:58.557: D/sensor(7829): Vector acceleration: ( -0.27705735, -0.16658795, 0.019515991)
+11-30 20:27:58.557: D/sensor(7829): Delta acceleration: 0.16653380027739542
+11-30 20:27:58.619: D/sensor(7829): Vector acceleration: ( -0.19539708, -0.21804118, -0.025315285)
+11-30 20:27:58.619: D/sensor(7829): Delta acceleration: 0.10642217244599696
+11-30 20:27:58.682: D/sensor(7829): Vector acceleration: ( -0.089675725, -0.25731823, -0.060432434)
+11-30 20:27:58.682: D/sensor(7829): Delta acceleration: 0.11812242057925791
+11-30 20:27:59.244: D/sensor(7829): Vector acceleration: ( 0.57739174, 0.22366929, -0.09675217)
+11-30 20:27:59.244: D/sensor(7829): Delta acceleration: 0.8231932420762751
+11-30 20:27:59.619: D/sensor(7829): Vector acceleration: ( -1.2339807, -0.16394061, 0.29491615)
+11-30 20:27:59.619: D/sensor(7829): Delta acceleration: 1.893334457079236
+11-30 20:28:03.815: D/sensor(7829): Vector acceleration: ( 0.5905981, -0.22461611, -0.22727203)
+11-30 20:28:03.815: D/sensor(7829): Delta acceleration: 1.898802168872174
+11-30 20:28:03.940: D/sensor(7829): Vector acceleration: ( 0.5718649, -0.13742715, -0.1833725)
+11-30 20:28:03.940: D/sensor(7829): Delta acceleration: 0.09939827240889197
+11-30 20:28:05.502: D/sensor(7829): Vector acceleration: ( -0.67082953, 0.24823397, 0.27678776)
+11-30 20:28:05.502: D/sensor(7829): Delta acceleration: 1.3801345325628267
+11-30 20:29:12.393: D/sensor(7829): Vector acceleration: ( 0.30048972, -0.10774237, -0.13321304)
+11-30 20:29:12.393: D/sensor(7829): Delta acceleration: 1.1127807562954264
+11-30 20:29:12.697: D/sensor(7829): Vector acceleration: ( 0.01919949, 0.0043758154, 0.0060987473)
+11-30 20:29:12.697: D/sensor(7829): Delta acceleration: 0.33332035913649255
+11-30 20:29:31.424: D/sensor(7829): Vector acceleration: ( -0.12540478, -0.013716996, 0.07409477)
+11-30 20:29:31.424: D/sensor(7829): Delta acceleration: 0.1608141898916315
+11-30 20:29:31.486: D/sensor(7829): Vector acceleration: ( -0.33484346, -0.017844856, 0.090065)
+11-30 20:29:31.486: D/sensor(7829): Delta acceleration: 0.2100872458297019
+11-30 20:29:31.557: D/sensor(7829): Vector acceleration: ( 1.2468476, -1.9526231, 0.077840805)
+11-30 20:29:31.557: D/sensor(7829): Delta acceleration: 2.499052344956634
+11-30 20:29:31.611: D/sensor(7829): Vector acceleration: ( -0.57589656, -0.009609699, 0.05496025)
+11-30 20:29:31.611: D/sensor(7829): Delta acceleration: 2.664248641774133
+11-30 20:29:31.674: D/sensor(7829): Vector acceleration: ( 0.7517768, 0.073669076, 0.032079697)
+11-30 20:29:31.674: D/sensor(7829): Delta acceleration: 1.3304794983085277
+11-30 20:29:31.736: D/sensor(7829): Vector acceleration: ( -0.07220131, 0.25601143, 0.01428318)
+11-30 20:29:31.736: D/sensor(7829): Delta acceleration: 0.844100349591692
+11-30 20:29:31.799: D/sensor(7829): Vector acceleration: ( -0.090812564, 0.41120982, 0.0028095245)
+11-30 20:29:31.799: D/sensor(7829): Delta acceleration: 0.1567308715304774
+11-30 20:29:32.189: D/sensor(7829): Vector acceleration: ( 0.7535642, -2.329654, -0.029830933)
+11-30 20:29:32.189: D/sensor(7829): Delta acceleration: 2.868165226261681
+11-30 20:29:32.236: D/sensor(7829): Vector acceleration: ( 0.96543956, -3.281624, -0.035583496)
+11-30 20:29:32.236: D/sensor(7829): Delta acceleration: 0.9752801333761479
+11-30 20:29:32.299: D/sensor(7829): Vector acceleration: ( 0.98390675, -3.300225, -0.02807808)
+11-30 20:29:32.299: D/sensor(7829): Delta acceleration: 0.02726468935156288
+11-30 20:29:32.361: D/sensor(7829): Vector acceleration: ( 2.193335, -3.9272037, -0.01663971)
+11-30 20:29:32.361: D/sensor(7829): Delta acceleration: 1.3623325139967213
+11-30 20:29:32.424: D/sensor(7829): Vector acceleration: ( 1.8380232, -2.6314492, -0.0066490173)
+11-30 20:29:32.424: D/sensor(7829): Delta acceleration: 1.3436241534542108
+11-30 20:29:32.486: D/sensor(7829): Vector acceleration: ( 1.3037181, -1.9373283, -1.1253357E-4)
+11-30 20:29:32.486: D/sensor(7829): Delta acceleration: 0.8759728541130918
+11-30 20:29:32.549: D/sensor(7829): Vector acceleration: ( 0.73151886, -1.2212455, 0.0030155182)
+11-30 20:29:32.549: D/sensor(7829): Delta acceleration: 0.916622229423794
+11-30 20:29:32.611: D/sensor(7829): Vector acceleration: ( 0.30999535, -0.6003847, 0.003709793)
+11-30 20:29:32.619: D/sensor(7829): Delta acceleration: 0.7504336772207207
+11-30 20:29:32.674: D/sensor(7829): Vector acceleration: ( -0.059892595, -0.14314824, 0.003063202)
+11-30 20:29:32.674: D/sensor(7829): Delta acceleration: 0.5881179420785496
+11-30 20:29:34.861: D/sensor(7829): Vector acceleration: ( -0.4076262, 0.3151277, -0.0016736984)
+11-30 20:29:34.861: D/sensor(7829): Delta acceleration: 0.5752894481576466
+11-30 20:31:37.002: D/sensor(7829): Vector acceleration: ( -0.16907084, 0.1128802, -0.0010623932)
+11-30 20:31:37.002: D/sensor(7829): Delta acceleration: 0.31275084679684856
+11-30 20:35:01.916: D/sensor(7829): Vector acceleration: ( 0.30264196, -0.26979738, 0.0016155243)
+11-30 20:35:01.916: D/sensor(7829): Delta acceleration: 0.6074226354857956
+11-30 20:35:34.041: D/sensor(7829): Vector acceleration: ( 0.20462811, -0.3955389, -0.665822)
+11-30 20:35:34.041: D/sensor(7829): Delta acceleration: 0.6862146326064271
+11-30 20:35:34.103: D/sensor(7829): Vector acceleration: ( 0.0857476, -0.22209468, 0.10984421)
+11-30 20:35:34.103: D/sensor(7829): Delta acceleration: 0.8036625825558521
+11-30 20:35:34.158: D/sensor(7829): Vector acceleration: ( 0.009689391, -0.08566481, 0.1201458)
+11-30 20:35:34.158: D/sensor(7829): Delta acceleration: 0.15653780418819707
+11-30 20:35:34.221: D/sensor(7829): Vector acceleration: ( -0.025870621, 0.023309052, 0.17083168)
+11-30 20:35:34.221: D/sensor(7829): Delta acceleration: 0.1253350506086381
+11-30 20:35:44.494: D/sensor(7829): Vector acceleration: ( 0.032960594, 0.09429413, -0.06159973)
+11-30 20:35:44.494: D/sensor(7829): Delta acceleration: 0.25004870715116956
+11-30 20:35:45.744: D/sensor(7829): Vector acceleration: ( 0.113248706, -0.107654035, -1.3473148)
+11-30 20:35:45.744: D/sensor(7829): Delta acceleration: 1.3039526783132405
+11-30 20:37:26.853: D/sensor(7829): Vector acceleration: ( 0.054771006, 0.9729577, 8.111841)
+11-30 20:37:26.853: D/sensor(7829): Delta acceleration: 9.520859955486804
+11-30 20:37:30.416: D/sensor(7829): Vector acceleration: ( 0.09338862, 0.10122186, -2.939189)
+11-30 20:37:30.416: D/sensor(7829): Delta acceleration: 11.085426496216884
+11-30 20:38:40.893: D/sensor(7829): Vector acceleration: ( -3.6826055, -21.27031, -97.342285)
+11-30 20:38:40.893: D/sensor(7829): Delta acceleration: 96.86560438308327
