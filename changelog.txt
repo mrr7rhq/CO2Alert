@@ -1,3 +1,9 @@
+V1.2.0
+2012-12-2  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* fixed bugs in real test: route color, exit token problem, icon mistake, double variable conversion.
+	* use androidplot lib to implement plot of CO2 emission rate.
+	* implement database helper methods for summary plot.
+	
 V1.1.5
 2012-12-1  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* created class LocEntry in MapTracking to store Location objects and related parameters for local tracking.
@@ -49,7 +55,7 @@ V1.1.1
 			set Toast duration to short length;
 			chang Toast position to top of screen to avoid overlap of option menu;
 
-V1.1
+V1.1.0
 2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
 
     * activity_welcome.xml: add TextView for version info;

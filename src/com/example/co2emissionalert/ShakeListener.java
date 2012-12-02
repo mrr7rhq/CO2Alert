@@ -13,8 +13,8 @@ public class ShakeListener extends Activity implements SensorEventListener {
 
 								
 	private static final int INTERVAL_SAMPLING_THRESHOLD = 100;	// Set the interval time threshold between two consecutive SensorEvents		
-	private static final int DELTA_LOWER_THRESHOLD = 40;	// Set the shaking speed threshold: defined for recognizing shaking behavior
-	private static final int DELTA_UPPER_THRESHOLD = 100;
+	private static final int DELTA_LOWER_THRESHOLD = 20;	// Set the shaking speed threshold: defined for recognizing shaking behavior
+	private static final int DELTA_UPPER_THRESHOLD = 150;
 	
 	private static final int SHAKE_TIMEOUT = 500;
 	private static final int SHAKE_DURATION = 1000;

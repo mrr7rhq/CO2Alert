@@ -82,8 +82,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	private double SumCO2 = 0;
 	private double SumDistance = 0;
 	private long SumTime = 0;
-	private long StartTime = 0;
+	public static long StartTime = 0;
 	private long millis = 0L;	//timer reading
+	public static int nMode = 1;	// mode accumulator
+	public static String sMode = " transport mode(s):";
     private LocEntry currentLocEntry;
 	private LocEntry lastLocEntry;
 	private DBHandler db;
@@ -142,9 +144,11 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         currentLocEntry = new LocEntry();
         lastLocEntry = new LocEntry();
 		if(extras != null){
-        	currentLocEntry.setCoef(extras.getFloat("M", 0f));
+        	float m = extras.getFloat("M", 0f);
+			currentLocEntry.setCoef(m);
             lastLocEntry.setCoef(currentLocEntry.getCoef());
             Log.d("map", "M got: " + String.valueOf(currentLocEntry.getCoef()));	// DEBUG log message
+            sMode = sMode + " " + tellWhichMode(m);
             COLOR = extras.getInt("color");
             icon = extras.getInt("ICON");
             Log.d("map", "Icon got: " + String.valueOf(icon));	// DEBUG log message
@@ -170,7 +174,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
             	//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
         		//toast.show();
         		if(StartTime != 0){
-        			vib.vibrate(300);	//vibrate on shake
+        			//vib.vibrate(300);	//vibrate on shake: not suitable for Galaxy_S3
         			/*speaking("It takes" + String.valueOf(currentLocEntry.formatLocalTime()[0]) + "hour" 
         					+ String.valueOf(currentLocEntry.formatLocalTime()[1]) + "minutes" 
         					+ String.valueOf(currentLocEntry.formatLocalTime()[2]) + "seconds to travel"  
@@ -279,7 +283,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			//intent.setClass(MapTracking.this, SummaryActivity.class);
         	//intent.putExtra("finalObj", currentLocEntry);
 			startActivity(intent);	// trigger SummaryActivity
-			finish();
+			//finish();
         return true;
         
         
@@ -299,6 +303,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     	
     	if(currentLocEntry.getCoef() != lastLocEntry.getCoef()){
     		Log.d("map","transfer mode changed");
+    		nMode += 1;
+    		sMode = sMode + " " + tellWhichMode(currentLocEntry.getCoef());
     		double x = currentLocEntry.getLoca().getLatitude();
     		double y = currentLocEntry.getLoca().getLongitude();
     		GeoPoint head = new GeoPoint((int)(x*1E6), (int)(y*1E6));
@@ -331,7 +337,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     @Override
 	protected void onResume() {
 		// TODO Auto-generated method stub
-		super.onResume();
+    	if(ExitActivity.isApplicationTerminated){
+			finish();
+		}
+    	super.onResume();
 		//t.notify();
 		Log.d("map", "resume start");	// DEBUG log message
 		if (isInitial)
@@ -582,8 +591,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		SumDistance += currentLocEntry.getDD();	// SumDistance accumulates calculation result
 		SumCO2 += currentLocEntry.getDC();
 		
-		SumDistance = Math.round(SumDistance*10)/10; 
-		SumCO2 = Math.round(SumCO2*10)/10;
+		SumDistance = (double)Math.round(SumDistance*10)/10; 
+		SumCO2 = (double)Math.round(SumCO2*10)/10;
 		
 		Log.d("map","Time error:"+String.valueOf(currentLocEntry.getLoca().getTime() - currentLocEntry.getLocalTime()));
 		Log.d("map","Speed: "+String.valueOf(currentLocEntry.getLoca().getSpeed()));
@@ -841,6 +850,28 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	    	.append(", Delta CO2 Emission: ")
 	    	.append(this.deltaC).toString();
 	    }
+	}
+	
+	public static String tellWhichMode(float mValue){
+		
+		switch((int)mValue){
+		case 180:	
+			return "walking";
+		case 75:
+			return "bicycle";
+		case 60:
+			return "tram";
+		case 125:
+			return "ferry";
+		case 43:
+			return "train";
+		case 100:
+			return "bus";
+		case 149:
+			return "car";
+		default:
+			return "metro";
+		}
 	}
 	
 }

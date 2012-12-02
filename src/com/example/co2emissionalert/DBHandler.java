@@ -3,6 +3,7 @@
  */
 package com.example.co2emissionalert;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,7 @@ import android.location.Location;
 
 public class DBHandler extends SQLiteOpenHelper {
 
-	private static final String DATABASE_NAME = "mytrack.db";  
+	private static final String DATABASE_NAME = "mytrack.sqlite";  
     private static final int DATABASE_VERSION = 1;  
     private static final String TABLE_NAME = "trackdata";  
     public static final String KEY_ID = "id";  
@@ -157,7 +158,7 @@ public class DBHandler extends SQLiteOpenHelper {
         // Select All Query
         String selectQuery = "SELECT  * FROM " + TABLE_NAME;
  
-        SQLiteDatabase db = this.getWritableDatabase();
+        SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = db.rawQuery(selectQuery, null);
  
         // looping through all rows and adding to list
@@ -187,15 +188,62 @@ public class DBHandler extends SQLiteOpenHelper {
         return locList;
     }
     
-    // Getting contacts Count
-    public int getModesCount() {
-        String countQuery = "SELECT  * FROM " + TABLE_NAME;
+    // Getting modes
+    public String getModes() {
+        String countQuery = "SELECT DISTINCT " + KEY_MODE + " FROM " + TABLE_NAME + " WHERE " + KEY_LOCALTIME + ">= ?";
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery(countQuery, null);
-        int n = cursor.getCount();
-        cursor.close();
+        Cursor c = db.rawQuery(countQuery, new String[] { String.valueOf(MapTracking.StartTime) });
+        int nMode = c.getCount();
+        float mValue;
+        String result = String.valueOf(nMode) + " transport mode(s):";
+        if (c.moveToFirst()) {
+        	do{
+        		mValue = c.getFloat(0);
+        		result = result + " " + MapTracking.tellWhichMode(mValue);
+        	}while(c.moveToNext());
+        }
+        c.close();
  
-        // return count
-        return n;
+        return result;
+    }
+    
+    
+    	// get time array and co2 emission rate array from database
+    public ArrayPair getArrays(){
+    	Number [] array1;
+    	Number [] array2;
+    	
+    	String countQuery = "SELECT " + KEY_LOCALTIME + ", " + KEY_DTIME + ", " + KEY_DCO2 + " FROM " + TABLE_NAME + " WHERE " + KEY_LOCALTIME + ">= ?";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery(countQuery, new String[] { String.valueOf(MapTracking.StartTime) });
+        int count = c.getCount();
+        array1 = new Number[count];
+        array2 = new Number[count];
+        
+        int i = 0;
+        if (c.moveToFirst()) {
+        	do{
+        		array1[i] = c.getLong(0);
+        		array2[i] = (c.getLong(1) != 0)? c.getFloat(2) : 0;
+        		i += 1;
+        	}while(c.moveToNext());
+        }
+        c.close();
+        
+    	return new ArrayPair(array1, array2);
+    }
+    
+    	// defined for returning 2 Number[] to help plot in summary view
+    public static class ArrayPair{
+        private Number[] array1;
+        private Number[] array2;
+        public ArrayPair(Number[] array1, Number[] array2)
+        {
+            this.array1 = array1;
+            this.array2 = array2;
+
+        }
+        public Number[] getArray1() { return array1; }
+        public Number[] getArray2() { return array2; }
     }
 }
