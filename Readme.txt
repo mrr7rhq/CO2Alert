@@ -1,10 +1,20 @@
 App-name: CO2EmissionAlert
 
-APP-version: V1.2.0
+Version: V1.2.0
 
-App-author: Junlong Xiang, Xiang Gao, Feihua Qu
+Author: Junlong Xiang, Xiang Gao, Feihua Qu
 
-App-usage: 1. Launch CO2EmissionAlert app.
+For Developers:
+
+Our repository is on GitHub: https://github.com/mrr7rhq/CO2Alert
+
+You can also check our version updates in changelog.txt.
+
+This is an Android project developed in Eclipse (ADT), and tested with Samsung Galaxy S3 (Android 4.0.3) and Motorola ME525 (Android 2.3.6).
+
+To test the project in Eclipse, you need a Google API key additionally. Some log files (debugger output) and database files are included in the project zip.
+
+For Users: 1. Launch CO2EmissionAlert app.
            2. Select a transport mode and click the start button.
            3. Wait for initialization of GPS tracking process until the readings at the bottom appears.
            4. The bottom of screen displays some real-time parameters: your location(latitude and longitude), your current distance, duration and corresponding CO2 emission.
