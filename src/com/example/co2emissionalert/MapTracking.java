@@ -97,6 +97,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         super.onCreate(savedInstanceState);
         Log.d("map", "oncreate start");	// DEBUG log message
         setContentView(R.layout.activity_maptracking);
+        ExitActivity.isApplicationTerminated = false;
         reading = (TextView)findViewById(R.id.readingId);
         
         db = new DBHandler(this);	//an instance of database handler

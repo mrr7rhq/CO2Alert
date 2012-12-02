@@ -29,7 +29,7 @@ public class SummaryActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		this.setContentView(R.layout.activity_summary);
 		final TextView tsummary = (TextView)findViewById(R.id.tsummaryId);
-		
+		ExitActivity.isApplicationTerminated = false;
 		DBHandler db = new DBHandler(this);
 		
 		/*Intent i = getIntent();
@@ -52,14 +52,15 @@ public class SummaryActivity extends Activity{
 		int min = sec / 60; sec %= 60;
 		int hour = min / 60; min %= 60;
 		double aSpeed = Math.round(SDistance/STime*1000*100)/100;
-		double aRate = Math.round(SCO2/STime*1000*100)/100;
-        
+		double cRate = Math.round(SCO2/STime*1000*100)/100;
+		Log.d("sum", "CO2 rate: " + String.valueOf(cRate));	// DEBUG log message
+		
         tsummary.setText("Your Trip Conclusion: \n\n" + "\t1.Elapsed time: " + String.valueOf(hour) + "h " 
         		+ String.valueOf(min) + "min " + String.valueOf(sec) + "s\n\n"
         		+ "\t2.Total distance: " + String.valueOf(SDistance) + "m\n\n"
         		+ "\t3.Total CO2 Emission: " + String.valueOf(SCO2) + "g\n\n"
         		+ "\t4.Average speed: " + String.valueOf(aSpeed) + "m/s\n\n"
-        		+ "\t5.Average rate of CO2 Emission: " + String.valueOf(aRate) + "g/s\n");
+        		+ "\t5.Average rate of CO2 Emission: " + String.valueOf(cRate) + "g/s\n");
 	}
 	
 	@Override
@@ -91,7 +92,7 @@ public class SummaryActivity extends Activity{
 	        
 	        case R.id.exit:
 	        	Intent intent = new Intent();
-	        	intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+	        	//intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 	        	intent.setClass(SummaryActivity.this, ExitActivity.class);
 				startActivityForResult(intent, 0);	// trigger ExitActivity
 	        	

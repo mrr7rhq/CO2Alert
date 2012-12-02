@@ -43,6 +43,7 @@ public class SettingActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		this.setContentView(R.layout.activity_setting);
+		ExitActivity.isApplicationTerminated = false;
 		
 		transportationGroup = (RadioGroup)findViewById(R.id.modegroup);
 		walk = (RadioButton)findViewById(R.id.walkbutton);
