@@ -16,7 +16,8 @@
     <string name="startlogging">Start</string>
     <string name="stoplogging">Exit</string>
     <string name="reading">Timer reading</string>
-    <string name="version">V 1.1.4 build 30.11.12</string>
+    <string name="tsummary">Text summary</string>
+    <string name="version">V 1.1.5 build 1.12.12</string>
     <string name="groupwork">GroupWork: Junlong Xiang, Xiang Gao, Feihua Qu</string>
     
     

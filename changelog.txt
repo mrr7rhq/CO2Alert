@@ -1,5 +1,13 @@
+V1.1.5
+2012-12-1  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* created class LocEntry in MapTracking to store Location objects and related parameters for local tracking.
+	* implemented sqlite database class DBHandler: operations related to LocEntries.
+	* logging using database in MapTracking (async task).
+	* implement SummaryActivity: TextView of sum and avg statistics.
+	* vibration added upon shake or speech or pressing start button.
+
 V1.1.4
-2012-11-29  Xiang Gao  <xzgao@cs.helsinki.fi>
+2012-11-30  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* update shake detection algorithm: detect crest within an interval, lower-bound and upper-bound, timeout and other control conditions;
 		filter noise of raw sensor data;
 		block shake-detector when on speech.

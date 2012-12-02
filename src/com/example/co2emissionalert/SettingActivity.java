@@ -3,10 +3,12 @@ package com.example.co2emissionalert;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,8 +34,9 @@ public class SettingActivity extends Activity {
 	private Button startButton;
 	private Button stopButton;
 	// M: coefficient for CO2 calculation, default checked for walk/bicycle mode
-	private float M = (float) 0;
+	private float M = 0;
 	private int icon = 0;
+	private Vibrator vib;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -54,11 +57,20 @@ public class SettingActivity extends Activity {
 		startButton = (Button)findViewById(R.id.startloggingbutton);
 		stopButton = (Button)findViewById(R.id.stoploggingbutton);
 		
+		vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);	// prepare vibrate service
 		startButton.setOnClickListener(new MyButtonListener());
 		stopButton.setOnClickListener(new StopButtonListener());
 		transportationGroup.setOnCheckedChangeListener(new MyGroupListener());
 	}
 	
+	
+	@Override
+	protected void onResume(){
+		if(ExitActivity.isApplicationTerminated){
+			finish();
+		}
+		super.onResume();
+	}
 	
       class MyGroupListener implements OnCheckedChangeListener{
 		// Check transportationGroup, when mode choice is changed, set M value for newly checked mode. 
@@ -68,21 +80,21 @@ public class SettingActivity extends Activity {
 		public void onCheckedChanged(RadioGroup group, int checkedId) {
 			// TODO Auto-generated method stub
 			if(walk.getId() == checkedId){			
-				M = 180f; icon = R.drawable.ic_walk;
+				M = 180; icon = R.drawable.ic_walk;
 			}else if(bike.getId() == checkedId){			
-				M = 75f; icon = R.drawable.ic_bike;
+				M = 75; icon = R.drawable.ic_bike;
 			}else if(tram.getId() == checkedId){			
-				M = 60f; icon = R.drawable.ic_tram;
+				M = 60; icon = R.drawable.ic_tram;
 			}else if(ferry.getId() == checkedId){
-				M = 125f; icon = R.drawable.ic_ferry;
+				M = 125; icon = R.drawable.ic_ferry;
 			}else if(metro.getId() == checkedId){
 				M = 3.3f; icon = R.drawable.ic_metro;
 			}else if(train.getId() == checkedId){
-				M = 43f; icon = R.drawable.ic_train;
+				M = 43; icon = R.drawable.ic_train;
 			}else if(bus.getId() == checkedId){
-				M = 100f; icon = R.drawable.ic_bus;
+				M = 100; icon = R.drawable.ic_bus;
 			}else if(car.getId() == checkedId){
-				M = 149f; icon = R.drawable.ic_car;
+				M = 149; icon = R.drawable.ic_car;
 			}
 		}
 		
@@ -94,10 +106,12 @@ public class SettingActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
+			vib.vibrate(50);
 			if(M == 0){
 				Toast.makeText(getApplicationContext(), "Please select the transportation mode.", Toast.LENGTH_SHORT).show();
 				return;
-			}			
+			}
+			
 			Intent intent = new Intent();
 			intent.putExtra("M", M);	// assign M value to counterpart in MapTracking
 			intent.putExtra("ICON", icon);
@@ -115,4 +129,6 @@ public class SettingActivity extends Activity {
 			finish();
 		}		
 	}
+	
+	
 }

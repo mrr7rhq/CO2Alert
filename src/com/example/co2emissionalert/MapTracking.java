@@ -2,6 +2,7 @@ package com.example.co2emissionalert;
 
 //import java.math.BigDecimal;
 //import java.text.DecimalFormat;
+import java.io.Serializable;
 import java.util.List;
 import java.util.Locale;
 
@@ -18,6 +19,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.provider.Settings;
@@ -49,52 +51,43 @@ import android.os.Handler;
 
 public class MapTracking extends MapActivity implements LocationListener, OnInitListener{
 
-	private static final int CO2_THRESHOLD = 5000;	// CO2 emission threshold for active alerting
-	
+	private final int CO2_THRESHOLD = 5000;	// CO2 emission threshold for active alert
+	private final int DESTMARKER = R.drawable.ic_cross;	// marker icon for destination spot
+	private final int MY_DATA_CHECK_CODE = 0;
+			
 	private MapView mapView;
 	private TextView reading;
 	private MapController mapController;
 	private MyLocationOverlay myLocationLay;
 	private LocationManager locationManager;
 	//private LocationListener locListener;
-	private Location currentLocation;
-	private Location lastLocation;
-	private boolean isFirstLocation = true;	// Flag is true if current point is the first location in tracking
-	private Projection pro;
+	//private Projection pro;
 	private Vibrator vib;
 	private List<Overlay> overlays;
 	//private Toast toast;
-	
-	//private final double EARTH_RADIUS = 6378137.0;  
 	private ShakeListener shakeListener;
-	//private DecimalFormat df;
-	//private BigDecimal bd = new BigDecimal();
-	private float MM;	// Coefficient M from Setting Activity
-	private float lastMM;
-	private int icon = 0;
-	private int lastIcon = 0;
-	private float CO2M = 0;
-	private float NEWCO2M = 0;
-	private float SumDistance = 0;
-	private float NEWSumDistance = 0;
-	private int COLOR = Color.RED;
-	private int lastCOLOR = Color.RED;
+	private TextToSpeech TTS;
+	public static Location seedLocation;
+	
+	private boolean isFirstLocation = true;	// Flag is true if current point is the first location in tracking
 	private boolean isInitial = false;	// Flag is true if to initial mylocation
 	private boolean isGPSOn = true;
-	private int thresBlock = 0;
-	private TextToSpeech TTS;
-    private int MY_DATA_CHECK_CODE = 0;
-    private long StartTime = 0L;
-    private long CurrentTime = 0L;
-    private long LastTime = 0L;
-    private long Duration = 0L;
-    private int sec = 0;
-    private int min = 0;
-    private int hour = 0;
-    private int destMarker = R.drawable.ic_cross;
-    private boolean timerFlag = true;
+	private boolean timerFlag = true;	// true if timer not blocked (block: not updating)
+	private int thresBlock = 0;		// active alert is blocked when thresBlock>1: alert for only one time over CO2_THRESHOLD
+	
+	
+	//private float MM;	// Coefficient M from Setting Activity
+	private int COLOR = Color.RED;
+	private int icon = 0;
+	private double SumCO2 = 0;
+	private double SumDistance = 0;
+	private long SumTime = 0;
+	private long StartTime = 0;
+	private long millis = 0L;	//timer reading
+    private LocEntry currentLocEntry;
+	private LocEntry lastLocEntry;
+	DBHandler db;
     private Handler mHandler = new Handler(); 
-    
     
     //private Thread t;
     //private volatile boolean flag= true;	// Flag for thread status
@@ -104,8 +97,9 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         super.onCreate(savedInstanceState);
         Log.d("map", "oncreate start");	// DEBUG log message
         setContentView(R.layout.activity_maptracking);
-        final TextView reading = (TextView)findViewById(R.id.readingId);
+        reading = (TextView)findViewById(R.id.readingId);
         
+        db = new DBHandler(this);	//an instance of database handler
         
         Runnable mUpdateTimeTask = new Runnable() {
             public void run() {
@@ -113,22 +107,23 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
            		if (StartTime == 0) {
         			reading.setText("Initializing tracking process ...");
         		}else{
-        			long millis = 0L;
         			if(timerFlag){
         				millis = System.currentTimeMillis();
         				millis = millis - StartTime;
-        			}else{
-        				millis = 0L;
-        			}                    
-            		sec = (int) (millis / 1000);
-            		min = sec / 60; sec %= 60;
-            		hour = min / 60; min %= 60;
+        			}
+        			
+            		int sec = (int) (millis / 1000);
+            		int min = sec / 60; sec %= 60;
+            		int hour = min / 60; min %= 60;
             		
-            		double x1 = currentLocation.getLatitude();
-            		double x2 = currentLocation.getLongitude();
-            		GeoPoint cursor = new GeoPoint((int)(x1*1000000), (int)(x2*1000000));
+            		double x = currentLocEntry.getLoca().getLatitude();
+            		double y = currentLocEntry.getLoca().getLongitude();
             		
-        			reading.setText("My location: (" + String.valueOf(cursor) + ")\n" + "Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");
+        			reading.setText("My location: (" + Location.convert(x, Location.FORMAT_SECONDS) + ", " 
+        					+ Location.convert(y, Location.FORMAT_SECONDS) + ")\n" + "Distance: " 
+        					+ String.valueOf(SumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" 
+        					+ String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " 
+        					+ String.valueOf(SumCO2) + " g");
         		}            	
             	
                 mHandler.postDelayed(this, 1000);
@@ -143,15 +138,17 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         // Get M from the intent by SettingActivity
         //Intent intent = getIntent();
         Bundle extras = getIntent().getExtras(); 
-        if(extras != null){
-        	MM = extras.getFloat("M", (float) 0.0);
-            lastMM = MM;
-            Log.d("map", "M got: " + String.valueOf(MM));	// DEBUG log message
+        currentLocEntry = new LocEntry();
+        lastLocEntry = new LocEntry();
+		if(extras != null){
+        	currentLocEntry.setCoef(extras.getFloat("M", 0f));
+            lastLocEntry.setCoef(currentLocEntry.getCoef());
+            Log.d("map", "M got: " + String.valueOf(currentLocEntry.getCoef()));	// DEBUG log message
             
             icon = extras.getInt("ICON");
-            lastIcon = icon;
             Log.d("map", "Icon got: " + String.valueOf(icon));	// DEBUG log message
-        }        
+        }
+        
         //toast = Toast.makeText(getApplicationContext(), "Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g", Toast.LENGTH_SHORT);
         //toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 50);
         
@@ -172,9 +169,14 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         		//toast.show();
         		if(StartTime != 0){
         			vib.vibrate(300);	//vibrate on shake
-        			speaking("It takes" + String.valueOf(hour) + "hour" + String.valueOf(min) + "minutes" + String.valueOf(sec) + "seconds to travel"  + String.valueOf(NEWSumDistance) + "meters; " + "And your current CO2 emission is" + String.valueOf(NEWCO2M) + "grams");
-                    
-        		}
+        			/*speaking("It takes" + String.valueOf(currentLocEntry.formatLocalTime()[0]) + "hour" 
+        					+ String.valueOf(currentLocEntry.formatLocalTime()[1]) + "minutes" 
+        					+ String.valueOf(currentLocEntry.formatLocalTime()[2]) + "seconds to travel"  
+        					+ String.valueOf(SumDistance) + "meters; " + "And your current CO2 emission is" 
+        					+ String.valueOf(SumCO2) + "grams");*/
+        			speaking("You have traveled " + String.valueOf(SumDistance) + " meters, " 
+        					+ "and your current CO2 emission is " + String.valueOf(SumCO2) + " grams.");
+                }
             }  
         });
         
@@ -194,28 +196,28 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         
     	switch (item.getItemId()) {
         case R.id.walk:
-        	lastMM=MM; lastCOLOR=COLOR; MM=180; COLOR=Color.RED; icon = R.drawable.ic_walk;
+        	currentLocEntry.setCoef(180); COLOR=Color.RED; icon = R.drawable.ic_walk;
         	break;
         case R.id.bike:
-        	lastMM=MM; lastCOLOR=COLOR; MM=75; COLOR=Color.BLUE; icon = R.drawable.ic_bike;
+        	currentLocEntry.setCoef(75); COLOR=Color.BLUE; icon = R.drawable.ic_bike;
         	break;
         case R.id.bus:
-        	lastMM=MM; lastCOLOR=COLOR; MM=100; COLOR=Color.CYAN; icon = R.drawable.ic_bus;
+        	currentLocEntry.setCoef(100); COLOR=Color.CYAN; icon = R.drawable.ic_bus;
         	break;
         case R.id.car:
-        	lastMM=MM; lastCOLOR=COLOR; MM=149; COLOR=Color.GREEN; icon = R.drawable.ic_car;
+        	currentLocEntry.setCoef(149); COLOR=Color.GREEN; icon = R.drawable.ic_car;
         	break;
         case R.id.tram:
-        	lastMM=MM; lastCOLOR=COLOR; MM=60; COLOR=Color.GRAY; icon = R.drawable.ic_bike;
+        	currentLocEntry.setCoef(60); COLOR=Color.GRAY; icon = R.drawable.ic_bike;
         	break;
         case R.id.ferry:
-        	lastMM=MM; lastCOLOR=COLOR; MM=125; COLOR=Color.YELLOW; icon = R.drawable.ic_ferry;
+        	currentLocEntry.setCoef(125); COLOR=Color.YELLOW; icon = R.drawable.ic_ferry;
         	break;
         case R.id.train:
-        	lastMM=MM; lastCOLOR=COLOR; MM=43; COLOR=Color.MAGENTA; icon = R.drawable.ic_train;
+        	currentLocEntry.setCoef(43); COLOR=Color.MAGENTA; icon = R.drawable.ic_train;
         	break;
         case R.id.metro:
-        	lastMM=MM; lastCOLOR=COLOR; MM=3.3f; COLOR=Color.BLACK; icon = R.drawable.ic_metro;
+        	currentLocEntry.setCoef(3.3f); COLOR=Color.BLACK; icon = R.drawable.ic_metro;
         	break;
         
         case R.id.satellite:
@@ -233,11 +235,14 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         return true;
         
         case R.id.clear:
-        	SumDistance=NEWSumDistance=0;
-        	CO2M=NEWCO2M=0;
-        	Duration=0;
-        	StartTime = LastTime = CurrentTime = System.currentTimeMillis();;
-        	//lastLocation = currentLocation;
+        	timerFlag = false;
+        	SumDistance=0;
+        	SumCO2=0;
+        	SumTime=0;
+        	//StartTime = System.currentTimeMillis();
+        	//currentLocEntry.setLocalTime(StartTime);
+        	lastLocEntry.set(currentLocEntry);
+        	
         	overlays.clear();
     		mapView.invalidate(); 
     		//isInitial = false;
@@ -251,18 +256,28 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         	timerFlag = false;        	
         	//shakeListener.onPause();
         	//locationManager.removeUpdates(MapTracking.this);        	
-        	double x1 = currentLocation.getLatitude();
-    		double x2 = currentLocation.getLongitude();
-    		GeoPoint tail = new GeoPoint((int)(x1*1000000), (int)(x2*1000000));
-    		overlays.add(new MarkerOverlay(tail,destMarker));
+        	double x = currentLocEntry.getLoca().getLatitude();
+    		double y = currentLocEntry.getLoca().getLongitude();
+    		GeoPoint tail = new GeoPoint((int)(x*1E6), (int)(y*1E6));
+    		overlays.add(new MarkerOverlay(tail,DESTMARKER));
 			mapView.invalidate();
 			Log.d("map","dest marker drawn");
 			this.onPause();
         return true;
         
         case R.id.commit:
-        	startActivity(new Intent(MapTracking.this, SummaryActivity.class));	// trigger SummaryActivity
-        	MapTracking.this.finish();
+        	Intent intent = new Intent(MapTracking.this, SummaryActivity.class);
+        	Bundle bun = new Bundle();
+        	bun.putLong("STime", SumTime);
+        	bun.putDouble("SDistance", SumDistance);
+        	bun.putDouble("SCO2", SumCO2);
+        	intent.putExtras(bun);
+			//intent.putExtra("SDistance", SumDistance);
+			//intent.putExtra("SCO2", SumCO2);
+			//intent.setClass(MapTracking.this, SummaryActivity.class);
+        	//intent.putExtra("finalObj", currentLocEntry);
+			startActivity(intent);	// trigger SummaryActivity
+			finish();
         return true;
         
         
@@ -280,14 +295,15 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         return super.onOptionsItemSelected(item);
         }
     	
-    	if(MM != lastMM){
+    	if(currentLocEntry.getCoef() != lastLocEntry.getCoef()){
     		Log.d("map","transfer mode changed");
-    		double x1 = currentLocation.getLatitude();
-    		double x2 = currentLocation.getLongitude();
-    		GeoPoint head = new GeoPoint((int)(x1*1000000), (int)(x2*1000000));
+    		double x = currentLocEntry.getLoca().getLatitude();
+    		double y = currentLocEntry.getLoca().getLongitude();
+    		GeoPoint head = new GeoPoint((int)(x*1E6), (int)(y*1E6));
     		overlays.add(new MarkerOverlay(head,icon));
 			mapView.invalidate();
 			Log.d("map","new marker drawn");
+			
     	}
     	return true;
     }
@@ -298,7 +314,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     {		// configure mapview 
     	mapView = (MapView)findViewById(R.id.mapViewId);
     	mapView.setBuiltInZoomControls(true);
-    	pro = mapView.getProjection();
+    	//pro = mapView.getProjection();
     	overlays = mapView.getOverlays();
         mapController = mapView.getController();
     	mapController.setZoom(14);
@@ -335,7 +351,6 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		if(isGPSOn) locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 6, MapTracking.this);
     	else	locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 2000, 6, MapTracking.this);
 		
-		
 		Log.d("map", "resume end");	// DEBUG log message
 	}
     
@@ -362,18 +377,19 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			}).show();    		
     	}
 		else {	
-/*		// get current location as the last known point in history
+			// make seed for initializing customized Location object: get the last known location in history
     		Log.d("map", "getLastKnownLocation");	// DEBUG log message	
     		if ( locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null)
 			{		// If GPS can provide the last known location data, get it using GPS
-				currentLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+				seedLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 			
 			}else if (locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER) != null)
 			{		// otherwise, test mobile network provider if the last known location is available
-				currentLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+				seedLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 			}
-    		Log.d("map", "the LastKnownLocation is: " + currentLocation.toString());	// DEBUG log message	
-*/    		
+    		Log.d("map", "the seedLocation is: " + seedLocation.toString());	// DEBUG log message	
+    		
+    		   		
 			initMyLocation();	// initMyLocation()	
 			isInitial = true;	// Flag: initialization is done
 			Log.d("map", "init end");	// DEBUG log message
@@ -400,7 +416,6 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         		mapController.animateTo(loc);
         		//Log.d("map", "get the firstlocation");	// DEBUG log message
         		Log.d("map", "the firstlocationfix is:" + loc.toString());	// DEBUG log message
-        	
         		       	
         	}        	 
         });
@@ -442,6 +457,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		super.onDestroy();
 	}
 	
+   
 
     /***************Location Change & Calculation****************/
 
@@ -451,40 +467,40 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		return false;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public void onLocationChanged(Location location) {
 		// TODO Auto-generated method stub
 		//Log.v("map", location.toString());	// DEBUG log message
 		Log.d("map", "onLocationChanged triggered");	// DEBUG log message
+		
 		if(isFirstLocation) {		
 				// if input location is the first point in tracking
 			Log.d("map", "isFirstLocation ture");	// DEBUG log message
-			lastLocation = location;
-		    currentLocation = location;
-		    isFirstLocation = false;
+			currentLocEntry.setLoca(location);
 		    StartTime = System.currentTimeMillis();	// initiate start timestamp
-		    LastTime = CurrentTime = StartTime;
+		    currentLocEntry.setLocalTime(StartTime);
+		    lastLocEntry.set(currentLocEntry);
+		    isFirstLocation = false;
 		    
 		}else {		// otherwise, store lastLocation and update currentLocation
 			Log.d("map", "isFirstLocation false");	// DEBUG log message
-			lastLocation = currentLocation;
-			currentLocation = location;
-			LastTime = CurrentTime;
-			CurrentTime = System.currentTimeMillis();	// update current timestamp
+			lastLocEntry.set(currentLocEntry);
+			currentLocEntry.setLoca(location);
+			currentLocEntry.setLocalTime(System.currentTimeMillis()); // update current timestamp
 		}
 			// use lastLocation as start point of line
-		double lastlatitude = lastLocation.getLatitude();
-		double lastlongitude = lastLocation.getLongitude();
-		GeoPoint begin = new GeoPoint((int)(lastlatitude*1000000), (int)(lastlongitude*1000000));
-			// use currentLocation as end point of line
-		double currentlatitude = currentLocation.getLatitude();
-		double currentlongitude = currentLocation.getLongitude();
-		GeoPoint end = new GeoPoint((int)(currentlatitude*1000000), (int)(currentlongitude*1000000));
+		double x1 = lastLocEntry.getLoca().getLatitude();
+		double y1 = lastLocEntry.getLoca().getLongitude();
+		double x2 = currentLocEntry.getLoca().getLatitude();
+		double y2 = currentLocEntry.getLoca().getLongitude();
+		GeoPoint begin = new GeoPoint((int)(x1*1E6), (int)(y1*1E6));			
+		GeoPoint end = new GeoPoint((int)(x2*1E6), (int)(y2*1E6)); // use currentLocation as end point of line
 		
 		Log.d("map", "the lastlocation is:" + begin.toString());	// DEBUG log message
 		Log.d("map", "the currentlocation is:" + end.toString());	// DEBUG log message
 			// draw the line and add an Overlay to mapview
-		if(lastLocation == currentLocation) {
+		if(lastLocEntry.isEqual(currentLocEntry)) {
 			overlays.add(new MarkerOverlay(begin,icon));
 			mapView.invalidate();
 			Log.d("map","marker drawn");
@@ -496,18 +512,38 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		//mapView.invalidate();
 		mapController.animateTo(end);
 		
-		getTotal(begin,end,MM);   //calculate distance and CO2 emission
+		updateNum(); //calculate distance and CO2 emission
+		//db.addLocEntry(currentLocEntry);
+		
+		 AsyncTask addEntryTask = 
+                 new AsyncTask() 
+                 {
+                    @Override
+                    protected Object doInBackground(Object... params) 
+                    {
+                    	db.addLocEntry(currentLocEntry);
+                       return null;
+                    }
+        
+                    @Override
+                    protected void onPostExecute(Object result) 
+                    {
+                       //finish();
+                    }
+                 }; 
+                
+              addEntryTask.execute((Object[]) null);
 		
 			// show the toast updated on location changed
 		//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
 		//toast.show();
 		
-		if((thresBlock < 1) && (NEWCO2M > CO2_THRESHOLD)){	// actively check if the CO2 emission has exceeded the threshold
+		if((thresBlock < 1) && (SumCO2 > CO2_THRESHOLD)){	// actively check if the CO2 emission has exceeded the threshold
 			thresBlock += 1;
 			vib.vibrate(300);
         	speaking("Alas! Your current CO2 emission has exceeded the threshold" + String.valueOf(CO2_THRESHOLD));
 		}
-		//gpsDistance(begin,end);
+		
 		//Log.d("map", "get the currentlocation");	// DEBUG log message
 		//Log.d("location", "the lastlocation is:" + lastLocation.toString());	// DEBUG log message
 		//Log.d("location", "the currentlocation is:" + currentLocation.toString());	// DEBUG log message
@@ -533,49 +569,24 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	}
 	
 		//calculate distance and CO2 emission between the currentpoint and lastpoint
-	public void getTotal(GeoPoint begin, GeoPoint end, float x)
-	{
-		float[] results = new float[3];
-			// Compute the approximate distance in meters between two locations
-		Location.distanceBetween(begin.getLatitudeE6()/1E6, begin.getLongitudeE6()/1E6, end.getLatitudeE6()/1E6, end.getLongitudeE6()/1E6, results);
-		float dDistance = results[0];
-		float dCO2M = x * dDistance/1000;
-		long dDuration = CurrentTime - LastTime;
-		SumDistance += dDistance;	// SumDistance accumulates calculation result
-		CO2M += dCO2M;
+	public void updateNum()
+	{		// Compute the approximate distance in meters between two locations
 		
-		NEWSumDistance = (float) (Math.round(SumDistance*10)/10); 
-		NEWCO2M = (float) (Math.round(CO2M*10)/10);
+		currentLocEntry.setDT(currentLocEntry.getLocalTime() - lastLocEntry.getLocalTime());
+		currentLocEntry.setDD(currentLocEntry.diff(lastLocEntry));
+		currentLocEntry.setDC(currentLocEntry.getCoef() * currentLocEntry.getDD() / 1000);
 		
-		Duration = CurrentTime - StartTime;
+		SumTime = currentLocEntry.getLocalTime() - StartTime;		
+		SumDistance += currentLocEntry.getDD();	// SumDistance accumulates calculation result
+		SumCO2 += currentLocEntry.getDC();
 		
+		SumDistance = Math.round(SumDistance*10)/10; 
+		SumCO2 = Math.round(SumCO2*10)/10;
 		
-		//Log.d("distance", "the current getdistance:" + String.valueOf(results[0]));	// DEBUG log message
-		//Log.d("distance", "the sum getdistance:" + String.valueOf(SumDistance));	// DEBUG log message
-		//Log.d("CO2M", "the sum NEWCO2M:" + String.valueOf(NEWCO2M));	// DEBUG log message
+		Log.d("map","Time error:"+String.valueOf(currentLocEntry.getLoca().getTime() - currentLocEntry.getLocalTime()));
+		Log.d("map","Speed: "+String.valueOf(currentLocEntry.getLoca().getSpeed()));
+		Log.d("map","CO2 "+String.valueOf(SumCO2));
 	}
-	
-	
-	/*public void gpsDistance(GeoPoint begin, GeoPoint end)
-	{
-		double lat_a = begin.getLatitudeE6()/1E6;
-		double lng_a = begin.getLongitudeE6()/1E6;
-		double lat_b = end.getLatitudeE6()/1E6;
-		double lng_b = end.getLongitudeE6()/1E6;
-		double radLat1 = (lat_a * Math.PI / 180.0);	 
-	       double radLat2 = (lat_b * Math.PI / 180.0);
-	       double a = radLat1 - radLat2;
-	       double b = (lng_a - lng_b) * Math.PI / 180.0;
-	       double s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2)
-	              + Math.cos(radLat1) * Math.cos(radLat2)
-	              * Math.pow(Math.sin(b / 2), 2)));
-	       s = s * EARTH_RADIUS;
-	       s = Math.round(s * 10000) / 10000;
-	       SumDistance += s;
-			Log.d("distance", "the gpscurrent distance:" + String.valueOf(s));
-			Log.d("distance", "the sum gpsdistance:" + String.valueOf(SumDistance));
-	       //return s;
-	}*/
 	
 	
 	/***************TTS****************/ 
@@ -636,8 +647,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			Point pixBeginPoint = new Point();
 			Point pixEndPoint = new Point();
 			Path path = new Path();
-			pro.toPixels(beginPoint, pixBeginPoint);
-			pro.toPixels(endPoint, pixEndPoint);
+			mapV.getProjection().toPixels(beginPoint, pixBeginPoint);
+			mapV.getProjection().toPixels(endPoint, pixEndPoint);
 			path.moveTo(pixBeginPoint.x, pixBeginPoint.y);
 			path.lineTo(pixEndPoint.x, pixEndPoint.y);
 			canvas.drawPath(path,paint);
@@ -664,6 +675,170 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			canvas.drawBitmap(markerImage,screenPoint.x - markerImage.getWidth() / 2, screenPoint.y - markerImage.getHeight(), null);
 			
 		}
+	}
+	
+	/***************LocEntry: unit structure for tracking data****************/
+	
+	public static class LocEntry implements Serializable{
+		private long localtime;	// local timestamp
+		private float coef;
+		private Location loca;
+		private long deltaT;
+		private float deltaD;
+		private float deltaC;
+		
+		public LocEntry() {
+			super();
+			this.localtime = 0;
+			this.coef = 0;
+			this.loca = null;
+			this.deltaT = 0;
+			this.deltaD = 0;
+			this.deltaC = 0;
+		}
+		
+		public LocEntry(Location loc) {
+			super();
+			this.localtime = 0;
+			this.coef = 0;
+			this.loca = new Location(loc);
+			this.deltaT = 0;
+			this.deltaD = 0;
+			this.deltaC = 0;
+		}
+		
+				
+		public LocEntry(long t, float m, Location loc, long dt, float dd, float dc) {
+			super();
+			this.localtime = t;
+			this.coef = m;
+			this.loca = new Location(loc);
+			this.deltaT = dt;
+			this.deltaD = dd;
+			this.deltaC = dc;
+		}
+		
+		public LocEntry(long t, float m, double x, double y, double z, float speed, long time, long dt, float dd, float dc) {
+			super();
+			this.localtime = t;
+			this.coef = m;
+			this.loca = new Location(seedLocation);
+			this.loca.setLatitude(x);
+			this.loca.setLongitude(y);
+			this.loca.setAltitude(z);
+			this.loca.setSpeed(speed);
+			this.loca.setTime(time);
+			this.deltaT = dt;
+			this.deltaD = dd;
+			this.deltaC = dc;
+		}
+		
+			// get assigned from another LocEntry
+		public void set(LocEntry l) {
+			this.localtime = l.getLocalTime();
+			this.coef = l.getCoef();
+			this.loca = l.getLoca();
+			this.deltaT = l.getDT();
+			this.deltaD = l.getDD();
+			this.deltaC = l.getDC();
+		}
+		
+		// getting local timestamp
+	    public long getLocalTime(){
+	        return this.localtime;
+	    }
+	 
+	    // setting local timestamp
+	    public void setLocalTime(long t){
+	        this.localtime = t;
+	    }
+	    
+	    // getting transport mode coefficient
+	    public float getCoef(){
+	        return this.coef;
+	    }
+	 
+	    // setting transport mode coefficient
+	    public void setCoef(float m){
+	        this.coef = m;
+	    }
+	    
+	    // getting location: latitude, longitude
+	    public Location getLoca(){
+	        return this.loca;
+	    }
+	 
+	    // setting location: latitude, longitude
+	    public void setLoca(Location loc){
+	        this.loca = new Location(loc);
+	    }
+	    
+	    // getting delta time
+	    public long getDT(){
+	        return this.deltaT;
+	    }
+	 
+	    // setting delta time
+	    public void setDT(long dt){
+	        this.deltaT = dt;
+	    }
+	    
+	    // getting delta distance
+	    public float getDD(){
+	        return this.deltaD;
+	    }
+	 
+	    // setting delta distance
+	    public void setDD(float dd){
+	        this.deltaD = dd;
+	    }
+	    
+	    // getting delta CO2 emission
+	    public float getDC(){
+	        return this.deltaC;
+	    }
+	 
+	    // setting delta CO2 emission
+	    public void setDC(float dc){
+	        this.deltaC = dc;
+	    }
+	    	
+	    // returns {hh, mm, ss} of localtime
+	    public int[] formatLocalTime(){
+	    	long millis = this.localtime;
+	    	int sec = (int) (millis / 1000);
+    		int min = sec / 60; sec %= 60;
+    		int hour = min / 60; min %= 60;
+    		int r[] = {hour, min, sec};
+    		return r;
+	    }
+	    	
+	    // if equals, return true
+	    public boolean isEqual(LocEntry l){
+	    	return (this.getLocalTime() == l.getLocalTime());
+	    }
+	    
+	    // difference in distance
+	    public float diff(LocEntry l){
+	    	return this.loca.distanceTo(l.getLoca());
+	    }
+	    
+	    @Override
+	    public String toString(){
+	    	return new StringBuilder()
+	    	.append("Local timestamp: ")
+	    	.append(this.localtime)
+	    	.append(", Coefficient: ")
+	    	.append(this.coef)
+	    	.append(", Location: ")
+	    	.append(this.loca.toString())
+	    	.append(", Delta Time: ")
+	    	.append(this.deltaT)
+	    	.append(", Delta Distance: ")
+	    	.append(this.deltaD)
+	    	.append(", Delta CO2 Emission: ")
+	    	.append(this.deltaC).toString();
+	    }
 	}
 	
 }

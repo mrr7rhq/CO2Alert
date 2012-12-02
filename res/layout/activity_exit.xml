@@ -4,15 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/white" >
 
-    <TextView
-        android:id="@+id/tsummaryId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="71dp"
-        android:text="@string/tsummary"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:src="@drawable/footprint2" />
 
 </RelativeLayout>
