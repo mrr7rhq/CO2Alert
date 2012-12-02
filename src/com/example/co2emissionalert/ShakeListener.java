@@ -58,7 +58,7 @@ public class ShakeListener extends Activity implements SensorEventListener {
     
     @Override
     protected void onResume() {  
-    	super.onResume();
+    	//super.onResume();
     	
     	// Retrieve a SensorManager for accessing sensors
      	sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
@@ -82,7 +82,7 @@ public class ShakeListener extends Activity implements SensorEventListener {
         	sensorManager.unregisterListener(this);  
         	sensorManager = null;  
         }
-    	super.onPause();
+    	//super.onPause();
     }  
   
     
@@ -156,8 +156,26 @@ public class ShakeListener extends Activity implements SensorEventListener {
         		public void run(){
         			SetBlock = false; ShakeFlag = false;
         		}
-        	},9000);	// 10s block for speaking
+        	},5000);	// 5s block for speaking
         	
         }
+        
+        
+    	// get current acceleration for each direction
+    /*float x = event.values[0]; 
+    float y = event.values[1]; 
+    float z = event.values[2]; 
+		// get delta values of acceleration
+    float dX = x - lastX;
+    float dY = y - lastY;
+    float dZ = z - lastZ;
+		// buffer current acceleration
+    lastX = x;
+    lastY = y;
+    lastZ = z;
+		// delta-acceleration: vector difference
+    dA = Math.sqrt(dX*dX + dY*dY + dZ*dZ);
+    
+        if(dA > 10)	onShakeListener.onShake();*/
     } 
 }

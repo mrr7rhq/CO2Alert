@@ -22,6 +22,7 @@ public class SummaryActivity extends Activity{
 	private long STime;
 	private double SDistance;
 	private double SCO2;
+	private DBHandler db;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class SummaryActivity extends Activity{
 		this.setContentView(R.layout.activity_summary);
 		final TextView tsummary = (TextView)findViewById(R.id.tsummaryId);
 		ExitActivity.isApplicationTerminated = false;
-		DBHandler db = new DBHandler(this);
+		db = new DBHandler(this);
 		
 		/*Intent i = getIntent();
 		LocEntry finalEntry = (LocEntry) i.getSerializableExtra("finalObj");*/
@@ -51,8 +52,8 @@ public class SummaryActivity extends Activity{
         int sec = (int) (STime / 1000);
 		int min = sec / 60; sec %= 60;
 		int hour = min / 60; min %= 60;
-		double aSpeed = Math.round(SDistance/STime*1000*100)/100;
-		double cRate = Math.round(SCO2/STime*1000*100)/100;
+		double aSpeed = (double)Math.round(SDistance/STime*1000*100)/100;
+		double cRate = (double)Math.round(SCO2/STime*1000*100)/100;
 		Log.d("sum", "CO2 rate: " + String.valueOf(cRate));	// DEBUG log message
 		
         tsummary.setText("Your Trip Conclusion: \n\n" + "\t1.Elapsed time: " + String.valueOf(hour) + "h " 

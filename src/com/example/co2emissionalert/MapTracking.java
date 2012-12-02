@@ -86,7 +86,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	private long millis = 0L;	//timer reading
     private LocEntry currentLocEntry;
 	private LocEntry lastLocEntry;
-	DBHandler db;
+	private DBHandler db;
     private Handler mHandler = new Handler(); 
     
     //private Thread t;
@@ -145,11 +145,12 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         	currentLocEntry.setCoef(extras.getFloat("M", 0f));
             lastLocEntry.setCoef(currentLocEntry.getCoef());
             Log.d("map", "M got: " + String.valueOf(currentLocEntry.getCoef()));	// DEBUG log message
-            
+            COLOR = extras.getInt("color");
             icon = extras.getInt("ICON");
             Log.d("map", "Icon got: " + String.valueOf(icon));	// DEBUG log message
         }
         
+		Log.d("map","color set to" + String.valueOf(COLOR));
         //toast = Toast.makeText(getApplicationContext(), "Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g", Toast.LENGTH_SHORT);
         //toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 50);
         
@@ -209,7 +210,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         	currentLocEntry.setCoef(149); COLOR=Color.GREEN; icon = R.drawable.ic_car;
         	break;
         case R.id.tram:
-        	currentLocEntry.setCoef(60); COLOR=Color.GRAY; icon = R.drawable.ic_bike;
+        	currentLocEntry.setCoef(60); COLOR=Color.GRAY; icon = R.drawable.ic_tram;
         	break;
         case R.id.ferry:
         	currentLocEntry.setCoef(125); COLOR=Color.YELLOW; icon = R.drawable.ic_ferry;

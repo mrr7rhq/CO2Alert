@@ -35,6 +35,7 @@ public class SettingActivity extends Activity {
 	private Button stopButton;
 	// M: coefficient for CO2 calculation, default checked for walk/bicycle mode
 	private float M = 0;
+	private int c = 0;
 	private int icon = 0;
 	private Vibrator vib;
 	
@@ -81,21 +82,21 @@ public class SettingActivity extends Activity {
 		public void onCheckedChanged(RadioGroup group, int checkedId) {
 			// TODO Auto-generated method stub
 			if(walk.getId() == checkedId){			
-				M = 180; icon = R.drawable.ic_walk;
+				M = 180; c = Color.RED; icon = R.drawable.ic_walk;
 			}else if(bike.getId() == checkedId){			
-				M = 75; icon = R.drawable.ic_bike;
+				M = 75; c = Color.BLUE; icon = R.drawable.ic_bike;
 			}else if(tram.getId() == checkedId){			
-				M = 60; icon = R.drawable.ic_tram;
+				M = 60; c = Color.GRAY; icon = R.drawable.ic_tram;
 			}else if(ferry.getId() == checkedId){
-				M = 125; icon = R.drawable.ic_ferry;
+				M = 125; c = Color.YELLOW; icon = R.drawable.ic_ferry;
 			}else if(metro.getId() == checkedId){
-				M = 3.3f; icon = R.drawable.ic_metro;
+				M = 3.3f; c =Color.BLACK; icon = R.drawable.ic_metro;
 			}else if(train.getId() == checkedId){
-				M = 43; icon = R.drawable.ic_train;
+				M = 43; c= Color.MAGENTA; icon = R.drawable.ic_train;
 			}else if(bus.getId() == checkedId){
-				M = 100; icon = R.drawable.ic_bus;
+				M = 100; c = Color.CYAN; icon = R.drawable.ic_bus;
 			}else if(car.getId() == checkedId){
-				M = 149; icon = R.drawable.ic_car;
+				M = 149; c = Color.GREEN; icon = R.drawable.ic_car;
 			}
 		}
 		
@@ -115,6 +116,7 @@ public class SettingActivity extends Activity {
 			
 			Intent intent = new Intent();
 			intent.putExtra("M", M);	// assign M value to counterpart in MapTracking
+			intent.putExtra("color", c);
 			intent.putExtra("ICON", icon);
 			intent.setClass(SettingActivity.this, MapTracking.class);
 			SettingActivity.this.startActivity(intent);	// trigger MapTracking activity
