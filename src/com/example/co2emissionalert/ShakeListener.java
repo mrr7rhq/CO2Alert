@@ -161,8 +161,8 @@ public class ShakeListener extends Activity implements SensorEventListener {
         }
         
         
-    	// get current acceleration for each direction
-    /*float x = event.values[0]; 
+   /* 	// get current acceleration for each direction
+    float x = event.values[0]; 
     float y = event.values[1]; 
     float z = event.values[2]; 
 		// get delta values of acceleration
@@ -176,6 +176,6 @@ public class ShakeListener extends Activity implements SensorEventListener {
 		// delta-acceleration: vector difference
     dA = Math.sqrt(dX*dX + dY*dY + dZ*dZ);
     
-        if(dA > 10)	onShakeListener.onShake();*/
+        if(dA > 10)	onShakeListener.onShake(); */
     } 
 }

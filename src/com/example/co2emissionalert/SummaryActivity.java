@@ -19,10 +19,9 @@ import com.androidplot.series.XYSeries;
 import com.androidplot.xy.*;
 import com.example.co2emissionalert.DBHandler.ArrayPair;
 
-import java.lang.reflect.Array;
 import java.text.*;
 import java.util.Arrays;
-import java.util.Date;
+//import java.util.Date;
 
 public class SummaryActivity extends Activity{
 

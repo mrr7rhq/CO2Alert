@@ -2,15 +2,15 @@ package com.example.co2emissionalert;
 
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
+//import android.app.AlertDialog;
+//import android.content.Context;
+//import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Vibrator;
-import android.view.Menu;
-import android.view.MenuItem;
+//import android.os.Vibrator;
+//import android.view.Menu;
+//import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -37,7 +37,6 @@ public class SettingActivity extends Activity {
 	private float M = 0;
 	private int c = 0;
 	private int icon = 0;
-	private Vibrator vib;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +58,7 @@ public class SettingActivity extends Activity {
 		startButton = (Button)findViewById(R.id.startloggingbutton);
 		stopButton = (Button)findViewById(R.id.stoploggingbutton);
 		
-		vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);	// prepare vibrate service
+		//vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);	// prepare vibrate service
 		startButton.setOnClickListener(new MyButtonListener());
 		stopButton.setOnClickListener(new StopButtonListener());
 		transportationGroup.setOnCheckedChangeListener(new MyGroupListener());

@@ -12,8 +12,8 @@ import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
-import com.google.android.maps.OverlayItem;
-import com.google.android.maps.Projection;
+//import com.google.android.maps.OverlayItem;
+//import com.google.android.maps.Projection;
 
 import android.location.Location;
 import android.location.LocationListener;
@@ -23,7 +23,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.provider.Settings;
-import android.app.Activity;
+//import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -38,12 +38,12 @@ import android.graphics.Point;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.util.Log;
-import android.view.Gravity;
+//import android.view.Gravity;
 import android.view.Menu;
-import android.view.MenuInflater;
+//import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
+//import android.view.View;
+//import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Handler;
@@ -89,7 +89,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     private LocEntry currentLocEntry;
 	private LocEntry lastLocEntry;
 	private DBHandler db;
-    private Handler mHandler = new Handler(); 
+    private Handler mHandler; 
     
     //private Thread t;
     //private volatile boolean flag= true;	// Flag for thread status
@@ -101,36 +101,43 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         setContentView(R.layout.activity_maptracking);
         ExitActivity.isApplicationTerminated = false;
         reading = (TextView)findViewById(R.id.readingId);
-        
+        mHandler = new Handler();
         db = new DBHandler(this);	//an instance of database handler
         
-        Runnable mUpdateTimeTask = new Runnable() {
-            public void run() {
-                
-           		if (StartTime == 0) {
-        			reading.setText("Initializing tracking process ...");
-        		}else{
-        			if(timerFlag){
-        				millis = System.currentTimeMillis();
-        				millis = millis - StartTime;
-        			}
-        			
-            		int sec = (int) (millis / 1000);
-            		int min = sec / 60; sec %= 60;
-            		int hour = min / 60; min %= 60;
-            		
-            		double x = currentLocEntry.getLoca().getLatitude();
-            		double y = currentLocEntry.getLoca().getLongitude();
-            		
-        			reading.setText("My location: (" + Location.convert(x, Location.FORMAT_SECONDS) + ", " 
-        					+ Location.convert(y, Location.FORMAT_SECONDS) + ")\n" + "Distance: " 
-        					+ String.valueOf(SumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" 
-        					+ String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " 
-        					+ String.valueOf(SumCO2) + " g");
-        		}            	
-            	
-                mHandler.postDelayed(this, 1000);
-            }
+        currentLocEntry = new LocEntry();
+        lastLocEntry = new LocEntry();
+        
+        Runnable mUpdateTimeTask = new Runnable(){
+            private int sec, min, hour;
+            private double x, y;
+            private String s = "Initializing tracking process ...";
+        	
+        	@Override
+        	public void run() {
+        		if (currentLocEntry.getLocalTime() == 0) {
+					s = "Initializing tracking process ...";
+				}else{
+					if(timerFlag){
+						millis = System.currentTimeMillis();
+						millis = millis - StartTime;
+					}
+				
+					sec = (int) (millis / 1000);
+					min = sec / 60; sec %= 60;
+					hour = min / 60; min %= 60;
+				
+					x = currentLocEntry.getLoca().getLatitude();
+					y = currentLocEntry.getLoca().getLongitude();
+					s = "My location: (" + Location.convert(x, Location.FORMAT_SECONDS) + ", " 
+	    					+ Location.convert(y, Location.FORMAT_SECONDS) + ")\n" + "Distance: " 
+	    					+ String.valueOf(SumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" 
+	    					+ String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " 
+	    					+ String.valueOf(SumCO2) + " g";
+				}
+				
+				reading.setText(s);
+				mHandler.postDelayed(this, 1000); 
+        	}
         };
          
         mHandler.removeCallbacks(mUpdateTimeTask);
@@ -141,8 +148,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         // Get M from the intent by SettingActivity
         //Intent intent = getIntent();
         Bundle extras = getIntent().getExtras(); 
-        currentLocEntry = new LocEntry();
-        lastLocEntry = new LocEntry();
+        
 		if(extras != null){
         	float m = extras.getFloat("M", 0f);
 			currentLocEntry.setCoef(m);
@@ -174,7 +180,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
             	//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
         		//toast.show();
         		if(StartTime != 0){
-        			//vib.vibrate(300);	//vibrate on shake: not suitable for Galaxy_S3
+        			vib.vibrate(300);	//vibrate on shake: not suitable for Galaxy_S3
         			/*speaking("It takes" + String.valueOf(currentLocEntry.formatLocalTime()[0]) + "hour" 
         					+ String.valueOf(currentLocEntry.formatLocalTime()[1]) + "minutes" 
         					+ String.valueOf(currentLocEntry.formatLocalTime()[2]) + "seconds to travel"  
@@ -259,6 +265,8 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         return true;
         
         case R.id.stoptracking:
+        	if(currentLocEntry.getLocalTime() == 0) finish();
+        	else{
         	timerFlag = false;        	
         	//shakeListener.onPause();
         	//locationManager.removeUpdates(MapTracking.this);        	
@@ -269,6 +277,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 			mapView.invalidate();
 			Log.d("map","dest marker drawn");
 			this.onPause();
+        	}
         return true;
         
         case R.id.commit:
@@ -305,6 +314,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     		Log.d("map","transfer mode changed");
     		nMode += 1;
     		sMode = sMode + " " + tellWhichMode(currentLocEntry.getCoef());
+    		
+    		UpdateEntryTask updateEntryTask = new UpdateEntryTask();
+            updateEntryTask.execute((Object[]) null);
+    		
     		double x = currentLocEntry.getLoca().getLatitude();
     		double y = currentLocEntry.getLoca().getLongitude();
     		GeoPoint head = new GeoPoint((int)(x*1E6), (int)(y*1E6));
@@ -315,6 +328,47 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     	}
     	return true;
     }
+    
+    
+    private class AddEntryTask extends AsyncTask<Object, Void, Void> {
+        @Override
+        protected Void doInBackground(Object... params) {
+          
+            try {
+            	if(db != null)
+            		db.addLocEntry(currentLocEntry);
+            	
+            } catch (Exception e) {
+              e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(final Void unused) {
+        	
+        }
+      }
+    
+    private class UpdateEntryTask extends AsyncTask<Object, Void, Void> {
+        @Override
+        protected Void doInBackground(Object... params) {
+          
+            try {
+            	if(db != null)
+            		db.updateLocEntry(currentLocEntry);
+            	
+            } catch (Exception e) {
+              e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(final Void unused) {
+        	
+        }
+      }
     
     /***************Initiate****************/
     
@@ -478,7 +532,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		return false;
 	}
 
-	@SuppressWarnings("unchecked")
+	
 	@Override
 	public void onLocationChanged(Location location) {
 		// TODO Auto-generated method stub
@@ -524,27 +578,11 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 		mapController.animateTo(end);
 		
 		updateNum(); //calculate distance and CO2 emission
-		//db.addLocEntry(currentLocEntry);
 		
-		 AsyncTask addEntryTask = 
-                 new AsyncTask() 
-                 {
-                    @Override
-                    protected Object doInBackground(Object... params) 
-                    {
-                    	db.addLocEntry(currentLocEntry);
-                       return null;
-                    }
-        
-                    @Override
-                    protected void onPostExecute(Object result) 
-                    {
-                       //finish();
-                    }
-                 }; 
-                
-              addEntryTask.execute((Object[]) null);
 		
+		AddEntryTask addEntryTask = new AddEntryTask();
+        addEntryTask.execute((Object[]) null);
+            //     db.addLocEntry(currentLocEntry);
 			// show the toast updated on location changed
 		//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
 		//toast.show();
@@ -691,6 +729,10 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	/***************LocEntry: unit structure for tracking data****************/
 	
 	public static class LocEntry implements Serializable{
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private long localtime;	// local timestamp
 		private float coef;
 		private Location loca;

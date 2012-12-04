@@ -1,3 +1,7 @@
+V1.2.0 fix
+2012-12-4  Xiang Gao  <xzgao@cs.helsinki.fi>
+	* fix bugs: stop when initialization, null pointer exceptions;
+
 V1.2.0
 2012-12-2  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* fixed bugs in real test: route color, exit token problem, icon mistake, double variable conversion.

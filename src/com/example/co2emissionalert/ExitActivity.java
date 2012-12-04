@@ -1,7 +1,6 @@
 package com.example.co2emissionalert;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -14,8 +13,7 @@ public class ExitActivity extends Activity {
 		// TODO Auto-generated constructor stub
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exit);
-        //Intent intent = getIntent();
-        //Log.d("exit", "set");
+        Log.d("exit", "set");
         new Handler().postDelayed(new Runnable(){
 
 			@Override
