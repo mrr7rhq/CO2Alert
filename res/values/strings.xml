@@ -15,7 +15,7 @@
     <string name="car">Car</string>
     <string name="startlogging">Start</string>
     <string name="stoplogging">Exit</string>
-    <string name="reading">Initializing tracking process ...</string>
+    <string name="reading">Initializing tracking process &#8230;</string>
     <string name="tsummary">Text summary</string>
     <string name="version">V1.2.0</string>
     <string name="groupwork">GroupWork: Junlong Xiang, Xiang Gao, Feihua Qu</string>

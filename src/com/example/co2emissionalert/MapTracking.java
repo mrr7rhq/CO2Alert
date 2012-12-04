@@ -247,7 +247,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         return true;
         
         case R.id.clear:
-        	timerFlag = false;
+        	/*timerFlag = false;
         	SumDistance=0;
         	SumCO2=0;
         	SumTime=0;
@@ -261,7 +261,16 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
     		isFirstLocation = true;
     		//initMyLocation();
     		timerFlag = true;
-    		this.onResume();
+    		this.onResume();*/
+        	try {
+                int pid = android.os.Process.myPid();
+                android.os.Process.killProcess(pid);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            } finally {
+                System.exit(0);
+            }
+
         return true;
         
         case R.id.stoptracking:

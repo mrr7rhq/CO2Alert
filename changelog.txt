@@ -1,6 +1,6 @@
 V1.2.0 fix
 2012-12-4  Xiang Gao  <xzgao@cs.helsinki.fi>
-	* fix bugs: stop when initialization, null pointer exceptions;
+	* fix bugs: stop & reset considering initializing state, null pointer exceptions;
 
 V1.2.0
 2012-12-2  Xiang Gao  <xzgao@cs.helsinki.fi>
@@ -52,7 +52,7 @@ V1.1.2
 V1.1.1
 2012-11-26  Xiang Gao  <xzgao@cs.helsinki.fi>
 	* MapTracking.java: 
-		add support to active alert: add threstold constant and threshold block flag; 
+		add support to active alert: add threshold constant and threshold block flag; 
 			check condition for active alert on location change listened;
 			speak with TTS the alert sentence once and block active alert condition;
 		update Toast display: add Toast show on each location change without speech;

@@ -37,7 +37,7 @@
 		android:title="Map View"  />
 	
 	<item android:id="@+id/clear"
-		android:title="Reset/Clear"  />
+		android:title="Reset"  />
 	<item android:id="@+id/stoptracking"
 		android:title="Stop"  />
 	<item android:id="@+id/commit"
