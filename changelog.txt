@@ -1,6 +1,6 @@
 V1.2.0 fix
 2012-12-4  Xiang Gao  <xzgao@cs.helsinki.fi>
-	* fix bugs: stop & reset considering initializing state, null pointer exceptions;
+	* fix bugs: stop & reset considering initializing state, null pointer exceptions, tts termination.
 
 V1.2.0
 2012-12-2  Xiang Gao  <xzgao@cs.helsinki.fi>

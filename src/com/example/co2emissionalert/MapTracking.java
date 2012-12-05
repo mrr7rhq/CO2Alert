@@ -103,7 +103,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
         reading = (TextView)findViewById(R.id.readingId);
         mHandler = new Handler();
         db = new DBHandler(this);	//an instance of database handler
-        
+        StartTime = System.currentTimeMillis();
         currentLocEntry = new LocEntry();
         lastLocEntry = new LocEntry();
         
@@ -179,7 +179,7 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
             	Log.d("map", "shakeListener triggered");	// DEBUG log message
             	//toast.setText("Distance: " + String.valueOf(NEWSumDistance) + " m\n" + "Duration: " + String.valueOf(hour) + ":" + String.valueOf(min) + ":" + String.valueOf(sec) + "\n" + "CO2 emission: " + String.valueOf(NEWCO2M) + " g");		
         		//toast.show();
-        		if(StartTime != 0){
+        		if(currentLocEntry.getLocalTime() != 0){
         			vib.vibrate(300);	//vibrate on shake: not suitable for Galaxy_S3
         			/*speaking("It takes" + String.valueOf(currentLocEntry.formatLocalTime()[0]) + "hour" 
         					+ String.valueOf(currentLocEntry.formatLocalTime()[1]) + "minutes" 
@@ -528,6 +528,11 @@ public class MapTracking extends MapActivity implements LocationListener, OnInit
 	protected void onDestroy() {
     	Log.d("map", "onDestroy");	// DEBUG log message
     	//flag = false;
+    	if (TTS != null)
+        {
+            TTS.stop();
+            TTS.shutdown();
+        }
 		super.onDestroy();
 	}
 	
