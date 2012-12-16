@@ -223,7 +223,7 @@ public class DBHandler extends SQLiteOpenHelper {
         if (c.moveToFirst()) {
         	do{
         		array1[i] = c.getLong(0);
-        		array2[i] = (c.getLong(1) != 0)? c.getFloat(2) : 0;
+        		array2[i] = (c.getLong(1) != 0)? c.getFloat(2)/c.getLong(1) : 0;
         		i += 1;
         	}while(c.moveToNext());
         }
